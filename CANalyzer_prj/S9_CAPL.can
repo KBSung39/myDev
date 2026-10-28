@@ -1,0 +1,39 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+
+on message 0x300
+{
+  /* CellTemp[AFE*3 + ch], ch 0~2 */
+  @S9::CellTemp[this.AFE_Index * 3]     = this.CellTemp0.phys;
+  @S9::CellTemp[this.AFE_Index * 3 + 1] = this.CellTemp1.phys;
+  @S9::CellTemp[this.AFE_Index * 3 + 2] = this.CellTemp2.phys;
+}
+
+on message 0x301
+{
+  /* BSUPVolt/BSUPCurrent[AFE], same AFE as 0x300 in this period */
+  @S9::BSUPVolt[this.AFE_Index]    = this.BSUP_Voltage.phys;
+  @S9::BSUPCurrent[this.AFE_Index] = this.BSUP_Current.phys;
+}
+
+on message 0x310
+{
+  /* CellVolt[AFE*15 + cell], cell 0~14
+   * subframe 0: 0~3, 1: 4~7, 2: 8~11, 3: 12~14 (CellVolt3 unused)
+   */
+  @S9::CellVolt[this.AFE_Index * 15 + this.Subframe * 4]     = this.CellVolt0.phys;
+  @S9::CellVolt[this.AFE_Index * 15 + this.Subframe * 4 + 1] = this.CellVolt1.phys;
+  @S9::CellVolt[this.AFE_Index * 15 + this.Subframe * 4 + 2] = this.CellVolt2.phys;
+  if (this.Subframe < 3)
+  {
+    @S9::CellVolt[this.AFE_Index * 15 + this.Subframe * 4 + 3] = this.CellVolt3.phys;
+  }
+}

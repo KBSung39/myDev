@@ -1,0 +1,668 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ BMU1_Address : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU1_Cell_Count : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU2_Address : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU2_Cell_Count : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2364645552 FlashingMessage: 8 Vector__XXX
+ SG_ FlashingStart : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147486729 AC09_current: 8 Vector__XXX
+ SG_ BMU8_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ BMU8_Temp3 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU8_Temp2 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU8_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 2147486728 AC08_CELLV4: 8 Vector__XXX
+ SG_ BMU8_Cell_Voltage16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486727 AC07_CELLV3: 8 Vector__XXX
+ SG_ BMU8_Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486726 AC06_CELLV2: 8 Vector__XXX
+ SG_ BMU8_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486725 AC05_CELLV1: 8 Vector__XXX
+ SG_ BMU8_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU8_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486473 AB09_current: 8 Vector__XXX
+ SG_ BMU7_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ BMU7_Temp3 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU7_Temp2 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU7_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 2147486472 AB08_CELLV4: 8 Vector__XXX
+ SG_ BMU7_Cell_Voltage16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486471 AB07_CELLV3: 8 Vector__XXX
+ SG_ BMU7_Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486470 AB06_CELLV2: 8 Vector__XXX
+ SG_ BMU7_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486469 AB05_CELLV1: 8 Vector__XXX
+ SG_ BMU7_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU7_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486217 AA09_CURRENT: 8 Vector__XXX
+ SG_ BMU6_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ BMU6_Temp3 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU6_Temp2 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU6_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 2147486216 AA08_CELLV4: 8 Vector__XXX
+ SG_ BMU6_Cell_Voltage16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486215 AA07_CELLV3: 8 Vector__XXX
+ SG_ BMU6_Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486214 AA06_CELLV2: 8 Vector__XXX
+ SG_ BMU6_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147486213 AA05_CELLV1: 8 Vector__XXX
+ SG_ BMU6_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU6_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485961 A909_Current: 8 Vector__XXX
+ SG_ BMU5_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ BMU5_Temp3 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU5_Temp2 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU5_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 2147485960 A908_CELLV4: 8 Vector__XXX
+ SG_ BMU5_Cell_Voltage16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485959 A907_CELLV3: 8 Vector__XXX
+ SG_ BMU5_Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485958 A906_CELLV2: 8 Vector__XXX
+ SG_ BMU5_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485957 A905_CELLV1: 8 Vector__XXX
+ SG_ BMU5_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU5_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485704 A808_CELLV4: 8 Vector__XXX
+ SG_ BMU4_Cell_Voltage16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485703 A807_CELLV3: 8 Vector__XXX
+ SG_ BMU4_Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485702 A806_CELLV2: 8 Vector__XXX
+ SG_ BMU4_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485701 A805_CELLV1: 8 Vector__XXX
+ SG_ BMU4_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU4_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485705 A809_current: 8 Vector__XXX
+ SG_ BMU4_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ BMU4_Temp3 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU4_Temp2 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU4_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 2147485449 A709_current: 8 Vector__XXX
+ SG_ BMU3_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ BMU3_Temp3 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU3_Temp2 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU3_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 2147485448 A708_CELLV4: 8 Vector__XXX
+ SG_ BMU3_Cell_Voltage16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485447 A707_CELLV3: 8 Vector__XXX
+ SG_ BMU3_Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485446 A706_CELLV2: 8 Vector__XXX
+ SG_ BMU3_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485445 A705_CELLV1: 8 Vector__XXX
+ SG_ BMU3_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU3_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485193 A609_current: 8 Vector__XXX
+ SG_ BMU2_Temp3 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU2_Temp2 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU2_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU2_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+
+BO_ 2147485192 A608_CELLV4: 8 Vector__XXX
+ SG_ BMU2_Cell_Voltage16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485191 A607_CELLV3: 8 Vector__XXX
+ SG_ BMU2_Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485190 A606_CELLV2: 8 Vector__XXX
+ SG_ BMU2_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147485189 A605_CELLV1: 8 Vector__XXX
+ SG_ BMU2_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147484937 A_509_TEMP_CUR: 8 Vector__XXX
+ SG_ BMU1_Current : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ BMU1_Temp3 : 39|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU1_Temp2 : 23|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+ SG_ BMU1_Temp1 : 7|16@0+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 2147484936 A_508_VOLTAGE: 8 Vector__XXX
+ SG_ BMU1_Cell_V16 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_V15 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_V14 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_CellV13 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147484935 A_507_VOLTAGE: 8 Vector__XXX
+ SG_ BMU1_Cell_Voltage9 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_V12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_V11 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_V10 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147484934 A_506_VOLTAGE: 8 Vector__XXX
+ SG_ BMU1_Cell_Voltage8 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage7 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage6 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage5 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147484933 A_505_VOLTAGE: 8 Vector__XXX
+ SG_ BMU1_Cell_Voltage4 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage3 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage2 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage1 : 7|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2147484932 A_504: 4 Vector__XXX
+ SG_ A504_GetDIPosRelayFeedbackVolt : 7|16@0+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ A504_GetDINegRelayFeedbackVolt : 23|16@0+ (0.1,0) [0|0] "" Vector__XXX
+
+BO_ 2147484929 A_501: 8 Vector__XXX
+ SG_ A501_VOLRequest : 7|16@0+ (0.1,0) [0|6553.5] "" Vector__XXX
+ SG_ A501_TotlaVoltDsgRequest : 39|16@0+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ A501_LongChrgCurrent : 23|16@0+ (0.1,-5000) [-5000|1553.5] "" Vector__XXX
+ SG_ A501_GetContinuousDsgCurrent : 55|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+
+BO_ 2147484930 A_502: 8 Vector__XXX
+ SG_ A502_MINVOLTAGE : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ A502_MINTEMPERATURE : 39|16@0+ (0.1,-40) [-40|6513.5] "" Vector__XXX
+ SG_ A502_MAXVOLTAGE : 23|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ A502_MAXTEMPERATURE : 55|16@0+ (0.1,-40) [-40|6513.5] "" Vector__XXX
+
+BO_ 2147484931 A_503: 6 Vector__XXX
+ SG_ A503_VolSum : 7|16@0+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ A503_PackCurrent : 23|16@0+ (0.1,-5000) [0|0] "" Vector__XXX
+ SG_ A503_DispSoc : 39|16@0+ (0.1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 3221225472 BMU1_Address "第1个BMU地址";
+CM_ SG_ 3221225472 BMU1_Cell_Count "第1个BMU单体数";
+CM_ SG_ 3221225472 BMU2_Address "第2个BMU地址";
+CM_ SG_ 3221225472 BMU2_Cell_Count "第2个BMU单体数";
+CM_ SG_ 2147486729 BMU8_Current "电流";
+CM_ SG_ 2147486729 BMU8_Temp3 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486729 BMU8_Temp2 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486729 BMU8_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486728 BMU8_Cell_Voltage16 "第2个BMU单体电压1";
+CM_ SG_ 2147486728 BMU8_Cell_Voltage15 "第2个BMU单体电压1";
+CM_ SG_ 2147486728 BMU8_Cell_Voltage14 "第2个BMU单体电压1";
+CM_ SG_ 2147486728 BMU8_Cell_Voltage13 "第2个BMU单体电压1";
+CM_ SG_ 2147486727 BMU8_Cell_Voltage12 "第2个BMU单体电压1";
+CM_ SG_ 2147486727 BMU8_Cell_Voltage11 "第2个BMU单体电压1";
+CM_ SG_ 2147486727 BMU8_Cell_Voltage10 "第2个BMU单体电压1";
+CM_ SG_ 2147486727 BMU8_Cell_Voltage9 "第2个BMU单体电压1";
+CM_ SG_ 2147486726 BMU8_Cell_Voltage8 "第2个BMU单体电压1";
+CM_ SG_ 2147486726 BMU8_Cell_Voltage7 "第2个BMU单体电压1";
+CM_ SG_ 2147486726 BMU8_Cell_Voltage6 "第2个BMU单体电压1";
+CM_ SG_ 2147486726 BMU8_Cell_Voltage5 "第2个BMU单体电压1";
+CM_ SG_ 2147486725 BMU8_Cell_Voltage4 "第2个BMU单体电压1";
+CM_ SG_ 2147486725 BMU8_Cell_Voltage3 "第2个BMU单体电压1";
+CM_ SG_ 2147486725 BMU8_Cell_Voltage2 "第2个BMU单体电压1";
+CM_ SG_ 2147486725 BMU8_Cell_Voltage1 "第2个BMU单体电压1";
+CM_ SG_ 2147486473 BMU7_Current "电流";
+CM_ SG_ 2147486473 BMU7_Temp3 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486473 BMU7_Temp2 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486473 BMU7_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486472 BMU7_Cell_Voltage16 "第2个BMU单体电压1";
+CM_ SG_ 2147486472 BMU7_Cell_Voltage15 "第2个BMU单体电压1";
+CM_ SG_ 2147486472 BMU7_Cell_Voltage14 "第2个BMU单体电压1";
+CM_ SG_ 2147486472 BMU7_Cell_Voltage13 "第2个BMU单体电压1";
+CM_ SG_ 2147486471 BMU7_Cell_Voltage12 "第2个BMU单体电压1";
+CM_ SG_ 2147486471 BMU7_Cell_Voltage11 "第2个BMU单体电压1";
+CM_ SG_ 2147486471 BMU7_Cell_Voltage10 "第2个BMU单体电压1";
+CM_ SG_ 2147486471 BMU7_Cell_Voltage9 "第2个BMU单体电压1";
+CM_ SG_ 2147486470 BMU7_Cell_Voltage8 "第2个BMU单体电压1";
+CM_ SG_ 2147486470 BMU7_Cell_Voltage7 "第2个BMU单体电压1";
+CM_ SG_ 2147486470 BMU7_Cell_Voltage6 "第2个BMU单体电压1";
+CM_ SG_ 2147486470 BMU7_Cell_Voltage5 "第2个BMU单体电压1";
+CM_ SG_ 2147486469 BMU7_Cell_Voltage4 "第2个BMU单体电压1";
+CM_ SG_ 2147486469 BMU7_Cell_Voltage3 "第2个BMU单体电压1";
+CM_ SG_ 2147486469 BMU7_Cell_Voltage2 "第2个BMU单体电压1";
+CM_ SG_ 2147486469 BMU7_Cell_Voltage1 "第2个BMU单体电压1";
+CM_ SG_ 2147486217 BMU6_Current "电流";
+CM_ SG_ 2147486217 BMU6_Temp3 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486217 BMU6_Temp2 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486217 BMU6_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147486216 BMU6_Cell_Voltage16 "第2个BMU单体电压1";
+CM_ SG_ 2147486216 BMU6_Cell_Voltage15 "第2个BMU单体电压1";
+CM_ SG_ 2147486216 BMU6_Cell_Voltage14 "第2个BMU单体电压1";
+CM_ SG_ 2147486216 BMU6_Cell_Voltage13 "第2个BMU单体电压1";
+CM_ SG_ 2147486215 BMU6_Cell_Voltage12 "第2个BMU单体电压1";
+CM_ SG_ 2147486215 BMU6_Cell_Voltage11 "第2个BMU单体电压1";
+CM_ SG_ 2147486215 BMU6_Cell_Voltage10 "第2个BMU单体电压1";
+CM_ SG_ 2147486215 BMU6_Cell_Voltage9 "第2个BMU单体电压1";
+CM_ SG_ 2147486214 BMU6_Cell_Voltage8 "第2个BMU单体电压1";
+CM_ SG_ 2147486214 BMU6_Cell_Voltage7 "第2个BMU单体电压1";
+CM_ SG_ 2147486214 BMU6_Cell_Voltage6 "第2个BMU单体电压1";
+CM_ SG_ 2147486214 BMU6_Cell_Voltage5 "第2个BMU单体电压1";
+CM_ SG_ 2147486213 BMU6_Cell_Voltage4 "第2个BMU单体电压1";
+CM_ SG_ 2147486213 BMU6_Cell_Voltage3 "第2个BMU单体电压1";
+CM_ SG_ 2147486213 BMU6_Cell_Voltage2 "第2个BMU单体电压1";
+CM_ SG_ 2147486213 BMU6_Cell_Voltage1 "第2个BMU单体电压1";
+CM_ SG_ 2147485961 BMU5_Current "电流";
+CM_ SG_ 2147485961 BMU5_Temp3 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485961 BMU5_Temp2 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485961 BMU5_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485960 BMU5_Cell_Voltage16 "第2个BMU单体电压1";
+CM_ SG_ 2147485960 BMU5_Cell_Voltage15 "第2个BMU单体电压1";
+CM_ SG_ 2147485960 BMU5_Cell_Voltage14 "第2个BMU单体电压1";
+CM_ SG_ 2147485960 BMU5_Cell_Voltage13 "第2个BMU单体电压1";
+CM_ SG_ 2147485959 BMU5_Cell_Voltage12 "第2个BMU单体电压1";
+CM_ SG_ 2147485959 BMU5_Cell_Voltage11 "第2个BMU单体电压1";
+CM_ SG_ 2147485959 BMU5_Cell_Voltage10 "第2个BMU单体电压1";
+CM_ SG_ 2147485959 BMU5_Cell_Voltage9 "第2个BMU单体电压1";
+CM_ SG_ 2147485958 BMU5_Cell_Voltage8 "第2个BMU单体电压1";
+CM_ SG_ 2147485958 BMU5_Cell_Voltage7 "第2个BMU单体电压1";
+CM_ SG_ 2147485958 BMU5_Cell_Voltage6 "第2个BMU单体电压1";
+CM_ SG_ 2147485958 BMU5_Cell_Voltage5 "第2个BMU单体电压1";
+CM_ SG_ 2147485957 BMU5_Cell_Voltage4 "第2个BMU单体电压1";
+CM_ SG_ 2147485957 BMU5_Cell_Voltage3 "第2个BMU单体电压1";
+CM_ SG_ 2147485957 BMU5_Cell_Voltage2 "第2个BMU单体电压1";
+CM_ SG_ 2147485957 BMU5_Cell_Voltage1 "第2个BMU单体电压1";
+CM_ SG_ 2147485704 BMU4_Cell_Voltage16 "第2个BMU单体电压1";
+CM_ SG_ 2147485704 BMU4_Cell_Voltage15 "第2个BMU单体电压1";
+CM_ SG_ 2147485704 BMU4_Cell_Voltage14 "第2个BMU单体电压1";
+CM_ SG_ 2147485704 BMU4_Cell_Voltage13 "第2个BMU单体电压1";
+CM_ SG_ 2147485703 BMU4_Cell_Voltage12 "第2个BMU单体电压1";
+CM_ SG_ 2147485703 BMU4_Cell_Voltage11 "第2个BMU单体电压1";
+CM_ SG_ 2147485703 BMU4_Cell_Voltage10 "第2个BMU单体电压1";
+CM_ SG_ 2147485703 BMU4_Cell_Voltage9 "第2个BMU单体电压1";
+CM_ SG_ 2147485702 BMU4_Cell_Voltage8 "第2个BMU单体电压1";
+CM_ SG_ 2147485702 BMU4_Cell_Voltage7 "第2个BMU单体电压1";
+CM_ SG_ 2147485702 BMU4_Cell_Voltage6 "第2个BMU单体电压1";
+CM_ SG_ 2147485702 BMU4_Cell_Voltage5 "第2个BMU单体电压1";
+CM_ SG_ 2147485701 BMU4_Cell_Voltage4 "第2个BMU单体电压1";
+CM_ SG_ 2147485701 BMU4_Cell_Voltage3 "第2个BMU单体电压1";
+CM_ SG_ 2147485701 BMU4_Cell_Voltage2 "第2个BMU单体电压1";
+CM_ SG_ 2147485701 BMU4_Cell_Voltage1 "第2个BMU单体电压1";
+CM_ SG_ 2147485705 BMU4_Current "电流";
+CM_ SG_ 2147485705 BMU4_Temp3 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485705 BMU4_Temp2 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485705 BMU4_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485449 BMU3_Current "电流";
+CM_ SG_ 2147485449 BMU3_Temp3 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485449 BMU3_Temp2 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485449 BMU3_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485448 BMU3_Cell_Voltage16 "第2个BMU单体电压1";
+CM_ SG_ 2147485448 BMU3_Cell_Voltage15 "第2个BMU单体电压1";
+CM_ SG_ 2147485448 BMU3_Cell_Voltage14 "第2个BMU单体电压1";
+CM_ SG_ 2147485448 BMU3_Cell_Voltage13 "第2个BMU单体电压1";
+CM_ SG_ 2147485447 BMU3_Cell_Voltage12 "第2个BMU单体电压1";
+CM_ SG_ 2147485447 BMU3_Cell_Voltage11 "第2个BMU单体电压1";
+CM_ SG_ 2147485447 BMU3_Cell_Voltage10 "第2个BMU单体电压1";
+CM_ SG_ 2147485447 BMU3_Cell_Voltage9 "第2个BMU单体电压1";
+CM_ SG_ 2147485446 BMU3_Cell_Voltage8 "第2个BMU单体电压1";
+CM_ SG_ 2147485446 BMU3_Cell_Voltage7 "第2个BMU单体电压1";
+CM_ SG_ 2147485446 BMU3_Cell_Voltage6 "第2个BMU单体电压1";
+CM_ SG_ 2147485446 BMU3_Cell_Voltage5 "第2个BMU单体电压1";
+CM_ SG_ 2147485445 BMU3_Cell_Voltage4 "第2个BMU单体电压1";
+CM_ SG_ 2147485445 BMU3_Cell_Voltage3 "第2个BMU单体电压1";
+CM_ SG_ 2147485445 BMU3_Cell_Voltage2 "第2个BMU单体电压1";
+CM_ SG_ 2147485445 BMU3_Cell_Voltage1 "第2个BMU单体电压1";
+CM_ SG_ 2147485193 BMU2_Temp3 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485193 BMU2_Temp2 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485193 BMU2_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147485193 BMU2_Current "电流";
+CM_ SG_ 2147485192 BMU2_Cell_Voltage16 "第2个BMU单体电压16";
+CM_ SG_ 2147485192 BMU2_Cell_Voltage15 "第2个BMU单体电压15";
+CM_ SG_ 2147485192 BMU2_Cell_Voltage14 "第2个BMU单体电压14";
+CM_ SG_ 2147485192 BMU2_Cell_Voltage13 "第2个BMU单体电压13";
+CM_ SG_ 2147485191 BMU2_Cell_Voltage12 "第2个BMU单体电压12";
+CM_ SG_ 2147485191 BMU2_Cell_Voltage11 "第2个BMU单体电压11";
+CM_ SG_ 2147485191 BMU2_Cell_Voltage10 "第2个BMU单体电压10";
+CM_ SG_ 2147485191 BMU2_Cell_Voltage9 "第2个BMU单体电压9";
+CM_ SG_ 2147485190 BMU2_Cell_Voltage8 "第2个BMU单体电压8";
+CM_ SG_ 2147485190 BMU2_Cell_Voltage7 "第2个BMU单体电压7";
+CM_ SG_ 2147485190 BMU2_Cell_Voltage6 "第2个BMU单体电压6";
+CM_ SG_ 2147485190 BMU2_Cell_Voltage5 "第2个BMU单体电压5";
+CM_ SG_ 2147485189 BMU2_Cell_Voltage4 "第2个BMU单体电压4";
+CM_ SG_ 2147485189 BMU2_Cell_Voltage3 "第2个BMU单体电压3";
+CM_ SG_ 2147485189 BMU2_Cell_Voltage2 "第2个BMU单体电压2";
+CM_ SG_ 2147485189 BMU2_Cell_Voltage1 "第2个BMU单体电压1";
+CM_ SG_ 2147484937 BMU1_Current "电流";
+CM_ SG_ 2147484937 BMU1_Temp3 "第1个BMU温度2";
+CM_ SG_ 2147484937 BMU1_Temp2 "第1个BMU温度1";
+CM_ SG_ 2147484937 BMU1_Temp1 "BMU1 PACK极柱温度数量";
+CM_ SG_ 2147484936 BMU1_Cell_V16 "第1个BMU单体电压16";
+CM_ SG_ 2147484936 BMU1_Cell_V15 "第1个BMU单体电压15";
+CM_ SG_ 2147484936 BMU1_Cell_V14 "第1个BMU单体电压14";
+CM_ SG_ 2147484936 BMU1_CellV13 "第1个BMU单体电压13";
+CM_ SG_ 2147484935 BMU1_Cell_Voltage9 "第1个BMU单体电压9";
+CM_ SG_ 2147484935 BMU1_Cell_V12 "第1个BMU单体电压12";
+CM_ SG_ 2147484935 BMU1_Cell_V11 "第1个BMU单体电压11";
+CM_ SG_ 2147484935 BMU1_Cell_V10 "第1个BMU单体电压10";
+CM_ SG_ 2147484934 BMU1_Cell_Voltage8 "第1个BMU单体电压8";
+CM_ SG_ 2147484934 BMU1_Cell_Voltage7 "第1个BMU单体电压7";
+CM_ SG_ 2147484934 BMU1_Cell_Voltage6 "第1个BMU单体电压6";
+CM_ SG_ 2147484934 BMU1_Cell_Voltage5 "第1个BMU单体电压5";
+CM_ SG_ 2147484933 BMU1_Cell_Voltage4 "第1个BMU单体电压4";
+CM_ SG_ 2147484933 BMU1_Cell_Voltage3 "第1个BMU单体电压3";
+CM_ SG_ 2147484933 BMU1_Cell_Voltage2 "第1个BMU单体电压2";
+CM_ SG_ 2147484933 BMU1_Cell_Voltage1 "第1个BMU单体电压1";
+CM_ SG_ 2147484932 A504_GetDIPosRelayFeedbackVolt "主正电压";
+CM_ SG_ 2147484932 A504_GetDINegRelayFeedbackVolt "主负电压
+";
+CM_ SG_ 2147484929 A501_VOLRequest "总压请求
+";
+CM_ SG_ 2147484929 A501_LongChrgCurrent "长时电流请求";
+CM_ SG_ 2147484929 A501_GetContinuousDsgCurrent "长时放电电流";
+CM_ SG_ 2147484930 A502_MINVOLTAGE "最小单体电压
+";
+CM_ SG_ 2147484930 A502_MINTEMPERATURE "最小温度";
+CM_ SG_ 2147484930 A502_MAXVOLTAGE "最大电压
+";
+CM_ SG_ 2147484930 A502_MAXTEMPERATURE "最大温度
+";
+CM_ SG_ 2147484931 A503_VolSum "电芯电压和";
+CM_ SG_ 2147484931 A503_PackCurrent "总线电流";
+CM_ SG_ 2147484931 A503_DispSoc "显示SOC
+";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT -3.4E+38 3.4E+38;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_ "BusType" "CAN";
+BA_ "GenSigStartValue" SG_ 3221225472 BMU1_Address 0;
+BA_ "GenSigStartValue" SG_ 3221225472 BMU1_Cell_Count 0;
+BA_ "GenSigStartValue" SG_ 3221225472 BMU2_Address 0;
+BA_ "GenSigStartValue" SG_ 3221225472 BMU2_Cell_Count 0;
+BA_ "GenSigStartValue" SG_ 2147486729 BMU8_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147486729 BMU8_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147486729 BMU8_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147486729 BMU8_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147486728 BMU8_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2147486728 BMU8_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2147486728 BMU8_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2147486728 BMU8_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2147486727 BMU8_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2147486727 BMU8_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2147486727 BMU8_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2147486727 BMU8_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147486726 BMU8_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147486726 BMU8_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147486726 BMU8_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147486726 BMU8_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147486725 BMU8_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147486725 BMU8_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147486725 BMU8_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147486725 BMU8_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147486473 BMU7_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147486473 BMU7_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147486473 BMU7_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147486473 BMU7_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147486472 BMU7_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2147486472 BMU7_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2147486472 BMU7_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2147486472 BMU7_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2147486471 BMU7_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2147486471 BMU7_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2147486471 BMU7_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2147486471 BMU7_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147486470 BMU7_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147486470 BMU7_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147486470 BMU7_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147486470 BMU7_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147486469 BMU7_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147486469 BMU7_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147486469 BMU7_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147486469 BMU7_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147486217 BMU6_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147486217 BMU6_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147486217 BMU6_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147486217 BMU6_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147486216 BMU6_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2147486216 BMU6_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2147486216 BMU6_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2147486216 BMU6_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2147486215 BMU6_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2147486215 BMU6_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2147486215 BMU6_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2147486215 BMU6_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147486214 BMU6_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147486214 BMU6_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147486214 BMU6_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147486214 BMU6_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147486213 BMU6_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147486213 BMU6_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147486213 BMU6_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147486213 BMU6_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147485961 BMU5_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147485961 BMU5_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147485961 BMU5_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147485961 BMU5_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147485960 BMU5_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2147485960 BMU5_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2147485960 BMU5_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2147485960 BMU5_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2147485959 BMU5_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2147485959 BMU5_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2147485959 BMU5_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2147485959 BMU5_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147485958 BMU5_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147485958 BMU5_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147485958 BMU5_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147485958 BMU5_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147485957 BMU5_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147485957 BMU5_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147485957 BMU5_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147485957 BMU5_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147485704 BMU4_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2147485704 BMU4_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2147485704 BMU4_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2147485704 BMU4_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2147485703 BMU4_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2147485703 BMU4_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2147485703 BMU4_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2147485703 BMU4_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147485702 BMU4_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147485702 BMU4_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147485702 BMU4_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147485702 BMU4_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147485701 BMU4_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147485701 BMU4_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147485701 BMU4_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147485701 BMU4_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147485705 BMU4_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147485705 BMU4_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147485705 BMU4_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147485705 BMU4_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147485449 BMU3_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147485449 BMU3_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147485449 BMU3_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147485449 BMU3_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147485448 BMU3_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2147485448 BMU3_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2147485448 BMU3_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2147485448 BMU3_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2147485447 BMU3_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2147485447 BMU3_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2147485447 BMU3_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2147485447 BMU3_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147485446 BMU3_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147485446 BMU3_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147485446 BMU3_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147485446 BMU3_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147485445 BMU3_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147485445 BMU3_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147485445 BMU3_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147485445 BMU3_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147485193 BMU2_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147485193 BMU2_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147485193 BMU2_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147485193 BMU2_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147485192 BMU2_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2147485192 BMU2_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2147485192 BMU2_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2147485192 BMU2_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2147485191 BMU2_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2147485191 BMU2_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2147485191 BMU2_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2147485191 BMU2_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147485190 BMU2_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147485190 BMU2_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147485190 BMU2_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147485190 BMU2_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147485189 BMU2_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147485189 BMU2_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147485189 BMU2_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147485189 BMU2_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147484937 BMU1_Current 50000;
+BA_ "GenSigStartValue" SG_ 2147484937 BMU1_Temp3 400;
+BA_ "GenSigStartValue" SG_ 2147484937 BMU1_Temp2 400;
+BA_ "GenSigStartValue" SG_ 2147484937 BMU1_Temp1 400;
+BA_ "GenSigStartValue" SG_ 2147484936 BMU1_Cell_V16 0;
+BA_ "GenSigStartValue" SG_ 2147484936 BMU1_Cell_V15 0;
+BA_ "GenSigStartValue" SG_ 2147484936 BMU1_Cell_V14 0;
+BA_ "GenSigStartValue" SG_ 2147484936 BMU1_CellV13 0;
+BA_ "GenSigStartValue" SG_ 2147484935 BMU1_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2147484935 BMU1_Cell_V12 0;
+BA_ "GenSigStartValue" SG_ 2147484935 BMU1_Cell_V11 0;
+BA_ "GenSigStartValue" SG_ 2147484935 BMU1_Cell_V10 0;
+BA_ "GenSigStartValue" SG_ 2147484934 BMU1_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2147484934 BMU1_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2147484934 BMU1_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2147484934 BMU1_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2147484933 BMU1_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2147484933 BMU1_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2147484933 BMU1_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2147484933 BMU1_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2147484929 A501_LongChrgCurrent 50000;
+BA_ "GenSigStartValue" SG_ 2147484929 A501_GetContinuousDsgCurrent 50000;
+BA_ "GenSigStartValue" SG_ 2147484930 A502_MINTEMPERATURE 400;
+BA_ "GenSigStartValue" SG_ 2147484930 A502_MAXTEMPERATURE 400;
+BA_ "GenSigStartValue" SG_ 2147484931 A503_PackCurrent 50000;
+

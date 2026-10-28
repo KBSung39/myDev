@@ -1,0 +1,253 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BMS Vector__XXX
+
+
+BO_ 1161 Timer: 8 Vector__XXX
+ SG_ Timer_Enabler : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 905 Status: 8 BMS
+ SG_ BMS_Status : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Charger_Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Relay_Status : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Temp_Status : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ SOH : 47|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ SOC : 55|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ SOP : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 777 DAS_Temp: 8 BMS
+ SG_ DasTemp1 : 15|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+ SG_ DasTemp2 : 23|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+ SG_ DasTemp3 : 31|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+ SG_ DasTemp4 : 39|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+
+BO_ 1283 Version_Capacity_Supplier: 8 BMS
+ SG_ Version : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Capacity : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Supplier : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ FastChargerWakeUp : 40|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SlowChargerWakeUp : 48|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCChgSendBitFlag : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1027 ChargingVolCurr: 8 BMS
+ SG_ Request_Current : 7|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ Charging_Voltage : 23|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Charging_Current : 39|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+
+BO_ 1584 Battery_Info_01: 8 BMS
+ SG_ Pack_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Pack_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ Pack_SOC : 39|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ Ave_Cell_Voltage : 47|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Warn_OV : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_UV : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_CellVoltDiff : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_DsgTempHigh : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_ChgTempHigh : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_CellTempDiff : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_ChgCurOver : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_DsgCurOver : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1585 Battery_Info_02: 8 BMS
+ SG_ Min_Cell_Voltage : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Max_Cell_Voltage : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Min_Temperature : 39|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+ SG_ Max_Temperature : 47|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+ SG_ Alm_OV_L1 : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alm_UV_L1 : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alm_CellVoltDiff_L1 : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alm_DsgTempHigh_L1 : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alm_ChgTempHigh_L1 : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alm_CellTempDiff_L1 : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alm_ChgCurOrPlugout : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alm_SteadyDsgCur_L1 : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BMS_Fault : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosNegRelayFault : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayOpenFault : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayClosed : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayClosed : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1586 Charge_Request: 8 BMS
+ SG_ Request_Total_Voltage : 7|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Request_Charge_Current : 23|16@0+ (0.1,0) [0|6553.5] "A" Vector__XXX
+ SG_ StopFlag : 32|8@1+ (1,0) [0|2] "" Vector__XXX
+ SG_ Pack_SOC : 40|8@1+ (1,0) [0|100] "%" Vector__XXX
+ SG_ HeatMode : 48|8@1+ (1,0) [0|5] "" Vector__XXX
+ SG_ HeatPadState : 56|8@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1591 Battery_Status_Bits: 8 BMS
+ SG_ LimitOrSleepFault : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ InsulationAlarm : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DsgTempLow_L3 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HV_ChgRelayFault : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatThermalFault : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TwoGunsFault : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Sys_Life_Time : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1592 SOP_Power: 8 BMS
+ SG_ ContDsg_Power1 : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ ContDsg_Power2 : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ InstChg_Power : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ ContChg_Power : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+CM_ BO_ 1161 "Vehicle CAN RX Timer (0x489). Vector__XXX -> BMS.";
+CM_ SG_ 1161 Timer_Enabler "TMS Timer_Enabler bits for contactor/heat enable";
+CM_ BO_ 905 "TMS Status TX (0x389). Alternates with 0x309 every 1000ms, ID period 2000ms.";
+CM_ SG_ 905 BMS_Status "bit0 Init, bit1 Driving, bit2 Alarm, bit3 Fault";
+CM_ SG_ 905 Charger_Status "0x01 Idle, 0x02 Charging, 0x04 ChargeEnd, 0x08 PlugConnect";
+CM_ SG_ 905 Relay_Status "Byte2-3 relay open/adhesion bits";
+CM_ SG_ 905 Temp_Status "Fault_TempSensorFault";
+CM_ SG_ 905 SOC "SHOW_SOC / 10";
+CM_ SG_ 905 SOH "REAL_SOH / 10";
+CM_ BO_ 777 "TMS DAS temperature TX (0x309). Alternates with 0x389 every 1000ms. raw = DAS_TEMPn/10 + 80, Physical = raw - 80.";
+CM_ SG_ 777 DasTemp1 "DAS_TEMP1";
+CM_ SG_ 777 DasTemp2 "DAS_TEMP2";
+CM_ SG_ 777 DasTemp3 "DAS_TEMP3";
+CM_ SG_ 777 DasTemp4 "DAS_TEMP4";
+CM_ BO_ 1283 "Vehicle CAN Version/Capacity (0x503). Round-robin slot among 0x630~0x638/0x403/0x503/0x632, slot period 100ms, ID period 700ms.";
+CM_ SG_ 1283 Version "SOFT_VERSION_CAN_H/L Motorola u16";
+CM_ SG_ 1283 Capacity "BATTERY_CAPACITY * (SYS_ENERY_TYPE + 20kWh base) duplicated in Byte2-3";
+CM_ SG_ 1283 FastChargerWakeUp "PowerM_IsFastChargerWakeUp";
+CM_ SG_ 1283 SlowChargerWakeUp "PowerM_IsSlowChargerWakeUp";
+CM_ SG_ 1283 OBCChgSendBitFlag "Apl_OBCChgSendBitFlag";
+CM_ BO_ 1027 "Vehicle CAN charging request/feedback (0x403). Sent only meaningful when Apl_Get_ChgState() > Chg_PlugConnect. ID period 700ms.";
+CM_ SG_ 1027 Request_Current "Apl_Get_ChgRequestCur() - CHG_CURRENT(0). Motorola s16, 0.1A";
+CM_ SG_ 1027 Charging_Voltage "Apl_Get_ChgRequestVol(). Motorola u16, 0.01V";
+CM_ SG_ 1027 Charging_Current "TOTAL_CURRENT - CHG_CURRENT(0). Motorola s16, 0.1A";
+CM_ BO_ 1584 "Battery pack info (0x630). TOTAL_AFE_VOLTAGE / TOTAL_CURRENT / SHOW_SOC / CELL_AVR_VOLTAGE + warning bits. ID period 700ms.";
+CM_ SG_ 1584 Pack_Voltage "TOTAL_AFE_VOLTAGE. Motorola 0.01V";
+CM_ SG_ 1584 Pack_Current "TOTAL_CURRENT signed vs CHG/DSG offset. Motorola 0.1A";
+CM_ SG_ 1584 Pack_SOC "SHOW_SOC / 10";
+CM_ SG_ 1584 Ave_Cell_Voltage "CELL_AVR_VOLTAGE. Motorola 0.001V";
+CM_ SG_ 1584 Warn_OV "Cell/Total OV LV2|LV3";
+CM_ SG_ 1584 Warn_UV "Cell/Total UV LV2|LV3";
+CM_ SG_ 1584 Warn_CellVoltDiff "CellVoltDiff any level";
+CM_ SG_ 1584 Warn_DsgTempHigh "DsgTempHigh LV2|LV3";
+CM_ SG_ 1584 Warn_ChgTempHigh "ChgTempHigh LV2|LV3";
+CM_ SG_ 1584 Warn_CellTempDiff "CellTempDiff LV2|LV3";
+CM_ SG_ 1584 Warn_ChgCurOver "ChgCurOver LV3";
+CM_ SG_ 1584 Warn_DsgCurOver "Steady|Trans DsgCurOver LV3";
+CM_ BO_ 1585 "Battery cell info (0x631). Min/Max cell V/T + L1 alarm/fault bits. Temp raw = stored/10 + 40 (=T+80). ID period 700ms.";
+CM_ SG_ 1585 Min_Cell_Voltage "CELL_MIN_VOLTAGE. Motorola 0.001V";
+CM_ SG_ 1585 Max_Cell_Voltage "CELL_MAX_VOLTAGE. Motorola 0.001V";
+CM_ SG_ 1585 Min_Temperature "CELL_MIN_TEMPERATURE encoded. Physical = raw - 80";
+CM_ SG_ 1585 Max_Temperature "CELL_MAX_TEMPERATURE encoded. Physical = raw - 80";
+CM_ SG_ 1585 BMS_Fault "1 when Fml_GetSystemFaultStatus()==FALSE (fault active)";
+CM_ SG_ 1585 PosNegRelayFault "Pos adhesion/open or Neg open";
+CM_ SG_ 1585 ChgRelayOpenFault "ChgRelayOpenCircuitFault";
+CM_ SG_ 1585 PosRelayClosed "Pos relay Close";
+CM_ SG_ 1585 ChgRelayClosed "Chg relay Close";
+CM_ BO_ 1586 "Charge request mirror of charger F4 style (0x632). ID period 700ms.";
+CM_ SG_ 1586 Request_Total_Voltage "REQUESTTOTALVOLT(37) * paraCout * BMU_CELL_NUM. Motorola 0.1V";
+CM_ SG_ 1586 Request_Charge_Current "RealCHG_CURRENT when StopFlag==0 else 0. Motorola 0.1A";
+CM_ SG_ 1586 StopFlag "0 allow, 1 stop, 2 heat-start";
+CM_ SG_ 1586 Pack_SOC "SHOW_SOC / 10";
+CM_ SG_ 1586 HeatMode "Apl_GetHeatMode() (e_HeatMode, heating request state)";
+CM_ SG_ 1586 HeatPadState "Apl_Get_HeatState() (bHeatState, actual pad on/off after Close/Open sequence)";
+CM_ BO_ 1591 "Vehicle status/fault bit pack + life time (0x637). ID period 700ms.";
+CM_ SG_ 1591 LimitOrSleepFault "AlarmLimit(DL/CL/FaultMode) | AutoSleepRelayFault";
+CM_ SG_ 1591 InsulationAlarm "BP|BN insulation L1";
+CM_ SG_ 1591 DsgTempLow_L3 "DsgTempLow LV3";
+CM_ SG_ 1591 HV_ChgRelayFault "HVDetection | Chg/Heat adhesion | Chg open";
+CM_ SG_ 1591 HeatThermalFault "HeatPadInvalid | Thermalrunaway";
+CM_ SG_ 1591 TwoGunsFault "Fault_TwoGunsFault";
+CM_ SG_ 1591 Sys_Life_Time "SYS_LIFE_TIME Motorola u16";
+CM_ BO_ 1592 "SOP power limits (0x638). raw = CurrentLimit(A) * TOTAL_AFE_VOLTAGE(0.01V), Motorola u16. ID period 700ms.";
+CM_ SG_ 1592 ContDsg_Power1 "ContinuousDsgCurrent * PackVolt";
+CM_ SG_ 1592 ContDsg_Power2 "ContinuousDsgCurrent * PackVolt (duplicate)";
+CM_ SG_ 1592 InstChg_Power "InstantaneousChgCurrent * PackVolt";
+CM_ SG_ 1592 ContChg_Power "ContinuousChgCurrent * PackVolt";
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","IfActive","CE";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_ "BusType" "CAN";
+BA_ "GenMsgCycleTime" BO_ 1584 700;
+BA_ "GenMsgSendType" BO_ 1584 0;
+BA_ "GenMsgCycleTime" BO_ 1585 700;
+BA_ "GenMsgSendType" BO_ 1585 0;
+BA_ "GenMsgCycleTime" BO_ 1586 700;
+BA_ "GenMsgSendType" BO_ 1586 0;
+BA_ "GenMsgCycleTime" BO_ 1591 700;
+BA_ "GenMsgSendType" BO_ 1591 0;
+BA_ "GenMsgCycleTime" BO_ 1592 700;
+BA_ "GenMsgSendType" BO_ 1592 0;
+BA_ "GenMsgCycleTime" BO_ 1027 700;
+BA_ "GenMsgSendType" BO_ 1027 0;
+BA_ "GenMsgCycleTime" BO_ 1283 700;
+BA_ "GenMsgSendType" BO_ 1283 0;
+BA_ "GenMsgCycleTime" BO_ 905 2000;
+BA_ "GenMsgSendType" BO_ 905 0;
+BA_ "GenMsgCycleTime" BO_ 777 2000;
+BA_ "GenMsgSendType" BO_ 777 0;
+
+VAL_ 1584 Warn_OV 0 "Normal" 1 "Trigger" ;
+VAL_ 1584 Warn_UV 0 "Normal" 1 "Trigger" ;
+VAL_ 1584 Warn_CellVoltDiff 0 "Normal" 1 "Trigger" ;
+VAL_ 1584 Warn_DsgTempHigh 0 "Normal" 1 "Trigger" ;
+VAL_ 1584 Warn_ChgTempHigh 0 "Normal" 1 "Trigger" ;
+VAL_ 1584 Warn_CellTempDiff 0 "Normal" 1 "Trigger" ;
+VAL_ 1584 Warn_ChgCurOver 0 "Normal" 1 "Trigger" ;
+VAL_ 1584 Warn_DsgCurOver 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_OV_L1 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_UV_L1 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_CellVoltDiff_L1 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_DsgTempHigh_L1 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_ChgTempHigh_L1 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_CellTempDiff_L1 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_ChgCurOrPlugout 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 Alm_SteadyDsgCur_L1 0 "Normal" 1 "Trigger" ;
+VAL_ 1585 BMS_Fault 0 "Normal" 1 "Fault" ;
+VAL_ 1585 PosNegRelayFault 0 "Normal" 1 "Fault" ;
+VAL_ 1585 ChgRelayOpenFault 0 "Normal" 1 "Fault" ;
+VAL_ 1585 PosRelayClosed 0 "Open" 1 "Closed" ;
+VAL_ 1585 ChgRelayClosed 0 "Open" 1 "Closed" ;
+VAL_ 1586 StopFlag 0 "Allow" 1 "Stop" 2 "HeatStart" ;
+VAL_ 1586 HeatMode 0 "NoHeatMode" 1 "Drive_HeatStart" 2 "Charge_HeatStart" 3 "Drive_HeatStop" 4 "Charge_HeatStop" 5 "Heat_Fault" ;
+VAL_ 1586 HeatPadState 0 "Off" 1 "On" ;
+VAL_ 1591 LimitOrSleepFault 0 "Normal" 1 "Trigger" ;
+VAL_ 1591 InsulationAlarm 0 "Normal" 1 "Trigger" ;
+VAL_ 1591 DsgTempLow_L3 0 "Normal" 1 "Trigger" ;
+VAL_ 1591 HV_ChgRelayFault 0 "Normal" 1 "Trigger" ;
+VAL_ 1591 HeatThermalFault 0 "Normal" 1 "Trigger" ;
+VAL_ 1591 TwoGunsFault 0 "Normal" 1 "Trigger" ;
+VAL_ 1283 FastChargerWakeUp 0 "Off" 1 "On" ;
+VAL_ 1283 SlowChargerWakeUp 0 "Off" 1 "On" ;
+VAL_ 905 Charger_Status 1 "Idle" 2 "Charging" 4 "ChargeEnd" 8 "PlugConnect" ;
+

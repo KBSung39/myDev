@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=19.5.44.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="CellTemp">
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5fc2fe86e389de446deb0dfe1b43094d8a44" ControlName="Input/Output Box 34">
+      <Property Name="Name">X5fc2fe86e389de446deb0dfe1b43094d8a44</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 178</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">34</Property>
+      <Property Name="DescriptionText">BSUPVolt[7]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;7;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xe9e968aee1415e41c5e9708ee25c8edc56a9" ControlName="Input/Output Box 33">
+      <Property Name="Name">Xe9e968aee1415e41c5e9708ee25c8edc56a9</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 157</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">33</Property>
+      <Property Name="DescriptionText">BSUPVolt[6]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;6;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X6b376ff9eb17ce483de963ce73a276685f28" ControlName="Input/Output Box 32">
+      <Property Name="Name">X6b376ff9eb17ce483de963ce73a276685f28</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 136</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">32</Property>
+      <Property Name="DescriptionText">BSUPVolt[5]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;5;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xa40f2b16eb2fce490de8d76ebb31e462368c" ControlName="Input/Output Box 31">
+      <Property Name="Name">Xa40f2b16eb2fce490de8d76ebb31e462368c</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 115</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">31</Property>
+      <Property Name="DescriptionText">BSUPVolt[4]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;4;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xe8bdcdeae0a89e465ce9c53e3b8d540b5100" ControlName="Input/Output Box 30">
+      <Property Name="Name">Xe8bdcdeae0a89e465ce9c53e3b8d540b5100</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 94</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">30</Property>
+      <Property Name="DescriptionText">BSUPVolt[3]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;3;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xe5479739ea376e4925ebd9aec9f92fd1815b" ControlName="Input/Output Box 29">
+      <Property Name="Name">Xe5479739ea376e4925ebd9aec9f92fd1815b</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 73</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">29</Property>
+      <Property Name="DescriptionText">BSUPVolt[2]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;2;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X4a816cace8359e4412ea6c3ec6cb219573c5" ControlName="Input/Output Box 28">
+      <Property Name="Name">X4a816cace8359e4412ea6c3ec6cb219573c5</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 52</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">28</Property>
+      <Property Name="DescriptionText">BSUPVolt[1]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X875224ade28dae4021eafc1e8db4033d239f" ControlName="Input/Output Box 27">
+      <Property Name="Name">X875224ade28dae4021eafc1e8db4033d239f</Property>
+      <Property Name="Size">169, 21</Property>
+      <Property Name="Location">588, 31</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">27</Property>
+      <Property Name="DescriptionText">BSUPVolt[0]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">70, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPVolt;2;;;0;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xac44b342e647de4540e98ebec7d551f6efc2" ControlName="Input/Output Box 26">
+      <Property Name="Name">Xac44b342e647de4540e98ebec7d551f6efc2</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 178</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">26</Property>
+      <Property Name="DescriptionText">BSUPCurrent[7]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;7;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xd5252044ed256e4cd7e80d4ed67bf7845fb5" ControlName="Input/Output Box 25">
+      <Property Name="Name">Xd5252044ed256e4cd7e80d4ed67bf7845fb5</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 157</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">25</Property>
+      <Property Name="DescriptionText">BSUPCurrent[6]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;6;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X69175f9aede46e4f02ebf03e374d5aeceb87" ControlName="Input/Output Box 24">
+      <Property Name="Name">X69175f9aede46e4f02ebf03e374d5aeceb87</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 136</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">24</Property>
+      <Property Name="DescriptionText">BSUPCurrent[5]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;5;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X45590e85e68d0e4b60ebb3fea01220832c7a" ControlName="Input/Output Box 23">
+      <Property Name="Name">X45590e85e68d0e4b60ebb3fea01220832c7a</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 115</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">23</Property>
+      <Property Name="DescriptionText">BSUPCurrent[4]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;4;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X368d3bebe2026e4854e9735e6799b88af9b7" ControlName="Input/Output Box 22">
+      <Property Name="Name">X368d3bebe2026e4854e9735e6799b88af9b7</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 94</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">22</Property>
+      <Property Name="DescriptionText">BSUPCurrent[3]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;3;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X6a4d0166e22d2e49acea4a4e61dd95f8396f" ControlName="Input/Output Box 21">
+      <Property Name="Name">X6a4d0166e22d2e49acea4a4e61dd95f8396f</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 73</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">21</Property>
+      <Property Name="DescriptionText">BSUPCurrent[2]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;2;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5bce71fde7278e4370ebf8be30ffff3a8a23" ControlName="Input/Output Box 20">
+      <Property Name="Name">X5bce71fde7278e4370ebf8be30ffff3a8a23</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 52</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">20</Property>
+      <Property Name="DescriptionText">BSUPCurrent[1]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xdd003d38e0100e4ea2e8cf5e7d9dd84f6377" ControlName="Input/Output Box 19">
+      <Property Name="Name">Xdd003d38e0100e4ea2e8cf5e7d9dd84f6377</Property>
+      <Property Name="Size">186, 21</Property>
+      <Property Name="Location">390, 31</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">19</Property>
+      <Property Name="DescriptionText">BSUPCurrent[0]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">87, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;BSUPCurrent;2;;;0;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X234b6ddee1b15e499fe9861e08cecd220325" ControlName="Input/Output Box 18">
+      <Property Name="Name">X234b6ddee1b15e499fe9861e08cecd220325</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 187</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">18</Property>
+      <Property Name="DescriptionText">CellTemp[17]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;17;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X052bd50ce5c51e42eaeab80e2403c8d48bb8" ControlName="Input/Output Box 17">
+      <Property Name="Name">X052bd50ce5c51e42eaeab80e2403c8d48bb8</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 166</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">17</Property>
+      <Property Name="DescriptionText">CellTemp[16]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;16;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xebf0bc36e6cd3e4d3ceae1feb57f84fc9da4" ControlName="Input/Output Box 16">
+      <Property Name="Name">Xebf0bc36e6cd3e4d3ceae1feb57f84fc9da4</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 145</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">16</Property>
+      <Property Name="DescriptionText">CellTemp[15]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;15;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X92b1f57be8289e43a7e83c2efe64a21ea333" ControlName="Input/Output Box 15">
+      <Property Name="Name">X92b1f57be8289e43a7e83c2efe64a21ea333</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 124</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">15</Property>
+      <Property Name="DescriptionText">CellTemp[14]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;14;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X91a33f9beed95e401ae9bd7ed4ad76a9e49f" ControlName="Input/Output Box 14">
+      <Property Name="Name">X91a33f9beed95e401ae9bd7ed4ad76a9e49f</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 103</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">14</Property>
+      <Property Name="DescriptionText">CellTemp[13]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;13;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X38976814e0f3be452fe8609e68678468d06c" ControlName="Input/Output Box 13">
+      <Property Name="Name">X38976814e0f3be452fe8609e68678468d06c</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 82</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">13</Property>
+      <Property Name="DescriptionText">CellTemp[12]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;12;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5a4f0b7deea85e485be9923e40ba7c8ef592" ControlName="Input/Output Box 12">
+      <Property Name="Name">X5a4f0b7deea85e485be9923e40ba7c8ef592</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 61</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">12</Property>
+      <Property Name="DescriptionText">CellTemp[11]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;11;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5702c226e9477e4855e9e05ed9895a2b126c" ControlName="Input/Output Box 11">
+      <Property Name="Name">X5702c226e9477e4855e9e05ed9895a2b126c</Property>
+      <Property Name="Size">173, 21</Property>
+      <Property Name="Location">200, 40</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">11</Property>
+      <Property Name="DescriptionText">CellTemp[10]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">74, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;10;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xbad2499ceb278e44c9ea9d4ec3867c0c1685" ControlName="Input/Output Box 10">
+      <Property Name="Name">Xbad2499ceb278e44c9ea9d4ec3867c0c1685</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">200, 19</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">10</Property>
+      <Property Name="DescriptionText">CellTemp[9]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;9;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X865ff594e3b0ce436de87f2eedf70a44441b" ControlName="Input/Output Box 9">
+      <Property Name="Name">X865ff594e3b0ce436de87f2eedf70a44441b</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 187</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">9</Property>
+      <Property Name="DescriptionText">CellTemp[8]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;8;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X39bcdd8ee83d9e418ceb460e952888a59e8c" ControlName="Input/Output Box 8">
+      <Property Name="Name">X39bcdd8ee83d9e418ceb460e952888a59e8c</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 166</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">8</Property>
+      <Property Name="DescriptionText">CellTemp[7]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;7;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xd0f44199ee3cfe4a88e8ec5e451fc2d312e3" ControlName="Input/Output Box 7">
+      <Property Name="Name">Xd0f44199ee3cfe4a88e8ec5e451fc2d312e3</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 145</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">7</Property>
+      <Property Name="DescriptionText">CellTemp[6]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;6;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X745fdeb9e52e3e4101ea71becf434c1e0266" ControlName="Input/Output Box 6">
+      <Property Name="Name">X745fdeb9e52e3e4101ea71becf434c1e0266</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 124</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">6</Property>
+      <Property Name="DescriptionText">CellTemp[5]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;5;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xf1c71a63e9f77e4fabe8709ef6d9868aa252" ControlName="Input/Output Box 5">
+      <Property Name="Name">Xf1c71a63e9f77e4fabe8709ef6d9868aa252</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 103</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">5</Property>
+      <Property Name="DescriptionText">CellTemp[4]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;4;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X98f82328e1530e43b2e9748e7b7e4190fc2a" ControlName="Input/Output Box 4">
+      <Property Name="Name">X98f82328e1530e43b2e9748e7b7e4190fc2a</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 82</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">4</Property>
+      <Property Name="DescriptionText">CellTemp[3]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;3;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X65b70222ee371e4062e9f2de3ff443aeab0b" ControlName="Input/Output Box 3">
+      <Property Name="Name">X65b70222ee371e4062e9f2de3ff443aeab0b</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 61</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">3</Property>
+      <Property Name="DescriptionText">CellTemp[2]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;2;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X0193efd5ecfa3e4967ebffcebd33be585394" ControlName="Input/Output Box 2">
+      <Property Name="Name">X0193efd5ecfa3e4967ebffcebd33be585394</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 40</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">2</Property>
+      <Property Name="DescriptionText">CellTemp[1]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X56bb3eb2e99e0e4be7eb8b9e3063fbd31b94" ControlName="Input/Output Box 1">
+      <Property Name="Name">X56bb3eb2e99e0e4be7eb8b9e3063fbd31b94</Property>
+      <Property Name="Size">167, 21</Property>
+      <Property Name="Location">16, 19</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">1</Property>
+      <Property Name="DescriptionText">CellTemp[0]:</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">68, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;S9;;;CellTemp;2;;;0;;;Value;;;0</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">813, 341</Property>
+    <Property Name="Location">0, 0</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>

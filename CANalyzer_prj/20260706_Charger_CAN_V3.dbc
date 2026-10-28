@@ -1,0 +1,112 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ Unit1_CVM2_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Unit1_CVM1_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM8_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV016_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV015_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM7_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV014_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV013_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM6_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV012_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV011_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM5_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV010_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV009_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM4_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV008_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV007_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM3_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV006_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV005_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM1_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Unit01_Command_Res : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV002_Res : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV001_Res : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ Unit0_CVM2_Command_Req : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellV004_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+ SG_ CellV003_Req : 0|16@1+ (0.0001,0) [0|0] "" Vector__XXX
+
+BO_ 2566869221 Charger_Info_02: 5 Vector__XXX
+ SG_ Communication_Status : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Starting_State : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Input_Voltage : 34|1@1+ (1,0) [0|1] "V" Vector__XXX
+ SG_ Charger_Tmp : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HW_Fault : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Output_Current : 23|16@0+ (0.1,0) [0|6553.5] "A" Vector__XXX
+ SG_ Ouput_Voltage : 7|16@0+ (0.1,0) [0|65535] "V" Vector__XXX
+
+BO_ 2566869223 OBC_Info_02: 5 Vector__XXX
+ SG_ OBC_Status_StartingState : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBC_Status_InputVolt : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBC_Status_CommState : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBC_Status_ChargerTemp : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBC_Status_HardwareFault : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Output_current : 23|16@0+ (0.1,0) [0|6553.5] "A" Vector__XXX
+ SG_ Ouput_voltage : 7|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+
+BO_ 2550589428 OBC_Info_01: 6 Vector__XXX
+ SG_ SOC : 40|8@1+ (1,0) [0|255] "%" Vector__XXX
+ SG_ Charging_Control : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Maximum_permitted_charge_current : 23|16@0+ (0.1,0) [0|6553.5] "A" Vector__XXX
+ SG_ Maximum_permitted_charging_volt : 7|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+
+BO_ 2550588916 Charger_Info_01: 6 Vector__XXX
+ SG_ Charging_Control : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ SOC : 40|8@1+ (1,0) [0|255] "%" Vector__XXX
+ SG_ Maximum_charging_current : 23|16@0+ (0.1,0) [0|6553.5] "A" Vector__XXX
+ SG_ Maximum_charging_voltage : 7|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+
+BO_ 1584 Battery_Info_01: 8 Vector__XXX
+ SG_ Warning_Bit : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Ave_Cell_Voltage : 47|16@0+ (0.001,0) [0|0] "" Vector__XXX
+ SG_ Pack_SOC : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Pack_Voltage : 7|16@0+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ Pack_Current : 23|16@0- (0.1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+BA_DEF_DEF_  "BusType" "CAN";
+

@@ -1,0 +1,605 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Charger BMS Hub
+VAL_TABLE_ VT_ChargeRequest 3 "Not Available" 2 "Not Used" 1 "Charge Request" 0 "Charge Not request" ;
+VAL_TABLE_ VT_HeatingPadStatus 3 "Heating pad adhesion" 2 "Heating pad invalid" 1 "Heating pad On" 0 "Heating pad Off" ;
+VAL_TABLE_ VT_EthEnable 1 "Enable, Continuous map" 0 "Disable, Peak map" ;
+
+
+BO_ 2365533427 HVESSS_CR: 8 BMS
+ SG_ Adc12V : 40|16@1+ (1,0) [0|5000] "mV" Vector__XXX
+ SG_ HallAdcRaw : 24|16@1+ (1,0) [0|5000] "mV" Vector__XXX
+ SG_ EthEnable : 16|2@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CycleCount : 8|8@1+ (1,0) [0|8] "" Vector__XXX
+ SG_ HeatingPadStatus : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ ChargeRequest : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 2566839038 SAE_SOFT: 8 Vector__XXX
+ SG_ SWidentification : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2364607219 SAE_HVESSD8: 8 Vector__XXX
+ SG_ AverageCellVoltage : 32|16@1+ (0.001,0) [0|65.535] "" Vector__XXX
+
+BO_ 2364577523 SAE_HVESSS1: 8 BMS
+ SG_ HVILStatus : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ HVDisconnect : 4|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ HVNegContactor : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ HVPosContactor : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ HVconnectionStatus : 40|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ HVPrechargeRelayStatus : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ NumberOfHvespReady : 48|8@1+ (1,0) [0|250] "" Vector__XXX
+ SG_ OperationalStatus : 44|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ CellBalancingActive : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ CellBalanceStatus : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Checksum : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Counter : 36|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 2633785075 SAE_HVESSHIST: 40 BMS
+ SG_ ConOpnUdrLoadCount : 8|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ RemainingChargeTime : 280|16@1+ (1,0) [0|64255] "min" Vector__XXX
+ SG_ RemainingRunTime : 264|16@1+ (1,0) [0|64255] "min" Vector__XXX
+ SG_ LifetimeMinCellVoltage : 256|8@1+ (0.02044,0) [0|5.11] "V" Vector__XXX
+ SG_ LifetimeMaxCellVoltage : 248|8@1+ (0.02044,0) [0|5.11] "V" Vector__XXX
+ SG_ LifetimeMinPackVoltage : 232|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+ SG_ LifetimeMaxPackVoltage : 216|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+ SG_ LifetimeMinCurrent : 200|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ LifetimeMaxCurrent : 184|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ LifetimeMinTemp : 168|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ LifetimeMaxTemp : 152|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ TotalLifetimeEnergyOutput : 120|32@1+ (1,0) [0|4211081215] "kWh" Vector__XXX
+ SG_ TotalLifetimeEnergyInput : 88|32@1+ (1,0) [0|4211081215] "kWh" Vector__XXX
+ SG_ TotalAccumulatedCharge : 56|32@1+ (100,0) [0|421108121500] "Ah" Vector__XXX
+ SG_ TotalEnergyThroughput : 24|32@1+ (100,0) [0|421108121500] "Wh" Vector__XXX
+ SG_ SoH : 0|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+
+BO_ 2566675955 SAE_HVESSCFG: 17 BMS
+ SG_ NumberOfHvespConfigured : 128|8@1+ (1,0) [0|250] "" Vector__XXX
+ SG_ CellMinVoltageLimit : 120|8@1+ (0.02044,0) [0|5.11] "V" Vector__XXX
+ SG_ CellMaxVoltageLimit : 112|8@1+ (0.02044,0) [0|5.11] "V" Vector__XXX
+ SG_ RecommendedMinOperatingTemp : 96|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ RecommendedMaxOperatingTemp : 80|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ RecommendedMaxSoc : 64|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+ SG_ RecommendedMinSoc : 48|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+ SG_ RecommendedMaxOperatingVoltage : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+ SG_ RecommendedMinOperatingVoltage : 16|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+ SG_ NominalVoltage : 0|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+
+BO_ 2364580083 SAE_HVESSD7: 8 BMS
+ SG_ MaxChargeVoltageLimit : 48|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+ SG_ ChargeEnergyCapacity : 24|24@1+ (0.001,0) [0|16449.535] "kWh" Vector__XXX
+ SG_ DischargeEnergyCapacity : 0|24@1+ (0.001,0) [0|16449.535] "kWh" Vector__XXX
+
+BO_ 2364577267 SAE_HVESSD6: 8 BMS
+ SG_ Temp : 56|8@1+ (1,-40) [-40|210] "C" Vector__XXX
+ SG_ ElectronicsTemp : 48|8@1+ (1,-40) [-40|210] "C" Vector__XXX
+ SG_ BusVoltage : 0|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+
+BO_ 2364577011 SAE_HVESSD5: 7 BMS
+ SG_ ChargeCurrentLimit : 16|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ DischargeCurrentLimit : 0|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+
+BO_ 2364576755 SAE_HVESSD4: 8 BMS
+ SG_ CellBalancingCount : 32|16@1+ (1,0) [0|64255] "" Vector__XXX
+ SG_ ChargeCapacity : 16|16@1+ (0.01,0) [0|642.55] "Ah" Vector__XXX
+ SG_ DischargeCapacity : 0|16@1+ (0.01,0) [0|642.55] "Ah" Vector__XXX
+
+BO_ 2364576499 SAE_HVESSD3: 8 BMS
+ SG_ CellTempDifferentialStatus : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ AverageCellTemp : 32|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ LowestCellTemp : 16|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HighestCellTemp : 0|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+
+BO_ 2364576243 SAE_HVESSD2: 8 BMS
+ SG_ CellVoltageDifferentialStatus : 48|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ LowestCellVoltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HighestCellVoltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ SoC : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+
+BO_ 2364575987 SAE_HVESSD1: 8 BMS
+ SG_ Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ VoltageLevel : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+ SG_ AvailableChargePower : 16|16@1+ (0.05,0) [0|3212.75] "kW" Vector__XXX
+ SG_ AvailableDischargePower : 0|16@1+ (0.05,0) [0|3212.75] "kW" Vector__XXX
+
+BO_ 2566722889 SAE_BCH1: 8 Charger
+ SG_ BatteryCharger1OutputCurrent : 24|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ BatteryCharger1OutputVoltage : 8|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+ SG_ BatteryCharger1PowerLineState : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ BatteryCharger1State : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 2350642096 SAE_HVESSC1: 8 Hub
+ SG_ PowerDownCommand : 2|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ BusConnectCommand : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Checksum : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Counter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ OperationConsent : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 2558587824 SAE_HSC1: 8 Hub
+ SG_ ProtectionOverrideRequest : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ PropulsionDisableRequest : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ RegenBrakingDisableRequest : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ HybridShutdownCommand : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ OperatorVehicleModeRequest : 8|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ HybridPropulsionModeRequest : 12|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ ExternalEnergySourceConnectionDemand : 16|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ HvesChargeConsent : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ ConnectedEnergySourceType : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ StoredEnergyChargeDischargeRateReq : 24|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+ SG_ StoredEnergySetPointRequest : 32|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+ SG_ HybridModeRequestedMaxSpeed : 40|8@1+ (1,0) [0|250] "km/h" Vector__XXX
+ SG_ HybridModeRequestedDistance : 48|16@1+ (0.03125,0) [0|2007.96875] "km" Vector__XXX
+
+BO_ 2364642035 SAE_HVESP1D2: 8 BMS
+ SG_ HVESP1_Lowest_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP1_Highest_Cell_Voltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP1_Fast_Update_State_of_Char : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+
+BO_ 2364642291 SAE_HVESP1D3: 8 BMS
+ SG_ HVESP1_Lowest_Cell_Temperature : 16|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP1_Highest_Cell_Temperature : 0|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP1_Average_Cell_Temperature : 32|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+
+BO_ 2364645875 SAE_HVESP2D2: 8 BMS
+ SG_ HVESP2_Lowest_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP2_Highest_Cell_Voltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP2_Fast_Update_State_of_Char : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+
+BO_ 2364646131 SAE_HVESP2D3: 8 BMS
+ SG_ HVESP2_Lowest_Cell_Temperature : 16|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP2_Highest_Cell_Temperature : 0|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP2_Average_Cell_Temperature : 32|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+
+BO_ 2364649715 SAE_HVESP3D2: 8 BMS
+ SG_ HVESP3_Lowest_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP3_Highest_Cell_Voltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP3_Fast_Update_State_of_Char : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+
+BO_ 2364649971 SAE_HVESP3D3: 8 BMS
+ SG_ HVESP3_Lowest_Cell_Temperature : 16|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP3_Highest_Cell_Temperature : 0|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP3_Average_Cell_Temperature : 32|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+
+BO_ 2364653555 SAE_HVESP4D2: 8 BMS
+ SG_ HVESP4_Lowest_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP4_Highest_Cell_Voltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP4_Fast_Update_State_of_Char : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+
+BO_ 2364653811 SAE_HVESP4D3: 8 BMS
+ SG_ HVESP4_Lowest_Cell_Temperature : 16|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP4_Highest_Cell_Temperature : 0|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP4_Average_Cell_Temperature : 32|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+
+BO_ 2364657395 SAE_HVESP5D2: 8 BMS
+ SG_ HVESP5_Lowest_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP5_Highest_Cell_Voltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+ SG_ HVESP5_Fast_Update_State_of_Char : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+
+BO_ 2364657651 SAE_HVESP5D3: 8 BMS
+ SG_ HVESP5_Lowest_Cell_Temperature : 16|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP5_Highest_Cell_Temperature : 0|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+ SG_ HVESP5_Average_Cell_Temperature : 32|16@1+ (0.03125,-273) [-273|1734.96875] "C" Vector__XXX
+
+
+
+BO_ 2364641779 SAE_HVESP1D1: 8 BMS
+ SG_ HVESP1_Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ HVESP1_Voltage_Level : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+
+BO_ 2364644339 SAE_HVESP1D8: 8 BMS
+ SG_ HVESP1_Average_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+
+BO_ 2364645619 SAE_HVESP2D1: 8 BMS
+ SG_ HVESP2_Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ HVESP2_Voltage_Level : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+
+BO_ 2364648179 SAE_HVESP2D8: 8 BMS
+ SG_ HVESP2_Average_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+
+BO_ 2364649459 SAE_HVESP3D1: 8 BMS
+ SG_ HVESP3_Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ HVESP3_Voltage_Level : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+
+BO_ 2364652019 SAE_HVESP3D8: 8 BMS
+ SG_ HVESP3_Average_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+
+BO_ 2364653299 SAE_HVESP4D1: 8 BMS
+ SG_ HVESP4_Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ HVESP4_Voltage_Level : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+
+BO_ 2364655859 SAE_HVESP4D8: 8 BMS
+ SG_ HVESP4_Average_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+
+BO_ 2364657139 SAE_HVESP5D1: 8 BMS
+ SG_ HVESP5_Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+ SG_ HVESP5_Voltage_Level : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+
+BO_ 2364659699 SAE_HVESP5D8: 8 BMS
+ SG_ HVESP5_Average_Cell_Voltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+
+CM_ BO_ 2365533427 "Proprietary PGN 65324. Byte0 bits 1-0 ChargeRequest, bits 3-2 HeatingPadStatus. Byte1 CycleCount. Byte2 bits 1-0 EthEnable. Byte3-4 Hall ADC raw (mV). Byte5-6 12V sense ADC pin (mV).";
+CM_ SG_ 2365533427 CycleCount "Ah-based cycle count, 0 to 8.";
+CM_ SG_ 2365533427 HeatingPadStatus "0 Off, 1 ON, 2 invalid (Fault_HeatPadInvalid), 3 adhesion (Fault_HeatRelayAdhseionFault). Adhesion overrides invalid. Faults stay latched for the power cycle.";
+CM_ SG_ 2365533427 EthEnable "I2t Eth switch for HVESSD5 CCL/DCL. 0 Disable: I2t NORMAL, I1 Peak map. 1 Enable: I2t OVERLOAD, I0 Continuous map.";
+CM_ SG_ 2365533427 HallAdcRaw "MCU PTA15 AIN_HALL1 ADC result in mV, before Hall gain and current offset. Same value as ADC_HALL01_DET.";
+CM_ SG_ 2365533427 Adc12V "12V sense port ADC pin voltage in mV, before gain 7. PTC6 ADC1 ch4 while the analog mux is on 12V. Rail mV is about this value times 7.";
+CM_ BO_ 2364577523 "Status data set 1 for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2633785075 "Historical data for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2566675955 "Configuration data for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).
+Note that configuration data should not dynamically change during vehicle operation.";
+CM_ BO_ 2364580083 "Data set 7 (electrical) for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2364577267 "Data set 6 (external or interface data) for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2364577011 "Data set 5 (electrical data) for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2364576755 "Data set 4 (electrical data) for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2364576499 "Data set 3 (thermal data) for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2364576243 "Data set 2 (electrical data) for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2364575987 "Data set 1 (electrical data) for High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2566722889 "Parameters for the battery charger connected to the main battery.";
+CM_ BO_ 2350642096 "Control commands to be sent to High Voltage Energy Storage System (or Pack 1 in systems with only one pack).";
+CM_ BO_ 2558587824 "Hybrid or EV System Control 1 (HSC1), PGN 32768. Sent to the hybrid or EV system. PDU1, priority 6, every 1 s and on change but no faster than 100 ms. Nominal frame is Hub SA 0xB0 to BMS DA 0xF3.";
+CM_ SG_ 2558587824 StoredEnergyChargeDischargeRateReq "0.4 %/bit. FBh requests the default charge/discharge rate.";
+CM_ SG_ 2558587824 StoredEnergySetPointRequest "0.4 %/bit of usable HVES capacity. FBh requests the default set point.";
+CM_ SG_ 2558587824 HybridModeRequestedMaxSpeed "1 km/h per bit, 0 to 250. FBh means no limit is requested. FFh means the sender does not support this parameter.";
+CM_ SG_ 2558587824 HybridModeRequestedDistance "0.03125 km/bit. FB00h means no requested distance. FFFFh means not supported; distance is unlimited or the manufacturer default.";
+CM_ BO_ 2364642035 "Data set 2 (electrical data) for High Voltage Energy Storage Pack 1.";
+CM_ BO_ 2364642291 "Data set 3 (thermal data) for High Voltage Energy Storage Pack 1.";
+CM_ BO_ 2364645875 "Data set 2 (electrical data) for High Voltage Energy Storage Pack 2.";
+CM_ BO_ 2364646131 "Data set 3 (thermal data) for High Voltage Energy Storage Pack 2.";
+CM_ BO_ 2364649715 "Data set 2 (electrical data) for High Voltage Energy Storage Pack 3.";
+CM_ BO_ 2364649971 "Data set 3 (thermal data) for High Voltage Energy Storage Pack 3.";
+CM_ BO_ 2364653555 "Data set 2 (electrical data) for High Voltage Energy Storage Pack 4.";
+CM_ BO_ 2364653811 "Data set 3 (thermal data) for High Voltage Energy Storage Pack 4.";
+CM_ BO_ 2364657395 "Data set 2 (electrical data) for High Voltage Energy Storage Pack 5.";
+CM_ BO_ 2364657651 "Data set 3 (thermal data) for High Voltage Energy Storage Pack 5.";
+CM_ BO_ 2364641779 "Data set 1 (electrical data) for High Voltage Energy Storage Pack 1.";
+CM_ BO_ 2364644339 "Data set 8 (electrical data) for High Voltage Energy Storage Pack 1.";
+CM_ BO_ 2364645619 "Data set 1 (electrical data) for High Voltage Energy Storage Pack 2.";
+CM_ BO_ 2364648179 "Data set 8 (electrical data) for High Voltage Energy Storage Pack 2.";
+CM_ BO_ 2364649459 "Data set 1 (electrical data) for High Voltage Energy Storage Pack 3.";
+CM_ BO_ 2364652019 "Data set 8 (electrical data) for High Voltage Energy Storage Pack 3.";
+CM_ BO_ 2364653299 "Data set 1 (electrical data) for High Voltage Energy Storage Pack 4.";
+CM_ BO_ 2364655859 "Data set 8 (electrical data) for High Voltage Energy Storage Pack 4.";
+CM_ BO_ 2364657139 "Data set 1 (electrical data) for High Voltage Energy Storage Pack 5.";
+CM_ BO_ 2364659699 "Data set 8 (electrical data) for High Voltage Energy Storage Pack 5.";
+BA_DEF_ BO_  "TpJ1939VarDlc" ENUM  "No","Yes";
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl","MessageCounter","MessageChecksum";
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigILSupport" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 1000000;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 2147483647;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BU_  "NmJ1939System" INT 0 127;
+BA_DEF_ BU_  "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_  "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_  "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939ECUInstance" INT 0 3;
+BA_DEF_ BU_  "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgRequestable" INT 0 1;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_ SG_  "SystemSignalLongSymbol" STRING ;
+BA_DEF_DEF_  "TpJ1939VarDlc" "No";
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "GenSigEVName" "Env@Nodename_@Signame";
+BA_DEF_DEF_  "GenSigILSupport" "Yes";
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_  "NmJ1939System" 0;
+BA_DEF_DEF_  "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_  "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_  "NmJ1939IdentityNumber" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_  "NmJ1939AAC" 0;
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgRequestable" 1;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_DEF_DEF_  "SystemSignalLongSymbol" "";
+BA_ "BusType" "CAN";
+BA_ "DBName" "CAN_E";
+BA_ "NmStationAddress" BU_ Charger 73;
+BA_ "NmStationAddress" BU_ BMS 243;
+BA_ "NmStationAddress" BU_ Hub 176;
+BA_ "GenMsgCycleTime" BO_ 2365533427 100;
+BA_ "VFrameFormat" BO_ 2365533427 3;
+BA_ "VFrameFormat" BO_ 2566839038 3;
+BA_ "VFrameFormat" BO_ 2364607219 3;
+BA_ "GenMsgCycleTime" BO_ 2364577523 100;
+BA_ "VFrameFormat" BO_ 2364577523 3;
+BA_ "VFrameFormat" BO_ 2633785075 3;
+BA_ "VFrameFormat" BO_ 2566675955 3;
+BA_ "GenMsgCycleTime" BO_ 2364580083 100;
+BA_ "VFrameFormat" BO_ 2364580083 3;
+BA_ "GenMsgCycleTime" BO_ 2364577267 100;
+BA_ "VFrameFormat" BO_ 2364577267 3;
+BA_ "GenMsgCycleTime" BO_ 2364577011 20;
+BA_ "VFrameFormat" BO_ 2364577011 3;
+BA_ "GenMsgCycleTime" BO_ 2364576755 100;
+BA_ "VFrameFormat" BO_ 2364576755 3;
+BA_ "GenMsgCycleTime" BO_ 2364576499 20;
+BA_ "VFrameFormat" BO_ 2364576499 3;
+BA_ "GenMsgCycleTime" BO_ 2364576243 20;
+BA_ "VFrameFormat" BO_ 2364576243 3;
+BA_ "GenMsgCycleTime" BO_ 2364575987 20;
+BA_ "VFrameFormat" BO_ 2364575987 3;
+BA_ "GenMsgCycleTime" BO_ 2566722889 1000;
+BA_ "VFrameFormat" BO_ 2566722889 3;
+BA_ "GenMsgCycleTime" BO_ 2350642096 20;
+BA_ "VFrameFormat" BO_ 2350642096 3;
+BA_ "GenMsgCycleTime" BO_ 2558587824 1000;
+BA_ "VFrameFormat" BO_ 2558587824 3;
+BA_ "GenMsgCycleTime" BO_ 2364642035 20;
+BA_ "VFrameFormat" BO_ 2364642035 3;
+BA_ "GenMsgCycleTime" BO_ 2364642291 20;
+BA_ "VFrameFormat" BO_ 2364642291 3;
+BA_ "GenMsgCycleTime" BO_ 2364645875 20;
+BA_ "VFrameFormat" BO_ 2364645875 3;
+BA_ "GenMsgCycleTime" BO_ 2364646131 20;
+BA_ "VFrameFormat" BO_ 2364646131 3;
+BA_ "GenMsgCycleTime" BO_ 2364649715 20;
+BA_ "VFrameFormat" BO_ 2364649715 3;
+BA_ "GenMsgCycleTime" BO_ 2364649971 20;
+BA_ "VFrameFormat" BO_ 2364649971 3;
+BA_ "GenMsgCycleTime" BO_ 2364653555 20;
+BA_ "VFrameFormat" BO_ 2364653555 3;
+BA_ "GenMsgCycleTime" BO_ 2364653811 20;
+BA_ "VFrameFormat" BO_ 2364653811 3;
+BA_ "GenMsgCycleTime" BO_ 2364657395 20;
+BA_ "VFrameFormat" BO_ 2364657395 3;
+BA_ "GenMsgCycleTime" BO_ 2364657651 20;
+BA_ "VFrameFormat" BO_ 2364657651 3;
+BA_ "GenMsgCycleTime" BO_ 2364641779 20;
+BA_ "VFrameFormat" BO_ 2364641779 3;
+BA_ "GenMsgCycleTime" BO_ 2364644339 100;
+BA_ "VFrameFormat" BO_ 2364644339 3;
+BA_ "GenMsgCycleTime" BO_ 2364645619 20;
+BA_ "VFrameFormat" BO_ 2364645619 3;
+BA_ "GenMsgCycleTime" BO_ 2364648179 100;
+BA_ "VFrameFormat" BO_ 2364648179 3;
+BA_ "GenMsgCycleTime" BO_ 2364649459 20;
+BA_ "VFrameFormat" BO_ 2364649459 3;
+BA_ "GenMsgCycleTime" BO_ 2364652019 100;
+BA_ "VFrameFormat" BO_ 2364652019 3;
+BA_ "GenMsgCycleTime" BO_ 2364653299 20;
+BA_ "VFrameFormat" BO_ 2364653299 3;
+BA_ "GenMsgCycleTime" BO_ 2364655859 100;
+BA_ "VFrameFormat" BO_ 2364655859 3;
+BA_ "GenMsgCycleTime" BO_ 2364657139 20;
+BA_ "VFrameFormat" BO_ 2364657139 3;
+BA_ "GenMsgCycleTime" BO_ 2364659699 100;
+BA_ "VFrameFormat" BO_ 2364659699 3;
+BA_ "SPN" SG_ 2364577523 HVDisconnect 8093;
+BA_ "SPN" SG_ 2364577523 NumberOfHvespReady 12905;
+BA_ "SPN" SG_ 2364577523 OperationalStatus 8414;
+BA_ "SPN" SG_ 2364577523 CellBalancingActive 8102;
+BA_ "SPN" SG_ 2364577523 CellBalanceStatus 8101;
+BA_ "SPN" SG_ 2364577523 Checksum 13014;
+BA_ "SPN" SG_ 2364577523 Counter 13013;
+BA_ "GenSigStartValue" SG_ 2633785075 LifetimeMinCurrent 32000;
+BA_ "GenSigStartValue" SG_ 2633785075 LifetimeMaxCurrent 32000;
+BA_ "GenSigStartValue" SG_ 2633785075 LifetimeMinTemp 8736;
+BA_ "GenSigStartValue" SG_ 2633785075 LifetimeMaxTemp 8736;
+BA_ "SPN" SG_ 2633785075 TotalLifetimeEnergyOutput 13366;
+BA_ "SPN" SG_ 2633785075 TotalLifetimeEnergyInput 13365;
+BA_ "SPN" SG_ 2633785075 TotalAccumulatedCharge 8212;
+BA_ "SPN" SG_ 2633785075 TotalEnergyThroughput 8211;
+BA_ "SPN" SG_ 2633785075 SoH 8121;
+BA_ "SPN" SG_ 2566675955 NumberOfHvespConfigured 12904;
+BA_ "SPN" SG_ 2566675955 CellMinVoltageLimit 8210;
+BA_ "SPN" SG_ 2566675955 CellMaxVoltageLimit 8209;
+BA_ "GenSigStartValue" SG_ 2566675955 RecommendedMinOperatingTemp 8736;
+BA_ "SPN" SG_ 2566675955 RecommendedMinOperatingTemp 8208;
+BA_ "GenSigStartValue" SG_ 2566675955 RecommendedMaxOperatingTemp 8736;
+BA_ "SPN" SG_ 2566675955 RecommendedMaxOperatingTemp 8120;
+BA_ "SPN" SG_ 2566675955 RecommendedMaxSoc 8119;
+BA_ "SPN" SG_ 2566675955 RecommendedMinSoc 8118;
+BA_ "SPN" SG_ 2566675955 RecommendedMaxOperatingVoltage 8117;
+BA_ "SPN" SG_ 2566675955 RecommendedMinOperatingVoltage 8116;
+BA_ "SPN" SG_ 2566675955 NominalVoltage 8115;
+BA_ "SPN" SG_ 2364580083 MaxChargeVoltageLimit 8090;
+BA_ "SPN" SG_ 2364580083 ChargeEnergyCapacity 8206;
+BA_ "SPN" SG_ 2364580083 DischargeEnergyCapacity 8205;
+BA_ "GenSigStartValue" SG_ 2364577267 Temp 40;
+BA_ "SPN" SG_ 2364577267 Temp 9119;
+BA_ "GenSigStartValue" SG_ 2364577267 ElectronicsTemp 40;
+BA_ "SPN" SG_ 2364577267 ElectronicsTemp 8204;
+BA_ "SPN" SG_ 2364577267 BusVoltage 8086;
+BA_ "GenSigStartValue" SG_ 2364577011 ChargeCurrentLimit 32000;
+BA_ "SPN" SG_ 2364577011 ChargeCurrentLimit 8083;
+BA_ "GenSigStartValue" SG_ 2364577011 DischargeCurrentLimit 32000;
+BA_ "SPN" SG_ 2364577011 DischargeCurrentLimit 8082;
+BA_ "SPN" SG_ 2364576755 CellBalancingCount 8081;
+BA_ "SPN" SG_ 2364576755 ChargeCapacity 8080;
+BA_ "SPN" SG_ 2364576755 DischargeCapacity 8079;
+BA_ "SPN" SG_ 2364576499 CellTempDifferentialStatus 8078;
+BA_ "GenSigStartValue" SG_ 2364576499 AverageCellTemp 8736;
+BA_ "SPN" SG_ 2364576499 AverageCellTemp 8077;
+BA_ "GenSigStartValue" SG_ 2364576499 LowestCellTemp 8736;
+BA_ "SPN" SG_ 2364576499 LowestCellTemp 8076;
+BA_ "GenSigStartValue" SG_ 2364576499 HighestCellTemp 8736;
+BA_ "SPN" SG_ 2364576499 HighestCellTemp 8075;
+BA_ "SPN" SG_ 2364576243 CellVoltageDifferentialStatus 5924;
+BA_ "SPN" SG_ 2364576243 LowestCellVoltage 5923;
+BA_ "SPN" SG_ 2364576243 HighestCellVoltage 5922;
+BA_ "SPN" SG_ 2364576243 SoC 5921;
+BA_ "GenSigStartValue" SG_ 2364575987 Current 32000;
+BA_ "SPN" SG_ 2364575987 Current 5920;
+BA_ "SPN" SG_ 2364575987 VoltageLevel 5919;
+BA_ "SPN" SG_ 2364575987 AvailableChargePower 5918;
+BA_ "SPN" SG_ 2364575987 AvailableDischargePower 5917;
+BA_ "GenSigStartValue" SG_ 2566722889 BatteryCharger1OutputCurrent 32000;
+BA_ "SPN" SG_ 2350642096 BusConnectCommand 8123;
+BA_ "SPN" SG_ 2350642096 Checksum 13028;
+BA_ "SPN" SG_ 2350642096 Counter 13027;
+BA_ "SPN" SG_ 2350642096 OperationConsent 8412;
+BA_ "SPN" SG_ 2558587824 ProtectionOverrideRequest 7557;
+BA_ "SPN" SG_ 2558587824 PropulsionDisableRequest 7558;
+BA_ "SPN" SG_ 2558587824 RegenBrakingDisableRequest 7559;
+BA_ "SPN" SG_ 2558587824 HybridShutdownCommand 7560;
+BA_ "SPN" SG_ 2558587824 OperatorVehicleModeRequest 7888;
+BA_ "SPN" SG_ 2558587824 HybridPropulsionModeRequest 7889;
+BA_ "SPN" SG_ 2558587824 ExternalEnergySourceConnectionDemand 7890;
+BA_ "SPN" SG_ 2558587824 HvesChargeConsent 10148;
+BA_ "SPN" SG_ 2558587824 ConnectedEnergySourceType 13154;
+BA_ "SPN" SG_ 2558587824 StoredEnergyChargeDischargeRateReq 7891;
+BA_ "SPN" SG_ 2558587824 StoredEnergySetPointRequest 7892;
+BA_ "SPN" SG_ 2558587824 HybridModeRequestedMaxSpeed 9706;
+BA_ "SPN" SG_ 2558587824 HybridModeRequestedDistance 9707;
+BA_ "SPN" SG_ 2364642035 HVESP1_Lowest_Cell_Voltage 11056;
+BA_ "SPN" SG_ 2364642035 HVESP1_Highest_Cell_Voltage 11055;
+BA_ "SPN" SG_ 2364642035 HVESP1_Fast_Update_State_of_Char 11054;
+BA_ "SystemSignalLongSymbol" SG_ 2364642035 HVESP1_Fast_Update_State_of_Char "HVESP1_Fast_Update_State_of_Charge";
+BA_ "GenSigStartValue" SG_ 2364642291 HVESP1_Lowest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364642291 HVESP1_Lowest_Cell_Temperature 11059;
+BA_ "GenSigStartValue" SG_ 2364642291 HVESP1_Highest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364642291 HVESP1_Highest_Cell_Temperature 11058;
+BA_ "GenSigStartValue" SG_ 2364642291 HVESP1_Average_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364642291 HVESP1_Average_Cell_Temperature 11060;
+BA_ "SPN" SG_ 2364645875 HVESP2_Lowest_Cell_Voltage 11172;
+BA_ "SPN" SG_ 2364645875 HVESP2_Highest_Cell_Voltage 11171;
+BA_ "SPN" SG_ 2364645875 HVESP2_Fast_Update_State_of_Char 11170;
+BA_ "SystemSignalLongSymbol" SG_ 2364645875 HVESP2_Fast_Update_State_of_Char "HVESP2_Fast_Update_State_of_Charge";
+BA_ "GenSigStartValue" SG_ 2364646131 HVESP2_Lowest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364646131 HVESP2_Lowest_Cell_Temperature 11175;
+BA_ "GenSigStartValue" SG_ 2364646131 HVESP2_Highest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364646131 HVESP2_Highest_Cell_Temperature 11174;
+BA_ "GenSigStartValue" SG_ 2364646131 HVESP2_Average_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364646131 HVESP2_Average_Cell_Temperature 11176;
+BA_ "SPN" SG_ 2364649715 HVESP3_Lowest_Cell_Voltage 11288;
+BA_ "SPN" SG_ 2364649715 HVESP3_Highest_Cell_Voltage 11287;
+BA_ "SPN" SG_ 2364649715 HVESP3_Fast_Update_State_of_Char 11286;
+BA_ "SystemSignalLongSymbol" SG_ 2364649715 HVESP3_Fast_Update_State_of_Char "HVESP3_Fast_Update_State_of_Charge";
+BA_ "GenSigStartValue" SG_ 2364649971 HVESP3_Lowest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364649971 HVESP3_Lowest_Cell_Temperature 11291;
+BA_ "GenSigStartValue" SG_ 2364649971 HVESP3_Highest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364649971 HVESP3_Highest_Cell_Temperature 11290;
+BA_ "GenSigStartValue" SG_ 2364649971 HVESP3_Average_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364649971 HVESP3_Average_Cell_Temperature 11292;
+BA_ "SPN" SG_ 2364653555 HVESP4_Lowest_Cell_Voltage 11404;
+BA_ "SPN" SG_ 2364653555 HVESP4_Highest_Cell_Voltage 11403;
+BA_ "SPN" SG_ 2364653555 HVESP4_Fast_Update_State_of_Char 11402;
+BA_ "SystemSignalLongSymbol" SG_ 2364653555 HVESP4_Fast_Update_State_of_Char "HVESP4_Fast_Update_State_of_Charge";
+BA_ "GenSigStartValue" SG_ 2364653811 HVESP4_Lowest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364653811 HVESP4_Lowest_Cell_Temperature 11407;
+BA_ "GenSigStartValue" SG_ 2364653811 HVESP4_Highest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364653811 HVESP4_Highest_Cell_Temperature 11406;
+BA_ "GenSigStartValue" SG_ 2364653811 HVESP4_Average_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364653811 HVESP4_Average_Cell_Temperature 11408;
+BA_ "SPN" SG_ 2364657395 HVESP5_Lowest_Cell_Voltage 11520;
+BA_ "SPN" SG_ 2364657395 HVESP5_Highest_Cell_Voltage 11519;
+BA_ "SPN" SG_ 2364657395 HVESP5_Fast_Update_State_of_Char 11518;
+BA_ "SystemSignalLongSymbol" SG_ 2364657395 HVESP5_Fast_Update_State_of_Char "HVESP5_Fast_Update_State_of_Charge";
+BA_ "GenSigStartValue" SG_ 2364657651 HVESP5_Lowest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364657651 HVESP5_Lowest_Cell_Temperature 11523;
+BA_ "GenSigStartValue" SG_ 2364657651 HVESP5_Highest_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364657651 HVESP5_Highest_Cell_Temperature 11522;
+BA_ "GenSigStartValue" SG_ 2364657651 HVESP5_Average_Cell_Temperature 8736;
+BA_ "SPN" SG_ 2364657651 HVESP5_Average_Cell_Temperature 11524;
+BA_ "GenSigStartValue" SG_ 2364641779 HVESP1_Current 32000;
+BA_ "SPN" SG_ 2364641779 HVESP1_Current 11053;
+BA_ "SPN" SG_ 2364641779 HVESP1_Voltage_Level 11052;
+BA_ "SPN" SG_ 2364644339 HVESP1_Average_Cell_Voltage 11119;
+BA_ "GenSigStartValue" SG_ 2364645619 HVESP2_Current 32000;
+BA_ "SPN" SG_ 2364645619 HVESP2_Current 11169;
+BA_ "SPN" SG_ 2364645619 HVESP2_Voltage_Level 11168;
+BA_ "SPN" SG_ 2364648179 HVESP2_Average_Cell_Voltage 11235;
+BA_ "GenSigStartValue" SG_ 2364649459 HVESP3_Current 32000;
+BA_ "SPN" SG_ 2364649459 HVESP3_Current 11285;
+BA_ "SPN" SG_ 2364649459 HVESP3_Voltage_Level 11284;
+BA_ "SPN" SG_ 2364652019 HVESP3_Average_Cell_Voltage 11351;
+BA_ "GenSigStartValue" SG_ 2364653299 HVESP4_Current 32000;
+BA_ "SPN" SG_ 2364653299 HVESP4_Current 11401;
+BA_ "SPN" SG_ 2364653299 HVESP4_Voltage_Level 11400;
+BA_ "SPN" SG_ 2364655859 HVESP4_Average_Cell_Voltage 11467;
+BA_ "GenSigStartValue" SG_ 2364657139 HVESP5_Current 32000;
+BA_ "SPN" SG_ 2364657139 HVESP5_Current 11517;
+BA_ "SPN" SG_ 2364657139 HVESP5_Voltage_Level 11516;
+BA_ "SPN" SG_ 2364659699 HVESP5_Average_Cell_Voltage 11583;
+VAL_ 2365533427 HeatingPadStatus 3 "Heating pad adhesion" 2 "Heating pad invalid" 1 "Heating pad On" 0 "Heating pad Off" ;
+VAL_ 2365533427 EthEnable 1 "Enable, Continuous map" 0 "Disable, Peak map" ;
+VAL_ 2365533427 ChargeRequest 3 "Not Available" 2 "Not Used" 1 "Charge Request" 0 "Charge Not request" ;
+VAL_ 2364577523 HVDisconnect 15 "Not Available" 14 "Error" 1 "Disconnect Forewarning" 0 "No Disconnect Forewarning" ;
+VAL_ 2364577523 OperationalStatus 15 "Not Available" 14 "Error" 13 "Reserved" 12 "Heating - Discharge" 11 "Charging" 10 "Pre-Charge" 9 "Heating - Charge" 8 "Pre-Heat" 7 "Charge Initialization In Process" 6 "Disabled - Internal Command" 5 "Disabled - External Command" 4 "Emergency Power Down" 3 "Normal Power Down" 2 "Operational" 1 "Initialization Complete" 0 "Initialization In Process" ;
+VAL_ 2364577523 CellBalancingActive 3 "Not Available" 2 "Error" 1 "Active" 0 "Not Active" ;
+VAL_ 2364577523 CellBalanceStatus 3 "Not Available" 2 "Error" 1 "Cells Unbalanced" 0 "Cells Balanced" ;
+VAL_ 2364576499 CellTempDifferentialStatus 3 "Not Available" 2 "Error" 1 "Unacceptable" 0 "Acceptable" ;
+VAL_ 2364576243 CellVoltageDifferentialStatus 15 "Not Available" 14 "Error" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Unknown" 3 "Cannot Balance" 2 "Requires Maintenance Balancing" 1 "Requires Auto-Balancing" 0 "Acceptable" ;
+VAL_ 2566722889 BatteryCharger1PowerLineState 3 "Not Available" 2 "Error" 1 "Connected" 0 "Disconnected" ;
+VAL_ 2566722889 BatteryCharger1State 15 "Not Available" 14 "Charger Failure" 13 "Battery Failure" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Reserved" 2 "Stand-by" 1 "Charging" 0 "Idling" ;
+VAL_ 2350642096 BusConnectCommand 3 "Not Available" 2 "Error" 1 "Closed" 0 "Open" ;
+VAL_ 2350642096 OperationConsent 3 "Not Available" 2 "Error" 1 "Consent Given" 0 "Consent Revoked" ;
+VAL_ 2558587824 ProtectionOverrideRequest 3 "Don't care / take no action" 2 "Reserved" 1 "Active" 0 "Not active" ;
+VAL_ 2558587824 PropulsionDisableRequest 3 "Don't Care / Take No Action" 2 "Reserved" 1 "On" 0 "Off" ;
+VAL_ 2558587824 RegenBrakingDisableRequest 3 "Don't care / take no action" 2 "Reserved" 1 "Active" 0 "Not active" ;
+VAL_ 2558587824 HybridShutdownCommand 3 "Don't Care / Take No Action" 2 "Reserved" 1 "On" 0 "Off" ;
+VAL_ 2558587824 OperatorVehicleModeRequest 15 "Not Available" 14 "Error" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Propulsion Active" 2 "Stored Energy Source Active" 1 "Low Voltage Accessory" 0 "Off" ;
+VAL_ 2558587824 HybridPropulsionModeRequest 15 "Not Available" 14 "Error" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Stored Energy Source Only" 4 "Stored Energy Source Offline" 3 "Stored Energy Source Depleting" 2 "Stored Energy Source Increasing" 1 "Stored Energy Source Sustaining" 0 "No mode requested" ;
+VAL_ 2558587824 ExternalEnergySourceConnectionDemand 15 "No Request/Take no action" 14 "Disconnect Request" 13 "SAE Reserved" 12 "Energy Drain Connection 3" 11 "Energy Source Connection 3" 10 "Energy Drain or Source Connection 3" 9 "Perform Connection 3 Verification" 8 "Energy Drain Connection 2" 7 "Energy Source Connection 2" 6 "Energy Drain or Source Connection 2" 5 "Perform Connection 2 Verification" 4 "Energy Drain Connection 1" 3 "Energy Source Connection 1" 2 "Energy Drain or Source Connection 1" 1 "Perform Connection 1 Verification" 0 "No Connection" ;
+VAL_ 2558587824 HvesChargeConsent 3 "Not Available" 2 "SAE Reserved" 1 "Charging allowed" 0 "Charging not allowed" ;
+VAL_ 2558587824 ConnectedEnergySourceType 3 "Don't care / Take no action" 2 "SAE Reserved" 1 "DC Energy source" 0 "AC Energy source" ;

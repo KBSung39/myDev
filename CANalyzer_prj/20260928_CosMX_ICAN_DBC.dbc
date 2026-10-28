@@ -1,0 +1,2787 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 2283413762 BCU_DATA_27: 8 Vector__XXX
+ SG_ Current_Hall01_Det : 55|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ ADC_Hall01_Det : 39|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ InsulationValue_04 : 23|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2283348226 BCU_DATA_26: 8 Vector__XXX
+ SG_ InsulationValue_03 : 55|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ InsulationValue_02 : 39|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ InsulationValue_01 : 23|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2281709826 BCU_DATA_1: 8 Vector__XXX
+ SG_ BCU_DATA_1_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BatteryTotalVol_Sum m10 : 23|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ BAT_Voltage m10 : 39|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ PCS_Voltage m10 : 55|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ BMU_Online_Count m12 : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ BMU1_Address m12 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU1_Cell_Count m12 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU1_Cell_Voltage1 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU_Online_Count13 m13 : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ BCU_Temp_Count m13 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BCU_Temp1 m13 : 55|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU_Temp_Address m13 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CellSamp_Status1 m11 : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NCTSamp_Status1 m11 : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TerminalHighTemp_Status1 m11 : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reserve1 m11 : 23|5@0+ (1,0) [0|31] "" Vector__XXX
+ SG_ SOCLow_Status1 m11 : 24|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosInsulationLeakage_Status1 m11 : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegInsulationLeakage_Status1 m11 : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeVolDiff_Status1 m11 : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeVolDiff_Status1 m11 : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeTempDiff_Status1 m11 : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeTempDiff_Status1 m11 : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellTempRise_Status1 m11 : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeLowTemp_Status1 m11 : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeLowTemp_Status1 m11 : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Env_HighTemp_Status1 m11 : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Env_LowTemp_Status1 m11 : 35|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_High_Volt_Status1 m11 : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_Low_Volt_Status1 m11 : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_Volt_Diff_Status1 m11 : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOC_High_Status1 m11 : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cell_HighVol_Status1 m11 : 40|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cell_LowVol_Status1 m11 : 41|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Pack_HighVol_Status1 m11 : 42|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Pack_LowVol_Status1 m11 : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charge_OverCurrenr_Status1 m11 : 44|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Disharge_OverCurrenr_Status1 m11 : 45|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charge_HighTemp_Status1 m11 : 46|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Disharge_HighTemp_Status1 m11 : 47|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellSamp_Status2 m11 : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NCTSamp_Status2 m11 : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TerminalHighTemp_Status2 m11 : 50|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reserve2 m11 : 55|5@0+ (1,0) [0|31] "" Vector__XXX
+ SG_ SOCLow_Status2 m11 : 56|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosInsulationLeakage_Status2 m11 : 57|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegInsulationLeakage_Status2 m11 : 58|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeVolDiff_Status2 m11 : 59|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeVolDiff_Status2 m11 : 60|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeTempDiff_Status2 m11 : 61|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeTempDiff_Status2 m11 : 62|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellTempRise_Status2 m11 : 63|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2281775362 BCU_DATA_2: 8 Vector__XXX
+ SG_ BCU_DATA_2_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Negative_Voltage m10 : 23|16@0+ (0.1,0) [0|6553.5] "v" Vector__XXX
+ SG_ Fuse_Voltage m10 : 39|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Hardware_Voltage m10 : 55|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ BMU1_Cell_Voltage2 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage3 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage4 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BCU_Temp3 m13 : 39|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BCU_Temp4 m13 : 55|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BCU_Temp2 m13 : 23|16@0+ (0.1,0.1) [0.1|6553.6] "???C" Vector__XXX
+ SG_ ChargeLowTemp_Status2 m11 : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeLowTemp_Status2 m11 : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Env_HighTemp_Status2 m11 : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Env_LowTemp_Status2 m11 : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_High_Volt_Status2 m11 : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_Low_Volt_Status2 m11 : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_Volt_Diff_Status2 m11 : 22|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOC_High_Status2 m11 : 23|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cell_HighVol_Status2 m11 : 24|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cell_LowVol_Status2 m11 : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Pack_HighVol_Status2 m11 : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Pack_LowVol_Status2 m11 : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charge_OverCurrenr_Status2 m11 : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Disharge_OverCurrenr_Status2 m11 : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charge_HighTemp_Status2 m11 : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Disharge_HighTemp_Status2 m11 : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellSamp_Status3 m11 : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NCTSamp_Status3 m11 : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TerminalHighTemp_Status3 m11 : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reserve3 m11 : 39|5@0+ (1,0) [0|31] "" Vector__XXX
+ SG_ SOCLow_Status3 m11 : 40|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosInsulationLeakage_Status3 m11 : 41|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegInsulationLeakage_Status3 m11 : 42|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeVolDiff_Status3 m11 : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeVolDiff_Status3 m11 : 44|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeTempDiff_Status3 m11 : 45|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeTempDiff_Status3 m11 : 46|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellTempRise_Status3 m11 : 47|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeLowTemp_Status3 m11 : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeLowTemp_Status3 m11 : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Env_HighTemp_Status3 m11 : 50|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Env_LowTemp_Status3 m11 : 51|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_High_Volt_Status3 m11 : 52|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_Low_Volt_Status3 m11 : 53|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Module_Volt_Diff_Status3 m11 : 54|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOC_High_Status3 m11 : 55|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cell_HighVol_Status3 m11 : 56|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cell_LowVol_Status3 m11 : 57|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Pack_HighVol_Status3 m11 : 58|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Pack_LowVol_Status3 m11 : 59|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charge_OverCurrenr_Status3 m11 : 60|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Disharge_OverCurrenr_Status3 m11 : 61|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charge_HighTemp_Status3 m11 : 62|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Disharge_HighTemp_Status3 m11 : 63|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2281840898 BCU_DATA_3: 8 Vector__XXX
+ SG_ BCU_DATA_3_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Voltage_24V m10 : 23|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Voltage_3_3V m10 : 39|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Env_Temp m10 : 55|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU1_Cell_Voltage5 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage6 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage7 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Temp6 m13 : 39|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU1_Temp7 m13 : 55|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU1_Temp5 m13 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ Reserve11 m11 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ PowerDetectionFaultStaus m11 : 24|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TempSensor_FaultStatus m11 : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN_CommLose_FaultStatus m11 : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FuseVol_FaultStatus m11 : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeLoop_FaultStatus m11 : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeLoop_FaultStatus m11 : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOH_FaultStatus m11 : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LimitVol_FaultStatus m11 : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ InternalCommunicaito_FaultStatus m11 : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatMosFai_FaultStatus m11 : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Vol12V_FaultStatus m11 : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cell_FaultStatus m11 : 35|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PreCharge_FaultStatus m11 : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Heat_FaultStatus m11 : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ InsulationBoard_Comm_FaultStatus m11 : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DaisyChain_Comm_FaultStatus m11 : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeMOS_Adh_FaultStatus m11 : 40|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeMOS_Fail_FaultStatus m11 : 41|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeMOS_Adh_FaultStatus m11 : 42|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeMOS_Fail_FaultStatus m11 : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PrechargeMOS_Adh_FaultStatus m11 : 44|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PrechargeMOS_Fail_FaultStatus m11 : 45|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegMOS_Adh_FaultStatus m11 : 46|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegMOS_Fail_FaultStatus m11 : 47|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reserve2 m11 : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2281906434 BCU_DATA_4: 8 Vector__XXX
+ SG_ BCU_DATA_4_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Real_SOC m10 : 55|16@0+ (1,0) [0|65535] "%" Vector__XXX
+ SG_ Current m10 : 23|32@0+ (0.1,3000) [3000|429499729.5] "A" Vector__XXX
+ SG_ BMU1_Cell_Voltage8 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage9 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage10 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Temp8 m13 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Temp9 m13 : 39|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Temp10 m13 : 55|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ Reserve m11 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ LimitCurrent_ControlStatus m11 : 24|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChargeMOS_ControlStatus m11 : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DischargeMOS_ControlStatus m11 : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegMOS_ControlStatus m11 : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatMOS_ControlStatus m11 : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reserve2 m11 : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PreChargeMOS_ControlStatus m11 : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Trip_ControlStatus m11 : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reserve3 m11 : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Parallel_End m11 : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Parallel_Success m11 : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Parallel_Abnormal m11 : 50|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Insulation_Start m11 : 51|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Insulation_End m11 : 52|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Insulation_CheckEnd m11 : 53|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Insulation_CheckFail m11 : 54|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FullCharge m11 : 55|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Pack_PowerSupply m11 : 56|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reserve4 m11 : 57|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charger_Access m11 : 58|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Shutdown_Status m11 : 59|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ StrongCharge_Indicate m11 : 60|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PreCharge_Fail m11 : 61|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FirmwareUpdate_Success m11 : 62|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Parallel_Start m11 : 63|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2281971970 BCU_DATA_5: 8 Vector__XXX
+ SG_ BCU_DATA_5_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ SOE m10 : 55|16@0+ (0.1,0) [0|6553.5] "%" Vector__XXX
+ SG_ Show_SOC m10 : 39|16@0+ (0.1,0) [0|6553.5] "%" Vector__XXX
+ SG_ Cali_SOC m10 : 23|16@0+ (0.1,0) [0|6553.5] "%" Vector__XXX
+ SG_ BMU1_Cell_Voltage11 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage12 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage13 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ SpecialStatus m11 : 23|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ SystemStatus m11 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BatteryStatus m11 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU2_Temp12 m13 : 39|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Temp11 m13 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Temp13 m13 : 55|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+
+BO_ 2282103042 BCU_DATA_7: 8 Vector__XXX
+ SG_ BCU_DATA_7_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Show_BatRemain_Capacity m10 : 39|32@0+ (10,0) [0|42949672950] "mAH" Vector__XXX
+ SG_ BMU_Num m10 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU_OnlineCount m10 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU2_Address m12 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU2_Cell_Count m12 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMU2_Cell_Voltage1 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage2 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2282168578 BCU_DATA_8: 8 Vector__XXX
+ SG_ BCU_DATA_8_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Real_BatFull_Capacity m10 : 39|32@0+ (10,0) [0|42949672950] "mAH" Vector__XXX
+ SG_ B_Pos_Temp m10 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Cell_Voltage3 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage4 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage5 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2282234114 BCU_DATA_9: 8 Vector__XXX
+ SG_ BCU_DATA_9_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Show_BatFull_Capacity m10 : 39|32@0+ (10,0) [0|42949672950] "mAH" Vector__XXX
+ SG_ B_Neg_Temp m10 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Cell_Voltage6 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage7 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage8 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2282299650 BCU_DATA_10: 8 Vector__XXX
+ SG_ BCU_DATA_10_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sum_ChgCapacity m10 : 39|32@0+ (10,0) [0|42949672950] "mAH" Vector__XXX
+ SG_ P_Pos_Temp m10 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Cell_Voltage9 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage10 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage11 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2282365186 BCU_DATA_11: 8 Vector__XXX
+ SG_ BCU_DATA_11_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sum_DsgCapacity m10 : 39|32@0+ (10,0) [0|42949672950] "mAH" Vector__XXX
+ SG_ P_Neg_Temp m10 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Cell_Voltage12 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage13 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage14 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2282430722 BCU_DATA_12: 8 Vector__XXX
+ SG_ BCU_DATA_12_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Bat_Design_Capacity m10 : 39|32@0+ (10,0) [0|42949672950] "mAH" Vector__XXX
+ SG_ Reserve0B m10 : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ BMU2_Cell_Voltage15 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Cell_Voltage16 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+
+BO_ 2282496258 BCU_DATA_13: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Cycle_Count : 39|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ Reserve0C : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2282561794 BCU_DATA_14: 8 Vector__XXX
+ SG_ Pos_Insulation_Resis : 39|32@0+ (100,0) [0|429496729500] "??Y" Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Reserve0D : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2282627330 BCU_DATA_15: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Neg_Insulation_Resis : 39|32@0+ (100,0) [0|429496729500] "??Y" Vector__XXX
+ SG_ Reserve0E : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2282692866 BCU_DATA_16: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Max_Cell_Vol_Address : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Min_Cell_Voltage : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ Max_Cell_Voltage : 23|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+
+BO_ 2282758402 BCU_DATA_17: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Max_Battery_Temp : 39|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ Max_Battery_Temp_Address : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Min_Cell_Vol_Address : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2282823938 BCU_DATA_18: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Min_Battery_Temp_Address : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Min_Battery_Temp : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ Negative_Relay_Vol : 55|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+
+BO_ 2282889474 BCU_DATA_19: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PreDischarge_Relay_Vol : 39|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Heat_MOS_Vol : 55|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Positive_Relay_Vol : 23|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+
+BO_ 2282955010 BCU_DATA_20: 8 Vector__XXX
+ SG_ RS485_Wakeup : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ ExternalVolt_Wakeup : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAN_Wakeup : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Key_Wakeup : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Reserve13 : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2282037506 BCU_DATA_6: 8 Vector__XXX
+ SG_ BCU_DATA_6_Mux M : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Real_BatRemain_Capacity m10 : 39|32@0+ (10,0) [0|42949672950] "mAH" Vector__XXX
+ SG_ SOH m10 : 23|16@0+ (0.1,0) [0|6553.5] "%" Vector__XXX
+ SG_ BMU1_Cell_Voltage14 m12 : 23|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage15 m12 : 39|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU1_Cell_Voltage16 m12 : 55|16@0+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ BMU2_Temp14 m13 : 23|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Temp15 m13 : 39|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+ SG_ BMU2_Temp16 m13 : 55|16@0+ (0.1,40) [40|6593.5] "???C" Vector__XXX
+
+BO_ 2283020546 BCU_DATA_21: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Show_Day : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Show_Minute : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Show_Month : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Show_Second : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Show_Time : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Show_Year : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2283086082 BCU_DATA_22: 8 Vector__XXX
+ SG_ Chg_Enable_Bit : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Chg_ReauestCur : 47|16@0+ (0.1,-5000) [-5000|1553.5] "A" Vector__XXX
+ SG_ Chg_RequsetVolt : 31|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Dsg_Enable_Bit : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2283151618 BCU_DATA_23: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Dsg_RequsetVolt : 23|16@0+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Volt_Alarm_Cout : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Positive_Relay_Status : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Negative_Relay_Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2283217154 BCU_DATA_24: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Dsg_ReauestCur : 23|16@0+ (0.1,5000) [5000|11553.5] "A" Vector__XXX
+ SG_ Temp_Alarm_Cout : 39|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2283282690 BCU_DATA_25: 8 Vector__XXX
+ SG_ Comm_high_low_bytes : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Fault_Alarm_Cout : 39|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ Reserve18 : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2281702145 BSUP_AFE0: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702146 BSUP_AFE1: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702147 BSUP_AFE2: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702148 BSUP_AFE3: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702149 BSUP_AFE4: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702150 BSUP_AFE5: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702151 BSUP_AFE6: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702152 BSUP_AFE7: 8 Vector__XXX
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AfeEnvTemp : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702400 CellTemp_AFE0: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702401 CellTemp_AFE1: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702402 CellTemp_AFE2: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702403 CellTemp_AFE3: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702404 CellTemp_AFE4: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702405 CellTemp_AFE5: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702406 CellTemp_AFE6: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702407 CellTemp_AFE7: 8 Vector__XXX
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281702656 CellVolt_AFE0_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702657 CellVolt_AFE0_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702658 CellVolt_AFE0_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702659 CellVolt_AFE0_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702660 CellVolt_AFE1_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702661 CellVolt_AFE1_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702662 CellVolt_AFE1_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702663 CellVolt_AFE1_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702664 CellVolt_AFE2_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702665 CellVolt_AFE2_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702666 CellVolt_AFE2_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702667 CellVolt_AFE2_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702668 CellVolt_AFE3_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702669 CellVolt_AFE3_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702670 CellVolt_AFE3_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702671 CellVolt_AFE3_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702672 CellVolt_AFE4_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702673 CellVolt_AFE4_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702674 CellVolt_AFE4_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702675 CellVolt_AFE4_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702676 CellVolt_AFE5_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702677 CellVolt_AFE5_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702678 CellVolt_AFE5_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702679 CellVolt_AFE5_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702680 CellVolt_AFE6_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702681 CellVolt_AFE6_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702682 CellVolt_AFE6_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702683 CellVolt_AFE6_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702684 CellVolt_AFE7_00_03: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702685 CellVolt_AFE7_04_07: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702686 CellVolt_AFE7_08_11: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt3 : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702687 CellVolt_AFE7_12_14: 8 Vector__XXX
+ SG_ CellVolt0 : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt1 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CellVolt2 : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281702992 Fault_LV1: 8 Vector__XXX
+ SG_ HotFault : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ InsulationFault : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DaisyChainFault : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RelayAdhseionFault : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuitFault : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgCirFault : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DsgCirFault : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOHFault : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerDetectionFault : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerOffFault : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault12V : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault5V : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault3V3 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BalanceFault : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OVInvalidFault : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverInstanaceCurFault : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverContinueCurFault : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchCurFault : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayAdhseionFault : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayAdhseionFault : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LimitVoltFault : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ShuntOpenCircuitFault : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BMUShuntOpenCircuitFault : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVILFault : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SwitchFault : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellSensorFault : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TempSensorFault : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DasTempSensorFault : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AutoSleepRelayFault : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayAdhseionFault : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayAdhseionFault : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchOpenCirFault : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatPadInvalid : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayOpenCircuitFault : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayOpenCircuitFault : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayOpenCircuitFault : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuit : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgEquipmentFault : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCChgEquipmentFault : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCStopFault : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PackShuntInvalid : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Thermalrunaway : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVDetectionFault : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TwoGunsFault : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SetandGetBmuNum : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FaultAny : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FaultLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 2281702993 Fault_LV2: 8 Vector__XXX
+ SG_ HotFault : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ InsulationFault : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DaisyChainFault : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RelayAdhseionFault : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuitFault : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgCirFault : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DsgCirFault : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOHFault : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerDetectionFault : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerOffFault : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault12V : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault5V : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault3V3 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BalanceFault : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OVInvalidFault : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverInstanaceCurFault : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverContinueCurFault : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchCurFault : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayAdhseionFault : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayAdhseionFault : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LimitVoltFault : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ShuntOpenCircuitFault : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BMUShuntOpenCircuitFault : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVILFault : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SwitchFault : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellSensorFault : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TempSensorFault : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DasTempSensorFault : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AutoSleepRelayFault : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayAdhseionFault : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayAdhseionFault : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchOpenCirFault : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatPadInvalid : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayOpenCircuitFault : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayOpenCircuitFault : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayOpenCircuitFault : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuit : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgEquipmentFault : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCChgEquipmentFault : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCStopFault : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PackShuntInvalid : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Thermalrunaway : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVDetectionFault : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TwoGunsFault : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SetandGetBmuNum : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FaultAny : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FaultLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 2281702994 Fault_LV3: 8 Vector__XXX
+ SG_ HotFault : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ InsulationFault : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DaisyChainFault : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RelayAdhseionFault : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuitFault : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgCirFault : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DsgCirFault : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOHFault : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerDetectionFault : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerOffFault : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault12V : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault5V : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault3V3 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BalanceFault : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OVInvalidFault : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverInstanaceCurFault : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverContinueCurFault : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchCurFault : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayAdhseionFault : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayAdhseionFault : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LimitVoltFault : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ShuntOpenCircuitFault : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BMUShuntOpenCircuitFault : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVILFault : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SwitchFault : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellSensorFault : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TempSensorFault : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DasTempSensorFault : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AutoSleepRelayFault : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayAdhseionFault : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayAdhseionFault : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchOpenCirFault : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatPadInvalid : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayOpenCircuitFault : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayOpenCircuitFault : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayOpenCircuitFault : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuit : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgEquipmentFault : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCChgEquipmentFault : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCStopFault : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PackShuntInvalid : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Thermalrunaway : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVDetectionFault : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TwoGunsFault : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SetandGetBmuNum : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FaultAny : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FaultLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 2281702995 Alarm_LV1: 8 Vector__XXX
+ SG_ Alarm_CellVoltMax : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltMin : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDiff : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ModuleVoltDiff : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMax : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMin : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempHigh : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempLow : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempHigh : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempLow : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempDiff : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp1High : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp2High : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp3High : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgCurOver : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_SteadyDsgCurOver : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TransDsgCurOver : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempRise : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BMUTempDiff : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BPInsultagtionLow : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BNInsultagtionLow : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDrop : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AlarmAny : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AlarmLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 2281702996 Alarm_LV2: 8 Vector__XXX
+ SG_ Alarm_CellVoltMax : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltMin : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDiff : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ModuleVoltDiff : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMax : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMin : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempHigh : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempLow : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempHigh : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempLow : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempDiff : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp1High : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp2High : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp3High : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgCurOver : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_SteadyDsgCurOver : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TransDsgCurOver : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempRise : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BMUTempDiff : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BPInsultagtionLow : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BNInsultagtionLow : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDrop : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AlarmAny : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AlarmLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 2281702997 Alarm_LV3: 8 Vector__XXX
+ SG_ Alarm_CellVoltMax : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltMin : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDiff : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ModuleVoltDiff : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMax : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMin : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempHigh : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempLow : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempHigh : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempLow : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempDiff : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp1High : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp2High : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp3High : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgCurOver : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_SteadyDsgCurOver : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TransDsgCurOver : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempRise : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BMUTempDiff : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BPInsultagtionLow : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BNInsultagtionLow : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDrop : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AlarmAny : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AlarmLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 2281702998 PowerStage: 8 Vector__XXX
+ SG_ PowerStage : 0|8@1+ (1,0) [0|12] "" Vector__XXX
+ SG_ CHGType : 8|8@1+ (1,0) [0|4] "" Vector__XXX
+ SG_ ChgRequestCur : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ ChgDsgMode : 32|8@1+ (1,0) [0|10] "" Vector__XXX
+ SG_ FastCharge : 40|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpenChgRelayStage : 48|8@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 2281702999 RTP_Volt: 8 Vector__XXX
+ SG_ RTP1_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ RTP2_Voltage : 23|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ RTP3_Voltage : 39|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ RTP4_Voltage : 55|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+
+BO_ 2281703000 RelayStatus: 8 Vector__XXX
+ SG_ PreChgRelay : 0|8@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ PosRelay : 8|8@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ NegRelay : 16|8@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ ChgRelay : 24|8@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ HeatRelay : 32|8@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ RelayCtlStage : 40|8@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ PreChgClosed : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosClosed : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegClosed : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgClosed : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatClosed : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2281703001 ADC_Supply: 8 Vector__XXX
+ SG_ Volt_12V : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Volt_3V3 : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Volt_5V : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ HwVersion : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281703002 ADC_Wake: 8 Vector__XXX
+ SG_ KeyOn_Volt : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Wakeup_Volt : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ AP_Volt : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ ACC_Volt : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281703003 ADC_Sense: 8 Vector__XXX
+ SG_ HVILOut_Volt : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CP_Volt : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CC_Volt : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ CC2_Volt : 55|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281703004 ADC_Temp: 8 Vector__XXX
+ SG_ EnvTemp : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ DasTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ DasTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ DasTemp3 : 55|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+
+BO_ 2281703005 ADC_Temp2: 8 Vector__XXX
+ SG_ DasTemp4 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AI01_Volt : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ AI02_Volt : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 2281703006 ADC_UIR: 8 Vector__XXX
+ SG_ SRP_N : 7|32@0+ (1,0) [0|16777215] "-" Vector__XXX
+ SG_ TSREF : 39|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ OpenChgRelayStage : 55|8@0+ (1,0) [0|3] "-" Vector__XXX
+ SG_ ChgRelayState : 63|8@0+ (1,0) [0|3] "-" Vector__XXX
+
+BO_ 2281703007 ADC_UIR_Fault: 8 Vector__XXX
+ SG_ UirSum_FAULT_PWR : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSum_FAULT_SYS : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSum_FAULT_OVUV : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSum_FAULT_COMM : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSum_FAULT_OTP : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSum_FAULT_COMP_ADC : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSum_FAULT_PROT : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirOtp_GBLOVERR : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirOtp_FACTLDERR : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirOtp_CUSTLDERR : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirOtp_FACT_CRC : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirOtp_CUST_CRC : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirOtp_SEC_DET : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirOtp_DED_DET : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSys_TWARN : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSys_TSHUT : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSys_CTS : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSys_CTL : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSys_DRST : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSys_GPIO : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSys_LFO : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirFaultReserve : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirFaultMsk1 : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ e_UIRRtn : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ g_UirReinitStep : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2281703008 GPIO_Status: 8 Vector__XXX
+ SG_ Gpio_ExVoltwake : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_EX_Awake : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_EX_ACCwake : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_EX_KEYONwake : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_Digital1 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_Digital2 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_Digital3 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_AFERDY : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_AFEnFault : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gpio_UIRNFault : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrlStatus : 23|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ GpioCtrl_APS : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_K1 : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_K2 : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_K3 : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_K4 : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_K5 : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_K6 : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_K7 : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_CP_S2 : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_WdgDone : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_MCU_5V : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_LED1 : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_LED2 : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_HVILCON : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_Select1 : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_Select2 : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_Select3 : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_OE : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GpioCtrl_LED_BOARD : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2281701633 Relay_Ctrl: 8 Vector__XXX
+ SG_ ControlKey : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ PosRelayCmd : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ NegRelayCmd : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ ChgRelayCmd : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2281703009 Pack_Volt: 8 Vector__XXX
+ SG_ TotalAfeVoltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ PackVoltage : 23|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ RelayCtlStage : 32|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2281703010 ADC_UIR_DieTemp: 8 Vector__XXX
+ SG_ UirDieTemp1_Raw : 7|16@0- (0.025,0) [-819.2|819.175] "degC" Vector__XXX
+ SG_ UirDieTemp2_Raw : 23|16@0- (0.025,0) [-819.2|819.175] "degC" Vector__XXX
+ SG_ UirDieTemp1_01C : 39|16@0- (0.1,0) [-3276.8|3276.7] "degC" Vector__XXX
+ SG_ UirDieTemp2_01C : 55|16@0- (0.1,0) [-3276.8|3276.7] "degC" Vector__XXX
+
+BO_ 2281703011 ADC_UIR_FaultPwr: 8 Vector__XXX
+ SG_ UirPwr1_AVDD_OV : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr1_AVDD_OSC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr1_DVDD_OV : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr1_CVDD_OV : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr1_CVDD_UV : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr1_REFHM_OPEN : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr1_DVSS_OPEN : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr1_CVSS_OPEN : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr2_TSREF_OV : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr2_TSREF_UV : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr2_TSREF_OSC : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr2_NEG5V_UV : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr2_REFH_OSC : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr2_PWRBIST_FAIL : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirPwr3_AVDDUV_DRST : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2281703012 ADC_UIR_AuxMisc: 8 Vector__XXX
+ SG_ UirAuxPwr : 7|16@0- (0.00305,0) [-99.9424|99.93935] "V" Vector__XXX
+ SG_ UirAuxAvaoRef : 23|16@0- (0.00015259,0) [-5.00007|4.99992] "V" Vector__XXX
+ SG_ UirAuxAvddRef : 39|16@0- (0.00015259,0) [-5.00007|4.99992] "V" Vector__XXX
+
+BO_ 2281703013 ADC_UIR_GpioStat: 8 Vector__XXX
+ SG_ UirGpioStat_GPIO1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirGpioStat_GPIO2 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirGpioStat_GPIO3 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirGpioStat_GPIO4 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirGpioStat_GPIO5 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirGpioStat_GPIO6 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirGpioStat_GPIO7 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirGpioStat_GPIO8 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ InsulationStage : 8|8@1+ (1,0) [0|6] "" Vector__XXX
+ SG_ UirGpioADC0 : 23|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+
+BO_ 2281703014 Insu_Res: 8 Vector__XXX
+ SG_ PInsuResistance : 7|32@0+ (1,0) [0|4294967295] "kOhm" Vector__XXX
+ SG_ NInsuResistance : 39|32@0+ (1,0) [0|4294967295] "kOhm" Vector__XXX
+
+BO_ 2281703015 ADC_TEMP_RAW: 8 Vector__XXX
+ SG_ EnvTemp_Raw : 7|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ DasTemp1_Raw : 23|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ DasTemp2_Raw : 39|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ DasTemp3_Raw : 55|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+
+BO_ 2281703016 ADC_UIR_FaultComm: 8 Vector__XXX
+ SG_ UirComm1_STOP_DET : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm1_COMMCLR_DET : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm1_UART_RC : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm1_UART_RR : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm1_UART_TR : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COMH_BIT : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COMH_RC : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COMH_RR : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COMH_TR : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COML_BIT : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COML_RC : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COML_RR : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm2_COML_TR : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm3_HB_FAST : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm3_HB_FAIL : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm3_FTONE_DET : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirComm3_FCOMM_DET : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2281703017 ADC_UIR_FaultSnapEntry: 8 Vector__XXX
+ SG_ UirSnapEntry_Valid : 0|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSnapEntry_Summary : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapEntry_Sys : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapEntry_Pwr1 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapEntry_Pwr2 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapEntry_Pwr3 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapEntry_Comm1 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapEntry_Comm3 : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2281703018 ADC_UIR_FaultSnapWake: 8 Vector__XXX
+ SG_ UirSnapWake_Valid : 0|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ UirSnapWake_Summary : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapWake_Sys : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapWake_Pwr1 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapWake_Pwr2 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapWake_Pwr3 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapWake_Comm1 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UirSnapWake_Comm3 : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+
+CM_ SG_ 2283413762 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2283348226 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2281709826 BatteryTotalVol_Sum "?e??L?n?o?{?e??h?g???e??d?????a?]???";
+CM_ SG_ 2281709826 BAT_Voltage "BAT?e??h?g???????o?{?h?g???";
+CM_ SG_ 2281709826 PCS_Voltage "PCS?e??h?g???T??o?{?h?g???";
+CM_ SG_ 2281709826 BMU_Online_Count "BMU?\???k??m????";
+CM_ SG_ 2281709826 BMU1_Address "?e??1?Y?BMU?e?n?W?Z";
+CM_ SG_ 2281709826 BMU1_Cell_Count "?e??1?Y?BMU?e??d??m??";
+CM_ SG_ 2281709826 BMU1_Cell_Voltage1 "?e??1?Y?BMU?e??d??e??h?g1";
+CM_ SG_ 2281709826 BMU_Online_Count13 "BMU?\???k??m????";
+CM_ SG_ 2281709826 BCU_Temp_Count "BCU?p???f?^?m????";
+CM_ SG_ 2281709826 BCU_Temp1 "BCU?p???f?^1";
+CM_ SG_ 2281709826 BMU_Temp_Address "BCU?p???f?^2";
+CM_ SG_ 2281709826 CellSamp_Status1 "?e??l?_???X?h??i?[?a?f???[??";
+CM_ SG_ 2281709826 NCTSamp_Status1 "NTC???X?h??i????i?[?a?f???[??";
+CM_ SG_ 2281709826 TerminalHighTemp_Status1 "?f?j?o?]?Y??p???i?[?a?f???[??";
+CM_ SG_ 2281709826 Reserve1 "?\????";
+CM_ SG_ 2281709826 SOCLow_Status1 "SOC?e?T?i?[?a?f???[??";
+CM_ SG_ 2281709826 PosInsulationLeakage_Status1 "?V??a??_??\?e????e??i?[?a?f???[??";
+CM_ SG_ 2281709826 NegInsulationLeakage_Status1 "?Y?U?a??_??\?e????e??i?[?a?f???[??";
+CM_ SG_ 2281709826 ChargeVolDiff_Status1 "????e??h?g????i?[?a?f???[??";
+CM_ SG_ 2281709826 DischargeVolDiff_Status1 "?Z??e??h?g????i?[?a?f???[??";
+CM_ SG_ 2281709826 ChargeTempDiff_Status1 "????e??p??????i?[?a?f???[??";
+CM_ SG_ 2281709826 DischargeTempDiff_Status1 "?Z??e??p??????i?[?a?f???[??";
+CM_ SG_ 2281709826 CellTempRise_Status1 "?e??l?_?p???X??i?[?a?f???[??";
+CM_ SG_ 2281709826 ChargeLowTemp_Status1 "????e??e?T?p???i?[?a?f???[??";
+CM_ SG_ 2281709826 DischargeLowTemp_Status1 "?Z??e??e?T?p???i?[?a?f???[??";
+CM_ SG_ 2281709826 Env_HighTemp_Status1 "?[?Z?_???Y??p???i?[?a?f???[??";
+CM_ SG_ 2281709826 Env_LowTemp_Status1 "?[?Z?_???e?T?p???i?[?a?f???[??";
+CM_ SG_ 2281709826 Module_High_Volt_Status1 "module high voltage first alarm";
+CM_ SG_ 2281709826 Module_Low_Volt_Status1 "?Z??e??a?d?e??b??Y??p???i?[?a?f???[??";
+CM_ SG_ 2281709826 Module_Volt_Diff_Status1 "?Y?U?a??a?d?e??b??Y??p???i?[?a?f???[??";
+CM_ SG_ 2281709826 SOC_High_Status1 "SOC?Y??i?[?a?f???[??";
+CM_ SG_ 2281709826 Cell_HighVol_Status1 "?e??d??Y??h?g?i?[?a?f???[??";
+CM_ SG_ 2281709826 Cell_LowVol_Status1 "?e??d??e?T?h?g?i?[?a?f???[??";
+CM_ SG_ 2281709826 Pack_HighVol_Status1 "?o?{?d??Y??h?g?i?[?a?f???[??o??d??";
+CM_ SG_ 2281709826 Pack_LowVol_Status1 "?o?{?d??e?T?h?g?i?[?a?f???[??";
+CM_ SG_ 2281709826 Charge_OverCurrenr_Status1 "????e??g?????i?[?a?f???[??";
+CM_ SG_ 2281709826 Disharge_OverCurrenr_Status1 "?Z??e??g?????i?[?a?f???[??";
+CM_ SG_ 2281709826 Charge_HighTemp_Status1 "????e??Y??p???i?[?a?f???[??";
+CM_ SG_ 2281709826 Disharge_HighTemp_Status1 "?Z??e??Y??p???i?[?a?f???[??";
+CM_ SG_ 2281709826 CellSamp_Status2 "?e??l?_???X?h??f???a?f???[??";
+CM_ SG_ 2281709826 NCTSamp_Status2 "NTC???X?h??i????f???a?f???[??";
+CM_ SG_ 2281709826 TerminalHighTemp_Status2 "?f?j?o?]?Y??p???f???a?f???[??";
+CM_ SG_ 2281709826 Reserve2 "?????";
+CM_ SG_ 2281709826 SOCLow_Status2 "SOC?e?T?f???a?f???[??";
+CM_ SG_ 2281709826 PosInsulationLeakage_Status2 "?V??a??_??\?e????e??f???a?f???[??";
+CM_ SG_ 2281709826 NegInsulationLeakage_Status2 "?Y?U?a??_??\?e????e??f???a?f???[??";
+CM_ SG_ 2281709826 ChargeVolDiff_Status2 "????e??h?g????f???a?f???[??";
+CM_ SG_ 2281709826 DischargeVolDiff_Status2 "?Z??e??h?g????f???a?f???[??";
+CM_ SG_ 2281709826 ChargeTempDiff_Status2 "????e??p??????f???a?f???[??";
+CM_ SG_ 2281709826 DischargeTempDiff_Status2 "?Z??e??p??????f???a?f???[??";
+CM_ SG_ 2281709826 CellTempRise_Status2 "?e??l?_?p???X??f???a?f???[??";
+CM_ SG_ 2281775362 Negative_Voltage "?o?{?Y?U?e??h?g";
+CM_ SG_ 2281775362 Fuse_Voltage "Fuse?e??h?g";
+CM_ SG_ 2281775362 Hardware_Voltage "?]???a???????_?e??h?g";
+CM_ SG_ 2281775362 BMU1_Cell_Voltage2 "?e??1?Y?BMU?e??d??e??h?g2";
+CM_ SG_ 2281775362 BMU1_Cell_Voltage3 "?e??1?Y?BMU?e??d??e??h?g3";
+CM_ SG_ 2281775362 BMU1_Cell_Voltage4 "?e??1?Y?BMU?e??d??e??h?g4";
+CM_ SG_ 2281775362 BCU_Temp3 "BCU?p???f?^3";
+CM_ SG_ 2281775362 BCU_Temp4 "BCU?p???f?^4";
+CM_ SG_ 2281775362 BCU_Temp2 "?e??1?Y?BMU?p???f?^?m????";
+CM_ SG_ 2281775362 ChargeLowTemp_Status2 "????e??e?T?p???f???a?f???[??";
+CM_ SG_ 2281775362 DischargeLowTemp_Status2 "?Z??e??e?T?p???f???a?f???[??";
+CM_ SG_ 2281775362 Env_HighTemp_Status2 "?[?Z?_???Y??p???f???a?f???[??";
+CM_ SG_ 2281775362 Env_LowTemp_Status2 "?[?Z?_???e?T?p???f???a?f???[??";
+CM_ SG_ 2281775362 Module_High_Volt_Status2 "module hgih voltage second alarm";
+CM_ SG_ 2281775362 Module_Low_Volt_Status2 "?Z??e??a?d?e??b??Y??p???f???a?f???[??";
+CM_ SG_ 2281775362 Module_Volt_Diff_Status2 "?Y?U?a??a?d?e??b??Y??p???f???a?f???[??";
+CM_ SG_ 2281775362 SOC_High_Status2 "SOC?Y??f???a?f???[??";
+CM_ SG_ 2281775362 Cell_HighVol_Status2 "?e??d??Y??h?g?f???a?f???[??";
+CM_ SG_ 2281775362 Cell_LowVol_Status2 "?e??d??e?T?h?g?f???a?f???[??";
+CM_ SG_ 2281775362 Pack_HighVol_Status2 "?o?{?d??Y??h?g?f???a?f???[??o??d??";
+CM_ SG_ 2281775362 Pack_LowVol_Status2 "?o?{?d??e?T?h?g?f???a?f???[??";
+CM_ SG_ 2281775362 Charge_OverCurrenr_Status2 "????e??g?????f???a?f???[??";
+CM_ SG_ 2281775362 Disharge_OverCurrenr_Status2 "?Z??e??g?????f???a?f???[??";
+CM_ SG_ 2281775362 Charge_HighTemp_Status2 "????e??Y??p???f???a?f???[??";
+CM_ SG_ 2281775362 Disharge_HighTemp_Status2 "?Z??e??Y??p???f???a?f???[??";
+CM_ SG_ 2281775362 CellSamp_Status3 "?e??l?_???X?h??^??a?f???[??";
+CM_ SG_ 2281775362 NCTSamp_Status3 "NTC???X?h??i????^??a?f???[??";
+CM_ SG_ 2281775362 TerminalHighTemp_Status3 "?f?j?o?]?Y??p???^??a?f???[??";
+CM_ SG_ 2281775362 Reserve3 "?\????";
+CM_ SG_ 2281775362 SOCLow_Status3 "SOC?e?T?^??a?f???[??";
+CM_ SG_ 2281775362 PosInsulationLeakage_Status3 "?V??a??_??\?e????e??^??a?f???[??";
+CM_ SG_ 2281775362 NegInsulationLeakage_Status3 "?Y?U?a??_??\?e????e??^??a?f???[??";
+CM_ SG_ 2281775362 ChargeVolDiff_Status3 "????e??h?g????^??a?f???[??";
+CM_ SG_ 2281775362 DischargeVolDiff_Status3 "?Z??e??h?g????^??a?f???[??";
+CM_ SG_ 2281775362 ChargeTempDiff_Status3 "????e??p??????^??a?f???[??";
+CM_ SG_ 2281775362 DischargeTempDiff_Status3 "?Z??e??p??????^??a?f???[??";
+CM_ SG_ 2281775362 CellTempRise_Status3 "?e??l?_?p???X??^??a?f???[??";
+CM_ SG_ 2281775362 ChargeLowTemp_Status3 "????e??e?T?p???^??a?f???[??";
+CM_ SG_ 2281775362 DischargeLowTemp_Status3 "?Z??e??e?T?p???^??a?f???[??";
+CM_ SG_ 2281775362 Env_HighTemp_Status3 "?[?Z?_???Y??p???^??a?f???[??";
+CM_ SG_ 2281775362 Env_LowTemp_Status3 "?[?Z?_???e?T?p???^??a?f???[??";
+CM_ SG_ 2281775362 Module_High_Volt_Status3 "module hgih voltage third alarm";
+CM_ SG_ 2281775362 Module_Low_Volt_Status3 "?Z??e??a?d?e??b??Y??p???^??a?f???[??";
+CM_ SG_ 2281775362 Module_Volt_Diff_Status3 "?Y?U?a??a?d?e??b??Y??p???^??a?f???[??";
+CM_ SG_ 2281775362 SOC_High_Status3 "SOC?Y??^??a?f???[??";
+CM_ SG_ 2281775362 Cell_HighVol_Status3 "?e??d??Y??h?g?^??a?f???[??";
+CM_ SG_ 2281775362 Cell_LowVol_Status3 "?e??d??e?T?h?g?^??a?f???[??";
+CM_ SG_ 2281775362 Pack_HighVol_Status3 "?o?{?d??Y??h?g?^??a?f???[??o??d??";
+CM_ SG_ 2281775362 Pack_LowVol_Status3 "?o?{?d??e?T?h?g?^??a?f???[??";
+CM_ SG_ 2281775362 Charge_OverCurrenr_Status3 "????e??g?????^??a?f???[??";
+CM_ SG_ 2281775362 Disharge_OverCurrenr_Status3 "?Z??e??g?????^??a?f???[??";
+CM_ SG_ 2281775362 Charge_HighTemp_Status3 "????e??Y??p???^??a?f???[??";
+CM_ SG_ 2281775362 Disharge_HighTemp_Status3 "?Z??e??Y??p???^??a?f???[??";
+CM_ SG_ 2281840898 Voltage_24V "24V?e??h?g";
+CM_ SG_ 2281840898 Voltage_3_3V "3.3V?e??h?g";
+CM_ SG_ 2281840898 BMU1_Cell_Voltage5 "?e??1?Y?BMU?e??d??e??h?g5";
+CM_ SG_ 2281840898 BMU1_Cell_Voltage6 "?e??1?Y?BMU?e??d??e??h?g6";
+CM_ SG_ 2281840898 BMU1_Cell_Voltage7 "?e??1?Y?BMU?e??d??e??h?g7";
+CM_ SG_ 2281840898 BMU1_Temp6 "?e??1?Y?BMU?p???f?^1";
+CM_ SG_ 2281840898 BMU1_Temp7 "?e??1?Y?BMU?p???f?^2";
+CM_ SG_ 2281840898 BMU1_Temp5 "BMU1 PACK?a??W??p???f?^?m????";
+CM_ SG_ 2281840898 Reserve11 "?\????";
+CM_ SG_ 2281840898 PowerDetectionFaultStaus "????m?a?[??i????";
+CM_ SG_ 2281840898 TempSensor_FaultStatus "?p???f?^???Y?l?b??g?m?V?k";
+CM_ SG_ 2281840898 CAN_CommLose_FaultStatus "CAN?T??l??f?k?k??g?m?V?k";
+CM_ SG_ 2281840898 FuseVol_FaultStatus "Fuse?e??h?g?g?m?V?k";
+CM_ SG_ 2281840898 ChargeLoop_FaultStatus "????e??[?n???Z?g?m?V?k";
+CM_ SG_ 2281840898 DischargeLoop_FaultStatus "?Z??e??[?n???Z?g?m?V?k";
+CM_ SG_ 2281840898 SOH_FaultStatus "SOH?g?m?V?k";
+CM_ SG_ 2281840898 LimitVol_FaultStatus "?a??k??e??h?g?g?m?V?k";
+CM_ SG_ 2281840898 InternalCommunicaito_FaultStatus "?????????T??h?f?i????";
+CM_ SG_ 2281840898 HeatMosFai_FaultStatus "?a?]?^?^????a?d?e??b??m??l??";
+CM_ SG_ 2281840898 Vol12V_FaultStatus "12V?e??h?g?i????";
+CM_ SG_ 2281840898 Cell_FaultStatus "?e??l?_?g?m?V?k";
+CM_ SG_ 2281840898 PreCharge_FaultStatus "?\?????g?m?V?k";
+CM_ SG_ 2281840898 Heat_FaultStatus "?a?]?^?^????g?m?V?k";
+CM_ SG_ 2281840898 InsulationBoard_Comm_FaultStatus "?_??\?e???T??l??i????";
+CM_ SG_ 2281840898 DaisyChain_Comm_FaultStatus "???X?h????_?V?[????T??l??g?m?V?k";
+CM_ SG_ 2281840898 ChargeMOS_Adh_FaultStatus "????e??a?d?e??b??V?????";
+CM_ SG_ 2281840898 ChargeMOS_Fail_FaultStatus "????e??a?d?e??b??m??l??";
+CM_ SG_ 2281840898 DischargeMOS_Adh_FaultStatus "?Z??e??a?d?e??b??V?????";
+CM_ SG_ 2281840898 DischargeMOS_Fail_FaultStatus "?Z??e??a?d?e??b??m??l??";
+CM_ SG_ 2281840898 PrechargeMOS_Adh_FaultStatus "?\?????a?d?e??b??V?????";
+CM_ SG_ 2281840898 PrechargeMOS_Fail_FaultStatus "?\?????a?d?e??b??m??l??";
+CM_ SG_ 2281840898 NegMOS_Adh_FaultStatus "?Y?U?a??a?d?e??b??V?????";
+CM_ SG_ 2281840898 NegMOS_Fail_FaultStatus "?Y?U?a??a?d?e??b??m??l??";
+CM_ SG_ 2281840898 Reserve2 "?\????";
+CM_ SG_ 2281906434 Real_SOC "?V??m?eSOC";
+CM_ SG_ 2281906434 Current "?e????";
+CM_ SG_ 2281906434 BMU1_Cell_Voltage8 "?e??1?Y?BMU?e??d??e??h?g8";
+CM_ SG_ 2281906434 BMU1_Cell_Voltage9 "?e??1?Y?BMU?e??d??e??h?g9";
+CM_ SG_ 2281906434 BMU1_Cell_Voltage10 "?e??1?Y?BMU?e??d??e??h?g10";
+CM_ SG_ 2281906434 BMU2_Temp8 "?e??2?Y?BMU?p???f?^1";
+CM_ SG_ 2281906434 Reserve "?\????";
+CM_ SG_ 2281906434 LimitCurrent_ControlStatus "?k???????n?W?b?o??d??";
+CM_ SG_ 2281906434 ChargeMOS_ControlStatus "????e??a?d?e??b????n?W?b?o??d??";
+CM_ SG_ 2281906434 DischargeMOS_ControlStatus "?Z??e??a?d?e??b????n?W?b?o??d??";
+CM_ SG_ 2281906434 NegMOS_ControlStatus "?Y?U?a??a?d?e??b????n?W?b?o??d??";
+CM_ SG_ 2281906434 HeatMOS_ControlStatus "?a?]?^?^????a?d?e??b????n?W?b?o??d??";
+CM_ SG_ 2281906434 Reserve2 "?\????";
+CM_ SG_ 2281906434 PreChargeMOS_ControlStatus "?\?????a?d?e??b????n?W?b?o??d??";
+CM_ SG_ 2281906434 Trip_ControlStatus "?T?h?????b??o??d??";
+CM_ SG_ 2281906434 Reserve3 "?\????";
+CM_ SG_ 2281906434 Parallel_End "????[???`??m?????W?_";
+CM_ SG_ 2281906434 Parallel_Success "????[?????X?g?????W?_";
+CM_ SG_ 2281906434 Parallel_Abnormal "????[???i???????W?_";
+CM_ SG_ 2281906434 Insulation_Start "?_??\?e????m?a???W?_";
+CM_ SG_ 2281906434 Insulation_End "?_??\?e?`??m?????W?_";
+CM_ SG_ 2281906434 Insulation_CheckEnd "?_??\?e?a????T???X";
+CM_ SG_ 2281906434 Insulation_CheckFail "?_??\?e?a????i????";
+CM_ SG_ 2281906434 FullCharge "???????????W?_";
+CM_ SG_ 2281906434 Pack_PowerSupply "?m?g?]??Pack?g??e??";
+CM_ SG_ 2281906434 Reserve4 "?\????";
+CM_ SG_ 2281906434 Charger_Access "????e??b??`?]?^??";
+CM_ SG_ 2281906434 Shutdown_Status "?g?n?[???o??d??";
+CM_ SG_ 2281906434 StrongCharge_Indicate "?c??????W?Y?m?_";
+CM_ SG_ 2281906434 PreCharge_Fail "?\?????m????{";
+CM_ SG_ 2281906434 FirmwareUpdate_Success "?g?d?a???Y???l?????X?g?????W?_";
+CM_ SG_ 2281906434 Parallel_Start "????[??????m?a???W?_";
+CM_ SG_ 2281971970 SOE "?d?n?m??SOC";
+CM_ SG_ 2281971970 Show_SOC "?k?\?m?_SOC";
+CM_ SG_ 2281971970 BMU1_Cell_Voltage11 "?e??1?Y?BMU?e??d??e??h?g11";
+CM_ SG_ 2281971970 BMU1_Cell_Voltage12 "?e??1?Y?BMU?e??d??e??h?g12";
+CM_ SG_ 2281971970 BMU1_Cell_Voltage13 "?e??1?Y?BMU?e??d??e??h?g13";
+CM_ SG_ 2281971970 SpecialStatus "?d?n?m??o??d??";
+CM_ SG_ 2281971970 SystemStatus "?k?e?T???o??d??";
+CM_ SG_ 2281971970 BatteryStatus "?e??L?n?o??d??";
+CM_ SG_ 2281971970 BMU2_Temp12 "?e??2?Y?BMU?p???f?^2";
+CM_ SG_ 2281971970 BMU2_Temp11 "BMU2 PACK?a??W??p???f?^?m????";
+CM_ SG_ 2281971970 BMU2_Temp13 "BMU2?e??PACK?a??W??p???f?^1";
+CM_ SG_ 2282103042 Show_BatRemain_Capacity "?l??o?a?e??L?n?m??]??^?????";
+CM_ SG_ 2282103042 BMU2_Address "?e??2?Y?BMU?e?n?W?Z";
+CM_ SG_ 2282103042 BMU2_Cell_Count "?e??2?Y?BMU?e??d??m??";
+CM_ SG_ 2282103042 BMU2_Cell_Voltage1 "?e??2?Y?BMU?e??d??e??h?g1";
+CM_ SG_ 2282103042 BMU2_Cell_Voltage2 "?e??2?Y?BMU?e??d??e??h?g2";
+CM_ SG_ 2282168578 Real_BatFull_Capacity "?k?\?m?_?e??L?n?m??]??^?????";
+CM_ SG_ 2282168578 BMU2_Cell_Voltage3 "?e??2?Y?BMU?e??d??e??h?g3";
+CM_ SG_ 2282168578 BMU2_Cell_Voltage4 "?e??2?Y?BMU?e??d??e??h?g4";
+CM_ SG_ 2282168578 BMU2_Cell_Voltage5 "?e??2?Y?BMU?e??d??e??h?g5";
+CM_ SG_ 2282234114 Show_BatFull_Capacity "?V??m?e?e??L?n????????^?????";
+CM_ SG_ 2282234114 B_Neg_Temp "B+?p???f?^";
+CM_ SG_ 2282234114 BMU2_Cell_Voltage6 "?e??2?Y?BMU?e??d??e??h?g6";
+CM_ SG_ 2282234114 BMU2_Cell_Voltage7 "?e??2?Y?BMU?e??d??e??h?g7";
+CM_ SG_ 2282234114 BMU2_Cell_Voltage8 "?e??2?Y?BMU?e??d??e??h?g8";
+CM_ SG_ 2282299650 Sum_ChgCapacity "?l??o?a?e??L?n????????^?????";
+CM_ SG_ 2282299650 P_Pos_Temp "B-?p???f?^";
+CM_ SG_ 2282299650 BMU2_Cell_Voltage9 "?e??2?Y?BMU?e??d??e??h?g9";
+CM_ SG_ 2282299650 BMU2_Cell_Voltage10 "?e??2?Y?BMU?e??d??e??h?g10";
+CM_ SG_ 2282299650 BMU2_Cell_Voltage11 "?e??2?Y?BMU?e??d??e??h?g11";
+CM_ SG_ 2282365186 Sum_DsgCapacity "?k?\?m?_?e??L?n????????^?????";
+CM_ SG_ 2282365186 P_Neg_Temp "P+?p???f?^";
+CM_ SG_ 2282365186 BMU2_Cell_Voltage12 "?e??2?Y?BMU?e??d??e??h?g12";
+CM_ SG_ 2282365186 BMU2_Cell_Voltage13 "?e??2?Y?BMU?e??d??e??h?g13";
+CM_ SG_ 2282365186 BMU2_Cell_Voltage14 "?e??2?Y?BMU?e??d??e??h?g14";
+CM_ SG_ 2282430722 Bat_Design_Capacity "?e??L?n?X??a?b?^?????";
+CM_ SG_ 2282430722 Reserve0B "P-?p???f?^";
+CM_ SG_ 2282430722 BMU2_Cell_Voltage15 "?e??2?Y?BMU?e??d??e??h?g15";
+CM_ SG_ 2282430722 BMU2_Cell_Voltage16 "?e??2?Y?BMU?e??d??e??h?g16";
+CM_ SG_ 2282496258 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282496258 Cycle_Count "?h??[?Z??p?m??";
+CM_ SG_ 2282561794 Pos_Insulation_Resis "?V??a??_??\?e?o??W?e";
+CM_ SG_ 2282561794 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282561794 Reserve0D "?[?Z?_???p???f?^";
+CM_ SG_ 2282627330 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282627330 Neg_Insulation_Resis "?Y?U?a??_??\?e?o??W?e";
+CM_ SG_ 2282627330 Reserve0E "?o?????e??d??e??h?g";
+CM_ SG_ 2282692866 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282692866 Max_Cell_Vol_Address "?o?????e??d??e??h?g?e?n?W?Z";
+CM_ SG_ 2282692866 Min_Cell_Voltage "?o??l??e??d??e??h?g";
+CM_ SG_ 2282692866 Max_Cell_Voltage "?o??l??e??d??e??h?g?e?n?W?Z";
+CM_ SG_ 2282758402 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282758402 Max_Battery_Temp "?o?????e??L?n?p???f?^";
+CM_ SG_ 2282758402 Max_Battery_Temp_Address "?o?????e??L?n?p???f?^?e?n?W?Z";
+CM_ SG_ 2282758402 Min_Cell_Vol_Address "?o??l??e??L?n?p???f?^";
+CM_ SG_ 2282823938 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282823938 Min_Battery_Temp_Address "?o??l??e??L?n?p???f?^?e?n?W?Z";
+CM_ SG_ 2282823938 Min_Battery_Temp "?Z??e??c??f??a?d?e??b??a????e??h?g";
+CM_ SG_ 2282823938 Negative_Relay_Vol "????e??c??f??a?d?e??b??a????e??h?g";
+CM_ SG_ 2282889474 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282889474 PreDischarge_Relay_Vol "?\??Z??e??c??f??a?d?e??b??a????e??h?g";
+CM_ SG_ 2282889474 Heat_MOS_Vol "?a?]?^?^????c??f??a?d?e??b??a????e??h?g";
+CM_ SG_ 2282955010 RS485_Wakeup "RS485?[?`?l?h?a???????W?_";
+CM_ SG_ 2282955010 Comm_high_low_bytes "???????Y??e?T?o?W?`??";
+CM_ SG_ 2282955010 ExternalVolt_Wakeup "?T?????e??h?g?[?`?l?h???W?_";
+CM_ SG_ 2282037506 Real_BatRemain_Capacity "?V??m?e?e??L?n?m??]??^?????";
+CM_ SG_ 2282037506 BMU1_Cell_Voltage14 "?e??1?Y?BMU?e??d??e??h?g14";
+CM_ SG_ 2282037506 BMU1_Cell_Voltage15 "?e??1?Y?BMU?e??d??e??h?g15";
+CM_ SG_ 2282037506 BMU1_Cell_Voltage16 "?e??1?Y?BMU?e??d??e??h?g16";
+CM_ BO_ 2281702145 "ICAN periodic BSUP V/I. ID 0x08000301. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702145 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702145 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702145 AfeEnvTemp "AFE0 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702145 AFE_Index "AFE index 0";
+CM_ BO_ 2281702146 "ICAN periodic BSUP V/I. ID 0x08000302. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702146 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702146 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702146 AfeEnvTemp "AFE1 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702146 AFE_Index "AFE index 1";
+CM_ BO_ 2281702147 "ICAN periodic BSUP V/I. ID 0x08000303. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702147 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702147 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702147 AfeEnvTemp "AFE2 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702147 AFE_Index "AFE index 2";
+CM_ BO_ 2281702148 "ICAN periodic BSUP V/I. ID 0x08000304. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702148 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702148 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702148 AfeEnvTemp "AFE3 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702148 AFE_Index "AFE index 3";
+CM_ BO_ 2281702149 "ICAN periodic BSUP V/I. ID 0x08000305. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702149 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702149 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702149 AfeEnvTemp "AFE4 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702149 AFE_Index "AFE index 4";
+CM_ BO_ 2281702150 "ICAN periodic BSUP V/I. ID 0x08000306. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702150 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702150 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702150 AfeEnvTemp "AFE5 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702150 AFE_Index "AFE index 5";
+CM_ BO_ 2281702151 "ICAN periodic BSUP V/I. ID 0x08000307. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702151 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702151 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702151 AfeEnvTemp "AFE6 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702151 AFE_Index "AFE index 6";
+CM_ BO_ 2281702152 "ICAN periodic BSUP V/I. ID 0x08000308. Motorola V 0.01V, I 0.1A, Byte4-5 AfeEnvTemp raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702152 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702152 BSUP_Current "Fml_DataAfe_Get_Cur signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 2281702152 AfeEnvTemp "AFE7 PCB environment temperature (Fml_DataAfe_Get_EnvTemp / AfeEnvTemp). Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702152 AFE_Index "AFE index 7";
+CM_ BO_ 2281702400 "ICAN packed cell temp AFE0. ID 0x08000400. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702400 CellTemp0 "AFE0 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702400 CellTemp1 "AFE0 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702400 CellTemp2 "AFE0 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702400 AFE_Index "AFE index 0";
+CM_ BO_ 2281702401 "ICAN packed cell temp AFE1. ID 0x08000401. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702401 CellTemp0 "AFE1 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702401 CellTemp1 "AFE1 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702401 CellTemp2 "AFE1 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702401 AFE_Index "AFE index 1";
+CM_ BO_ 2281702402 "ICAN packed cell temp AFE2. ID 0x08000402. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702402 CellTemp0 "AFE2 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702402 CellTemp1 "AFE2 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702402 CellTemp2 "AFE2 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702402 AFE_Index "AFE index 2";
+CM_ BO_ 2281702403 "ICAN packed cell temp AFE3. ID 0x08000403. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702403 CellTemp0 "AFE3 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702403 CellTemp1 "AFE3 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702403 CellTemp2 "AFE3 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702403 AFE_Index "AFE index 3";
+CM_ BO_ 2281702404 "ICAN packed cell temp AFE4. ID 0x08000404. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702404 CellTemp0 "AFE4 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702404 CellTemp1 "AFE4 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702404 CellTemp2 "AFE4 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702404 AFE_Index "AFE index 4";
+CM_ BO_ 2281702405 "ICAN packed cell temp AFE5. ID 0x08000405. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702405 CellTemp0 "AFE5 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702405 CellTemp1 "AFE5 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702405 CellTemp2 "AFE5 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702405 AFE_Index "AFE index 5";
+CM_ BO_ 2281702406 "ICAN packed cell temp AFE6. ID 0x08000406. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702406 CellTemp0 "AFE6 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702406 CellTemp1 "AFE6 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702406 CellTemp2 "AFE6 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702406 AFE_Index "AFE index 6";
+CM_ BO_ 2281702407 "ICAN packed cell temp AFE7. ID 0x08000407. 3x Motorola u16 raw=(T+40)*10. Byte6=AFE. Cycle 350ms.";
+CM_ SG_ 2281702407 CellTemp0 "AFE7 temperature channel 0. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702407 CellTemp1 "AFE7 temperature channel 1. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702407 CellTemp2 "AFE7 temperature channel 2. Motorola 16-bit, 0.1degC, offset -40";
+CM_ SG_ 2281702407 AFE_Index "AFE index 7";
+CM_ BO_ 2281702656 "ICAN packed cell volt AFE0 Cell0-3. ID 0x08000500. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702656 CellVolt0 "AFE0 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702656 CellVolt1 "AFE0 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702656 CellVolt2 "AFE0 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702656 CellVolt3 "AFE0 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702657 "ICAN packed cell volt AFE0 Cell4-7. ID 0x08000501. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702657 CellVolt0 "AFE0 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702657 CellVolt1 "AFE0 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702657 CellVolt2 "AFE0 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702657 CellVolt3 "AFE0 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702658 "ICAN packed cell volt AFE0 Cell8-11. ID 0x08000502. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702658 CellVolt0 "AFE0 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702658 CellVolt1 "AFE0 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702658 CellVolt2 "AFE0 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702658 CellVolt3 "AFE0 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702659 "ICAN packed cell volt AFE0 Cell12-14. ID 0x08000503. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702659 CellVolt0 "AFE0 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702659 CellVolt1 "AFE0 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702659 CellVolt2 "AFE0 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702660 "ICAN packed cell volt AFE1 Cell0-3. ID 0x08000504. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702660 CellVolt0 "AFE1 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702660 CellVolt1 "AFE1 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702660 CellVolt2 "AFE1 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702660 CellVolt3 "AFE1 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702661 "ICAN packed cell volt AFE1 Cell4-7. ID 0x08000505. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702661 CellVolt0 "AFE1 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702661 CellVolt1 "AFE1 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702661 CellVolt2 "AFE1 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702661 CellVolt3 "AFE1 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702662 "ICAN packed cell volt AFE1 Cell8-11. ID 0x08000506. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702662 CellVolt0 "AFE1 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702662 CellVolt1 "AFE1 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702662 CellVolt2 "AFE1 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702662 CellVolt3 "AFE1 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702663 "ICAN packed cell volt AFE1 Cell12-14. ID 0x08000507. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702663 CellVolt0 "AFE1 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702663 CellVolt1 "AFE1 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702663 CellVolt2 "AFE1 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702664 "ICAN packed cell volt AFE2 Cell0-3. ID 0x08000508. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702664 CellVolt0 "AFE2 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702664 CellVolt1 "AFE2 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702664 CellVolt2 "AFE2 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702664 CellVolt3 "AFE2 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702665 "ICAN packed cell volt AFE2 Cell4-7. ID 0x08000509. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702665 CellVolt0 "AFE2 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702665 CellVolt1 "AFE2 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702665 CellVolt2 "AFE2 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702665 CellVolt3 "AFE2 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702666 "ICAN packed cell volt AFE2 Cell8-11. ID 0x0800050A. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702666 CellVolt0 "AFE2 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702666 CellVolt1 "AFE2 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702666 CellVolt2 "AFE2 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702666 CellVolt3 "AFE2 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702667 "ICAN packed cell volt AFE2 Cell12-14. ID 0x0800050B. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702667 CellVolt0 "AFE2 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702667 CellVolt1 "AFE2 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702667 CellVolt2 "AFE2 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702668 "ICAN packed cell volt AFE3 Cell0-3. ID 0x0800050C. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702668 CellVolt0 "AFE3 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702668 CellVolt1 "AFE3 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702668 CellVolt2 "AFE3 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702668 CellVolt3 "AFE3 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702669 "ICAN packed cell volt AFE3 Cell4-7. ID 0x0800050D. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702669 CellVolt0 "AFE3 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702669 CellVolt1 "AFE3 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702669 CellVolt2 "AFE3 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702669 CellVolt3 "AFE3 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702670 "ICAN packed cell volt AFE3 Cell8-11. ID 0x0800050E. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702670 CellVolt0 "AFE3 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702670 CellVolt1 "AFE3 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702670 CellVolt2 "AFE3 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702670 CellVolt3 "AFE3 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702671 "ICAN packed cell volt AFE3 Cell12-14. ID 0x0800050F. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702671 CellVolt0 "AFE3 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702671 CellVolt1 "AFE3 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702671 CellVolt2 "AFE3 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702672 "ICAN packed cell volt AFE4 Cell0-3. ID 0x08000510. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702672 CellVolt0 "AFE4 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702672 CellVolt1 "AFE4 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702672 CellVolt2 "AFE4 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702672 CellVolt3 "AFE4 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702673 "ICAN packed cell volt AFE4 Cell4-7. ID 0x08000511. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702673 CellVolt0 "AFE4 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702673 CellVolt1 "AFE4 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702673 CellVolt2 "AFE4 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702673 CellVolt3 "AFE4 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702674 "ICAN packed cell volt AFE4 Cell8-11. ID 0x08000512. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702674 CellVolt0 "AFE4 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702674 CellVolt1 "AFE4 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702674 CellVolt2 "AFE4 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702674 CellVolt3 "AFE4 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702675 "ICAN packed cell volt AFE4 Cell12-14. ID 0x08000513. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702675 CellVolt0 "AFE4 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702675 CellVolt1 "AFE4 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702675 CellVolt2 "AFE4 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702676 "ICAN packed cell volt AFE5 Cell0-3. ID 0x08000514. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702676 CellVolt0 "AFE5 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702676 CellVolt1 "AFE5 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702676 CellVolt2 "AFE5 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702676 CellVolt3 "AFE5 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702677 "ICAN packed cell volt AFE5 Cell4-7. ID 0x08000515. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702677 CellVolt0 "AFE5 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702677 CellVolt1 "AFE5 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702677 CellVolt2 "AFE5 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702677 CellVolt3 "AFE5 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702678 "ICAN packed cell volt AFE5 Cell8-11. ID 0x08000516. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702678 CellVolt0 "AFE5 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702678 CellVolt1 "AFE5 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702678 CellVolt2 "AFE5 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702678 CellVolt3 "AFE5 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702679 "ICAN packed cell volt AFE5 Cell12-14. ID 0x08000517. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702679 CellVolt0 "AFE5 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702679 CellVolt1 "AFE5 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702679 CellVolt2 "AFE5 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702680 "ICAN packed cell volt AFE6 Cell0-3. ID 0x08000518. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702680 CellVolt0 "AFE6 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702680 CellVolt1 "AFE6 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702680 CellVolt2 "AFE6 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702680 CellVolt3 "AFE6 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702681 "ICAN packed cell volt AFE6 Cell4-7. ID 0x08000519. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702681 CellVolt0 "AFE6 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702681 CellVolt1 "AFE6 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702681 CellVolt2 "AFE6 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702681 CellVolt3 "AFE6 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702682 "ICAN packed cell volt AFE6 Cell8-11. ID 0x0800051A. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702682 CellVolt0 "AFE6 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702682 CellVolt1 "AFE6 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702682 CellVolt2 "AFE6 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702682 CellVolt3 "AFE6 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702683 "ICAN packed cell volt AFE6 Cell12-14. ID 0x0800051B. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702683 CellVolt0 "AFE6 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702683 CellVolt1 "AFE6 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702683 CellVolt2 "AFE6 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702684 "ICAN packed cell volt AFE7 Cell0-3. ID 0x0800051C. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702684 CellVolt0 "AFE7 cell 0 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702684 CellVolt1 "AFE7 cell 1 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702684 CellVolt2 "AFE7 cell 2 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702684 CellVolt3 "AFE7 cell 3 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702685 "ICAN packed cell volt AFE7 Cell4-7. ID 0x0800051D. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702685 CellVolt0 "AFE7 cell 4 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702685 CellVolt1 "AFE7 cell 5 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702685 CellVolt2 "AFE7 cell 6 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702685 CellVolt3 "AFE7 cell 7 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702686 "ICAN packed cell volt AFE7 Cell8-11. ID 0x0800051E. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702686 CellVolt0 "AFE7 cell 8 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702686 CellVolt1 "AFE7 cell 9 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702686 CellVolt2 "AFE7 cell 10 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702686 CellVolt3 "AFE7 cell 11 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702687 "ICAN packed cell volt AFE7 Cell12-14. ID 0x0800051F. Motorola 16-bit mV, 4 cells/frame. Cycle 350ms.";
+CM_ SG_ 2281702687 CellVolt0 "AFE7 cell 12 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702687 CellVolt1 "AFE7 cell 13 voltage. Motorola 16-bit, 0.001V";
+CM_ SG_ 2281702687 CellVolt2 "AFE7 cell 14 voltage. Motorola 16-bit, 0.001V";
+CM_ BO_ 2281702992 "ICAN periodic fault bits LV1. ID 0x08000650. Intel bits 0-44 = ET_FaultVariety. FaultAny(bit48)=1 if any bit is Trigger. Byte7=1. Cycle 350ms.";
+CM_ SG_ 2281702992 HotFault "[0] hot fault";
+CM_ SG_ 2281702992 InsulationFault "[1] insulation fault";
+CM_ SG_ 2281702992 DaisyChainFault "[2] daisy chain communication fault";
+CM_ SG_ 2281702992 RelayAdhseionFault "[3] relay adhesion";
+CM_ SG_ 2281702992 HeatRelayOpenCircuitFault "[4] heat relay open circuit";
+CM_ SG_ 2281702992 ChgCirFault "[5] charge circuit fault";
+CM_ SG_ 2281702992 DsgCirFault "[6] discharge circuit fault";
+CM_ SG_ 2281702992 SOHFault "[7] SOH fault";
+CM_ SG_ 2281702992 PowerDetectionFault "[8] power on detection fault";
+CM_ SG_ 2281702992 PowerOffFault "[9] power off fault";
+CM_ SG_ 2281702992 Fault12V "[10] 12V/24V power fault";
+CM_ SG_ 2281702992 Fault5V "[11] 5V power fault";
+CM_ SG_ 2281702992 Fault3V3 "[12] 3.3V power fault";
+CM_ SG_ 2281702992 BalanceFault "[13] balance circuit fault";
+CM_ SG_ 2281702992 OVInvalidFault "[14] 0V invalid fault";
+CM_ SG_ 2281702992 DriverInstanaceCurFault "[15] driver instance current fault";
+CM_ SG_ 2281702992 DriverContinueCurFault "[16] driver continue current fault";
+CM_ SG_ 2281702992 BranchCurFault "[17] branch current fault";
+CM_ SG_ 2281702992 NegRelayAdhseionFault "[18] negative relay adhesion";
+CM_ SG_ 2281702992 PosRelayAdhseionFault "[19] positive relay adhesion";
+CM_ SG_ 2281702992 LimitVoltFault "[20] over limit voltage";
+CM_ SG_ 2281702992 ShuntOpenCircuitFault "[21] shunt open circuit";
+CM_ SG_ 2281702992 BMUShuntOpenCircuitFault "[22] BMU shunt open circuit";
+CM_ SG_ 2281702992 HVILFault "[23] HVIL fault";
+CM_ SG_ 2281702992 SwitchFault "[24] PDU switch fault";
+CM_ SG_ 2281702992 CellSensorFault "[25] cell sensor fault";
+CM_ SG_ 2281702992 TempSensorFault "[26] temperature sensor fault";
+CM_ SG_ 2281702992 DasTempSensorFault "[27] DAS temperature sensor fault";
+CM_ SG_ 2281702992 AutoSleepRelayFault "[28] auto sleep relay fault";
+CM_ SG_ 2281702992 ChgRelayAdhseionFault "[29] charge relay adhesion";
+CM_ SG_ 2281702992 HeatRelayAdhseionFault "[30] heat relay adhesion";
+CM_ SG_ 2281702992 BranchOpenCirFault "[31] branch open circuit";
+CM_ SG_ 2281702992 HeatPadInvalid "[32] heat pad invalid";
+CM_ SG_ 2281702992 NegRelayOpenCircuitFault "[33] negative relay open circuit";
+CM_ SG_ 2281702992 PosRelayOpenCircuitFault "[34] positive relay open circuit";
+CM_ SG_ 2281702992 ChgRelayOpenCircuitFault "[35] charge relay open circuit";
+CM_ SG_ 2281702992 HeatRelayOpenCircuit "[36] heat relay open circuit";
+CM_ SG_ 2281702992 ChgEquipmentFault "[37] charge equipment fault";
+CM_ SG_ 2281702992 OBCChgEquipmentFault "[38] OBC charge equipment fault";
+CM_ SG_ 2281702992 OBCStopFault "[39] OBC stop charge fault";
+CM_ SG_ 2281702992 PackShuntInvalid "[40] pack shunt invalid";
+CM_ SG_ 2281702992 Thermalrunaway "[41] thermal runaway";
+CM_ SG_ 2281702992 HVDetectionFault "[42] high-voltage detection fault";
+CM_ SG_ 2281702992 TwoGunsFault "[43] two guns detection fault";
+CM_ SG_ 2281702992 SetandGetBmuNum "[44] BMU number set/get mismatch";
+CM_ SG_ 2281702992 FaultAny "1 if any fault bit 0-44 is Trigger";
+CM_ SG_ 2281702992 FaultLevel "1=LV1";
+CM_ BO_ 2281702993 "ICAN periodic fault bits LV2. ID 0x08000651. Intel bits 0-44 = ET_FaultVariety. FaultAny(bit48)=1 if any bit is Trigger. Byte7=2. Cycle 350ms.";
+CM_ SG_ 2281702993 HotFault "[0] hot fault";
+CM_ SG_ 2281702993 InsulationFault "[1] insulation fault";
+CM_ SG_ 2281702993 DaisyChainFault "[2] daisy chain communication fault";
+CM_ SG_ 2281702993 RelayAdhseionFault "[3] relay adhesion";
+CM_ SG_ 2281702993 HeatRelayOpenCircuitFault "[4] heat relay open circuit";
+CM_ SG_ 2281702993 ChgCirFault "[5] charge circuit fault";
+CM_ SG_ 2281702993 DsgCirFault "[6] discharge circuit fault";
+CM_ SG_ 2281702993 SOHFault "[7] SOH fault";
+CM_ SG_ 2281702993 PowerDetectionFault "[8] power on detection fault";
+CM_ SG_ 2281702993 PowerOffFault "[9] power off fault";
+CM_ SG_ 2281702993 Fault12V "[10] 12V/24V power fault";
+CM_ SG_ 2281702993 Fault5V "[11] 5V power fault";
+CM_ SG_ 2281702993 Fault3V3 "[12] 3.3V power fault";
+CM_ SG_ 2281702993 BalanceFault "[13] balance circuit fault";
+CM_ SG_ 2281702993 OVInvalidFault "[14] 0V invalid fault";
+CM_ SG_ 2281702993 DriverInstanaceCurFault "[15] driver instance current fault";
+CM_ SG_ 2281702993 DriverContinueCurFault "[16] driver continue current fault";
+CM_ SG_ 2281702993 BranchCurFault "[17] branch current fault";
+CM_ SG_ 2281702993 NegRelayAdhseionFault "[18] negative relay adhesion";
+CM_ SG_ 2281702993 PosRelayAdhseionFault "[19] positive relay adhesion";
+CM_ SG_ 2281702993 LimitVoltFault "[20] over limit voltage";
+CM_ SG_ 2281702993 ShuntOpenCircuitFault "[21] shunt open circuit";
+CM_ SG_ 2281702993 BMUShuntOpenCircuitFault "[22] BMU shunt open circuit";
+CM_ SG_ 2281702993 HVILFault "[23] HVIL fault";
+CM_ SG_ 2281702993 SwitchFault "[24] PDU switch fault";
+CM_ SG_ 2281702993 CellSensorFault "[25] cell sensor fault";
+CM_ SG_ 2281702993 TempSensorFault "[26] temperature sensor fault";
+CM_ SG_ 2281702993 DasTempSensorFault "[27] DAS temperature sensor fault";
+CM_ SG_ 2281702993 AutoSleepRelayFault "[28] auto sleep relay fault";
+CM_ SG_ 2281702993 ChgRelayAdhseionFault "[29] charge relay adhesion";
+CM_ SG_ 2281702993 HeatRelayAdhseionFault "[30] heat relay adhesion";
+CM_ SG_ 2281702993 BranchOpenCirFault "[31] branch open circuit";
+CM_ SG_ 2281702993 HeatPadInvalid "[32] heat pad invalid";
+CM_ SG_ 2281702993 NegRelayOpenCircuitFault "[33] negative relay open circuit";
+CM_ SG_ 2281702993 PosRelayOpenCircuitFault "[34] positive relay open circuit";
+CM_ SG_ 2281702993 ChgRelayOpenCircuitFault "[35] charge relay open circuit";
+CM_ SG_ 2281702993 HeatRelayOpenCircuit "[36] heat relay open circuit";
+CM_ SG_ 2281702993 ChgEquipmentFault "[37] charge equipment fault";
+CM_ SG_ 2281702993 OBCChgEquipmentFault "[38] OBC charge equipment fault";
+CM_ SG_ 2281702993 OBCStopFault "[39] OBC stop charge fault";
+CM_ SG_ 2281702993 PackShuntInvalid "[40] pack shunt invalid";
+CM_ SG_ 2281702993 Thermalrunaway "[41] thermal runaway";
+CM_ SG_ 2281702993 HVDetectionFault "[42] high-voltage detection fault";
+CM_ SG_ 2281702993 TwoGunsFault "[43] two guns detection fault";
+CM_ SG_ 2281702993 SetandGetBmuNum "[44] BMU number set/get mismatch";
+CM_ SG_ 2281702993 FaultAny "1 if any fault bit 0-44 is Trigger";
+CM_ SG_ 2281702993 FaultLevel "2=LV2";
+CM_ BO_ 2281702994 "ICAN periodic fault bits LV3. ID 0x08000652. Intel bits 0-44 = ET_FaultVariety. FaultAny(bit48)=1 if any bit is Trigger. Byte7=3. Cycle 350ms.";
+CM_ SG_ 2281702994 HotFault "[0] hot fault";
+CM_ SG_ 2281702994 InsulationFault "[1] insulation fault";
+CM_ SG_ 2281702994 DaisyChainFault "[2] daisy chain communication fault";
+CM_ SG_ 2281702994 RelayAdhseionFault "[3] relay adhesion";
+CM_ SG_ 2281702994 HeatRelayOpenCircuitFault "[4] heat relay open circuit";
+CM_ SG_ 2281702994 ChgCirFault "[5] charge circuit fault";
+CM_ SG_ 2281702994 DsgCirFault "[6] discharge circuit fault";
+CM_ SG_ 2281702994 SOHFault "[7] SOH fault";
+CM_ SG_ 2281702994 PowerDetectionFault "[8] power on detection fault";
+CM_ SG_ 2281702994 PowerOffFault "[9] power off fault";
+CM_ SG_ 2281702994 Fault12V "[10] 12V/24V power fault";
+CM_ SG_ 2281702994 Fault5V "[11] 5V power fault";
+CM_ SG_ 2281702994 Fault3V3 "[12] 3.3V power fault";
+CM_ SG_ 2281702994 BalanceFault "[13] balance circuit fault";
+CM_ SG_ 2281702994 OVInvalidFault "[14] 0V invalid fault";
+CM_ SG_ 2281702994 DriverInstanaceCurFault "[15] driver instance current fault";
+CM_ SG_ 2281702994 DriverContinueCurFault "[16] driver continue current fault";
+CM_ SG_ 2281702994 BranchCurFault "[17] branch current fault";
+CM_ SG_ 2281702994 NegRelayAdhseionFault "[18] negative relay adhesion";
+CM_ SG_ 2281702994 PosRelayAdhseionFault "[19] positive relay adhesion";
+CM_ SG_ 2281702994 LimitVoltFault "[20] over limit voltage";
+CM_ SG_ 2281702994 ShuntOpenCircuitFault "[21] shunt open circuit";
+CM_ SG_ 2281702994 BMUShuntOpenCircuitFault "[22] BMU shunt open circuit";
+CM_ SG_ 2281702994 HVILFault "[23] HVIL fault";
+CM_ SG_ 2281702994 SwitchFault "[24] PDU switch fault";
+CM_ SG_ 2281702994 CellSensorFault "[25] cell sensor fault";
+CM_ SG_ 2281702994 TempSensorFault "[26] temperature sensor fault";
+CM_ SG_ 2281702994 DasTempSensorFault "[27] DAS temperature sensor fault";
+CM_ SG_ 2281702994 AutoSleepRelayFault "[28] auto sleep relay fault";
+CM_ SG_ 2281702994 ChgRelayAdhseionFault "[29] charge relay adhesion";
+CM_ SG_ 2281702994 HeatRelayAdhseionFault "[30] heat relay adhesion";
+CM_ SG_ 2281702994 BranchOpenCirFault "[31] branch open circuit";
+CM_ SG_ 2281702994 HeatPadInvalid "[32] heat pad invalid";
+CM_ SG_ 2281702994 NegRelayOpenCircuitFault "[33] negative relay open circuit";
+CM_ SG_ 2281702994 PosRelayOpenCircuitFault "[34] positive relay open circuit";
+CM_ SG_ 2281702994 ChgRelayOpenCircuitFault "[35] charge relay open circuit";
+CM_ SG_ 2281702994 HeatRelayOpenCircuit "[36] heat relay open circuit";
+CM_ SG_ 2281702994 ChgEquipmentFault "[37] charge equipment fault";
+CM_ SG_ 2281702994 OBCChgEquipmentFault "[38] OBC charge equipment fault";
+CM_ SG_ 2281702994 OBCStopFault "[39] OBC stop charge fault";
+CM_ SG_ 2281702994 PackShuntInvalid "[40] pack shunt invalid";
+CM_ SG_ 2281702994 Thermalrunaway "[41] thermal runaway";
+CM_ SG_ 2281702994 HVDetectionFault "[42] high-voltage detection fault";
+CM_ SG_ 2281702994 TwoGunsFault "[43] two guns detection fault";
+CM_ SG_ 2281702994 SetandGetBmuNum "[44] BMU number set/get mismatch";
+CM_ SG_ 2281702994 FaultAny "1 if any fault bit 0-44 is Trigger";
+CM_ SG_ 2281702994 FaultLevel "3=LV3";
+CM_ BO_ 2281702995 "ICAN periodic alarm bits LV1. ID 0x08000653. Intel bits 0-21 = ET_AlarmVariety. AlarmAny(bit48)=1 if any bit is Trigger. Byte7=1. Cycle 350ms.";
+CM_ SG_ 2281702995 Alarm_CellVoltMax "[0] over cell voltage";
+CM_ SG_ 2281702995 Alarm_CellVoltMin "[1] under cell voltage";
+CM_ SG_ 2281702995 Alarm_CellVoltDiff "[2] over cell voltage difference";
+CM_ SG_ 2281702995 Alarm_ModuleVoltDiff "[3] over module voltage difference";
+CM_ SG_ 2281702995 Alarm_TotalVoltMax "[4] over total voltage";
+CM_ SG_ 2281702995 Alarm_TotalVoltMin "[5] under total voltage";
+CM_ SG_ 2281702995 Alarm_ChgTempHigh "[6] over charge temperature";
+CM_ SG_ 2281702995 Alarm_ChgTempLow "[7] under charge temperature";
+CM_ SG_ 2281702995 Alarm_DsgTempHigh "[8] over discharge temperature";
+CM_ SG_ 2281702995 Alarm_DsgTempLow "[9] under discharge temperature";
+CM_ SG_ 2281702995 Alarm_CellTempDiff "[10] over cell temperature difference";
+CM_ SG_ 2281702995 Alarm_ELECTemp1High "[11] over elec-comp temperature 1";
+CM_ SG_ 2281702995 Alarm_ELECTemp2High "[12] over elec-comp temperature 2";
+CM_ SG_ 2281702995 Alarm_ELECTemp3High "[13] over elec-comp temperature 3";
+CM_ SG_ 2281702995 Alarm_ChgCurOver "[14] over charge current";
+CM_ SG_ 2281702995 Alarm_SteadyDsgCurOver "[15] steady over discharge current";
+CM_ SG_ 2281702995 Alarm_TransDsgCurOver "[16] transient over discharge current";
+CM_ SG_ 2281702995 Alarm_CellTempRise "[17] over cell temperature rise";
+CM_ SG_ 2281702995 Alarm_BMUTempDiff "[18] BMU temperature difference high";
+CM_ SG_ 2281702995 Alarm_BPInsultagtionLow "[19] under pack positive insulation";
+CM_ SG_ 2281702995 Alarm_BNInsultagtionLow "[20] under pack negative insulation";
+CM_ SG_ 2281702995 Alarm_CellVoltDrop "[21] over cell voltage drop";
+CM_ SG_ 2281702995 AlarmAny "1 if any alarm bit 0-21 is Trigger";
+CM_ SG_ 2281702995 AlarmLevel "1=LV1";
+CM_ BO_ 2281702996 "ICAN periodic alarm bits LV2. ID 0x08000654. Intel bits 0-21 = ET_AlarmVariety. AlarmAny(bit48)=1 if any bit is Trigger. Byte7=2. Cycle 350ms.";
+CM_ SG_ 2281702996 Alarm_CellVoltMax "[0] over cell voltage";
+CM_ SG_ 2281702996 Alarm_CellVoltMin "[1] under cell voltage";
+CM_ SG_ 2281702996 Alarm_CellVoltDiff "[2] over cell voltage difference";
+CM_ SG_ 2281702996 Alarm_ModuleVoltDiff "[3] over module voltage difference";
+CM_ SG_ 2281702996 Alarm_TotalVoltMax "[4] over total voltage";
+CM_ SG_ 2281702996 Alarm_TotalVoltMin "[5] under total voltage";
+CM_ SG_ 2281702996 Alarm_ChgTempHigh "[6] over charge temperature";
+CM_ SG_ 2281702996 Alarm_ChgTempLow "[7] under charge temperature";
+CM_ SG_ 2281702996 Alarm_DsgTempHigh "[8] over discharge temperature";
+CM_ SG_ 2281702996 Alarm_DsgTempLow "[9] under discharge temperature";
+CM_ SG_ 2281702996 Alarm_CellTempDiff "[10] over cell temperature difference";
+CM_ SG_ 2281702996 Alarm_ELECTemp1High "[11] over elec-comp temperature 1";
+CM_ SG_ 2281702996 Alarm_ELECTemp2High "[12] over elec-comp temperature 2";
+CM_ SG_ 2281702996 Alarm_ELECTemp3High "[13] over elec-comp temperature 3";
+CM_ SG_ 2281702996 Alarm_ChgCurOver "[14] over charge current";
+CM_ SG_ 2281702996 Alarm_SteadyDsgCurOver "[15] steady over discharge current";
+CM_ SG_ 2281702996 Alarm_TransDsgCurOver "[16] transient over discharge current";
+CM_ SG_ 2281702996 Alarm_CellTempRise "[17] over cell temperature rise";
+CM_ SG_ 2281702996 Alarm_BMUTempDiff "[18] BMU temperature difference high";
+CM_ SG_ 2281702996 Alarm_BPInsultagtionLow "[19] under pack positive insulation";
+CM_ SG_ 2281702996 Alarm_BNInsultagtionLow "[20] under pack negative insulation";
+CM_ SG_ 2281702996 Alarm_CellVoltDrop "[21] over cell voltage drop";
+CM_ SG_ 2281702996 AlarmAny "1 if any alarm bit 0-21 is Trigger";
+CM_ SG_ 2281702996 AlarmLevel "2=LV2";
+CM_ BO_ 2281702997 "ICAN periodic alarm bits LV3. ID 0x08000655. Intel bits 0-21 = ET_AlarmVariety. AlarmAny(bit48)=1 if any bit is Trigger. Byte7=3. Cycle 350ms.";
+CM_ SG_ 2281702997 Alarm_CellVoltMax "[0] over cell voltage";
+CM_ SG_ 2281702997 Alarm_CellVoltMin "[1] under cell voltage";
+CM_ SG_ 2281702997 Alarm_CellVoltDiff "[2] over cell voltage difference";
+CM_ SG_ 2281702997 Alarm_ModuleVoltDiff "[3] over module voltage difference";
+CM_ SG_ 2281702997 Alarm_TotalVoltMax "[4] over total voltage";
+CM_ SG_ 2281702997 Alarm_TotalVoltMin "[5] under total voltage";
+CM_ SG_ 2281702997 Alarm_ChgTempHigh "[6] over charge temperature";
+CM_ SG_ 2281702997 Alarm_ChgTempLow "[7] under charge temperature";
+CM_ SG_ 2281702997 Alarm_DsgTempHigh "[8] over discharge temperature";
+CM_ SG_ 2281702997 Alarm_DsgTempLow "[9] under discharge temperature";
+CM_ SG_ 2281702997 Alarm_CellTempDiff "[10] over cell temperature difference";
+CM_ SG_ 2281702997 Alarm_ELECTemp1High "[11] over elec-comp temperature 1";
+CM_ SG_ 2281702997 Alarm_ELECTemp2High "[12] over elec-comp temperature 2";
+CM_ SG_ 2281702997 Alarm_ELECTemp3High "[13] over elec-comp temperature 3";
+CM_ SG_ 2281702997 Alarm_ChgCurOver "[14] over charge current";
+CM_ SG_ 2281702997 Alarm_SteadyDsgCurOver "[15] steady over discharge current";
+CM_ SG_ 2281702997 Alarm_TransDsgCurOver "[16] transient over discharge current";
+CM_ SG_ 2281702997 Alarm_CellTempRise "[17] over cell temperature rise";
+CM_ SG_ 2281702997 Alarm_BMUTempDiff "[18] BMU temperature difference high";
+CM_ SG_ 2281702997 Alarm_BPInsultagtionLow "[19] under pack positive insulation";
+CM_ SG_ 2281702997 Alarm_BNInsultagtionLow "[20] under pack negative insulation";
+CM_ SG_ 2281702997 Alarm_CellVoltDrop "[21] over cell voltage drop";
+CM_ SG_ 2281702997 AlarmAny "1 if any alarm bit 0-21 is Trigger";
+CM_ SG_ 2281702997 AlarmLevel "3=LV3";
+CM_ BO_ 2281702998 "ICAN periodic PowerStage. ID 0x08000656. Byte0 PowerStage, Byte1 CHGType, Byte2-3 Motorola ChgRequestCur 0.1A, Byte4 ChgDsgMode, Byte5 FastCharge, Byte6 OpenChgRelayStage. Cycle 350ms.";
+CM_ SG_ 2281702998 PowerStage "Apl_GetPowerSysStatus / ET_PowerManagementStage";
+CM_ SG_ 2281702998 CHGType "Apl_Get_ChgType_FLAG";
+CM_ SG_ 2281702998 ChgRequestCur "Apl_Get_ChgRequestCur offset by CHG_CURRENT(0). Motorola 16-bit, 0.1A";
+CM_ SG_ 2281702998 ChgDsgMode "Apl_Get_ChgDsgMode / ET_ChgDsgMode";
+CM_ SG_ 2281702998 FastCharge "s_ALARMHINFO.e_FastCharge / Apl_GetFastChargeAlarmHandele";
+CM_ SG_ 2281702998 OpenChgRelayStage "e_OpenChgRelayStage / Fml_GetOpenChgRelayStage / ET_ChargeRelayCtlStage";
+CM_ BO_ 2281702999 "ICAN periodic RTP voltages. ID 0x08000657. Motorola u16 0.01V. RTP1 main+, RTP2 chg+, RTP3 slow-chg/key, RTP4 strong-ctl. Cycle 350ms.";
+CM_ SG_ 2281702999 RTP1_Voltage "UIR_RTP1 / RTP1_POSITIVE_VOLTAGE. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702999 RTP2_Voltage "UIR_RTP2 / CHG_POSTIVE_VOLTAGE. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702999 RTP3_Voltage "UIR_RTP3 / SLOWCHG_POSTIVE_VOLTAGE. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281702999 RTP4_Voltage "UIR_RTP4 / STRONG_CTL_VOLTAGE. Motorola 16-bit, 0.01V";
+CM_ BO_ 2281703000 "ICAN periodic relay status. ID 0x08000658. Byte0-4 = ET_RelayCtrMotion (PreChg/Pos/Neg/Chg/Heat). Byte5 = RelayCtlStage. Byte6 bits = Closed. Cycle 350ms.";
+CM_ SG_ 2281703000 PreChgRelay "Fml_GetPreChgRelayStatus / ET_RelayCtrMotion";
+CM_ SG_ 2281703000 PosRelay "Fml_GetPosRelayStatus / ET_RelayCtrMotion";
+CM_ SG_ 2281703000 NegRelay "Fml_GetNegRelayStatus / ET_RelayCtrMotion";
+CM_ SG_ 2281703000 ChgRelay "Fml_GetChgRelayStatus / ET_RelayCtrMotion";
+CM_ SG_ 2281703000 HeatRelay "Fml_GetHeatRelayStatus / ET_RelayCtrMotion";
+CM_ SG_ 2281703000 RelayCtlStage "Fml_GetInitRelayCtlStage / ET_InitRelayCtlStage";
+CM_ SG_ 2281703000 PreChgClosed "1 = PreChg relay closed";
+CM_ SG_ 2281703000 PosClosed "1 = Positive relay closed";
+CM_ SG_ 2281703000 NegClosed "1 = Negative relay closed";
+CM_ SG_ 2281703000 ChgClosed "1 = Charge relay closed";
+CM_ SG_ 2281703000 HeatClosed "1 = Heat relay closed";
+CM_ BO_ 2281703001 "ICAN MCU ADC supply. ID 0x08000659. Motorola u16 mV. 12V/3V3/5V/HwVersion. Cycle 350ms.";
+CM_ SG_ 2281703001 Volt_12V "VOLT_12V / Das_MCU12V_Volt";
+CM_ SG_ 2281703001 Volt_3V3 "VOLT_3V3 / Bsp_GetAdc_3V3_EC";
+CM_ SG_ 2281703001 Volt_5V "SOURCE_VOLT_5V / Bsp_GetAdc_5V_VOLT_EC";
+CM_ SG_ 2281703001 HwVersion "VERSION_HARDWARE / Bsp_GetAdc_VER_HARDWARE_EC";
+CM_ BO_ 2281703002 "ICAN MCU ADC wake voltages. ID 0x0800065A. Motorola u16 mV. KeyOn/Wakeup/AP/ACC. Cycle 350ms.";
+CM_ SG_ 2281703002 KeyOn_Volt "Bsp_GetAdc_KEYON_VOLT_EC";
+CM_ SG_ 2281703002 Wakeup_Volt "Bsp_GetAdc_WAKEUP_VOLT_EC";
+CM_ SG_ 2281703002 AP_Volt "Bsp_GetAdc_AP_VOLT_EC";
+CM_ SG_ 2281703002 ACC_Volt "Bsp_GetAdc_ACC_VOLT_EC";
+CM_ BO_ 2281703003 "ICAN MCU ADC sense voltages. ID 0x0800065B. Motorola u16 mV. HVIL/CP/CC/CC2. Cycle 350ms.";
+CM_ SG_ 2281703003 HVILOut_Volt "Bsp_GetAdc_HVILOUT_EC";
+CM_ SG_ 2281703003 CP_Volt "AfeDataStorage.Das_CPVolt (muxed AD2)";
+CM_ SG_ 2281703003 CC_Volt "AfeDataStorage.Das_CCVolt (muxed AD2)";
+CM_ SG_ 2281703003 CC2_Volt "AfeDataStorage.Das_CC2Volt (muxed AD2)";
+CM_ BO_ 2281703004 "ICAN MCU ADC PCB temps. ID 0x0800065C. Motorola u16 0.1degC. Env+DAS_TEMP1~3. Cycle 350ms.";
+CM_ SG_ 2281703004 EnvTemp "ENVIRONMENT_TEMPERATURE";
+CM_ SG_ 2281703004 DasTemp1 "DAS_TEMP1";
+CM_ SG_ 2281703004 DasTemp2 "DAS_TEMP2";
+CM_ SG_ 2281703004 DasTemp3 "DAS_TEMP3";
+CM_ BO_ 2281703005 "ICAN MCU ADC temp/AI. ID 0x0800065D. DasTemp4 0.1degC, AI01/AI02 mV. Cycle 350ms.";
+CM_ SG_ 2281703005 DasTemp4 "DAS_TEMP4";
+CM_ SG_ 2281703005 AI01_Volt "AI01_VOLT";
+CM_ SG_ 2281703005 AI02_Volt "AI02_VOLT";
+CM_ BO_ 2281703006 "ICAN BQ79631 UIR + chg relay. ID 0x0800065E. SRP_N raw ADC u32, TSREF mV u16, Byte6 OpenChgRelayStage, Byte7 ChgRelayState. Cycle 350ms.";
+CM_ SG_ 2281703006 SRP_N "s_BQ79631Info.SRP_N raw current ADC code";
+CM_ SG_ 2281703006 TSREF "s_BQ79631Info.TSREF reference voltage mV";
+CM_ SG_ 2281703006 OpenChgRelayStage "e_OpenChgRelayStage ET_ChargeRelayCtlStage";
+CM_ SG_ 2281703006 ChgRelayState "e_ChgRelayState ET_RelayCtrMotion";
+CM_ BO_ 2281703007 "ICAN BQ79631 UIR fault/status. ID 0x0800065F. Byte0 FAULT_SUMMARY bits, Byte1 FAULT_OTP bits, Byte2 FAULT_SYS bits, Byte3 reserve, Byte4-5 FAULT_MSK1 Motorola u16, Byte6 e_UIRRtn, Byte7 g_UirReinitStep. Cycle 350ms.";
+CM_ SG_ 2281703007 UirSum_FAULT_PWR "g_UirFaultSummary.Bit.FAULT_PWR: power rail fault (FAULT_PWR1..3)";
+CM_ SG_ 2281703007 UirSum_FAULT_SYS "g_UirFaultSummary.Bit.FAULT_SYS: system fault (FAULT_SYS)";
+CM_ SG_ 2281703007 UirSum_FAULT_OVUV "g_UirFaultSummary.Bit.FAULT_OVUV: OV or UV fault (FAULT_OV1/2, FAULT_UV1/2)";
+CM_ SG_ 2281703007 UirSum_FAULT_COMM "g_UirFaultSummary.Bit.FAULT_COMM: UART/COM fault (FAULT_COMM1..3)";
+CM_ SG_ 2281703007 UirSum_FAULT_OTP "g_UirFaultSummary.Bit.FAULT_OTP: OTP fault (FAULT_OTP)";
+CM_ SG_ 2281703007 UirSum_FAULT_COMP_ADC "g_UirFaultSummary.Bit.FAULT_COMP_ADC: ADC comparison fault (FAULT_COMP_*)";
+CM_ SG_ 2281703007 UirSum_FAULT_PROT "g_UirFaultSummary.Bit.FAULT_PROT: protector comparator fault (FAULT_PROT1/2)";
+CM_ SG_ 2281703007 UirOtp_GBLOVERR "g_UirFaultOtp.Bit.GBLOVERR: OTP page overvoltage error";
+CM_ SG_ 2281703007 UirOtp_FACTLDERR "g_UirFaultOtp.Bit.FACTLDERR: factory OTP load error";
+CM_ SG_ 2281703007 UirOtp_CUSTLDERR "g_UirFaultOtp.Bit.CUSTLDERR: customer OTP load error";
+CM_ SG_ 2281703007 UirOtp_FACT_CRC "g_UirFaultOtp.Bit.FACT_CRC: factory register space CRC error";
+CM_ SG_ 2281703007 UirOtp_CUST_CRC "g_UirFaultOtp.Bit.CUST_CRC: customer register space CRC error";
+CM_ SG_ 2281703007 UirOtp_SEC_DET "g_UirFaultOtp.Bit.SEC_DET: single error corrected during OTP load";
+CM_ SG_ 2281703007 UirOtp_DED_DET "g_UirFaultOtp.Bit.DED_DET: double error detected during OTP load";
+CM_ SG_ 2281703007 UirSys_TWARN "g_UirFaultSys.Bit.TWARN: die temperature warning";
+CM_ SG_ 2281703007 UirSys_TSHUT "g_UirFaultSys.Bit.TSHUT: thermal shutdown occurred";
+CM_ SG_ 2281703007 UirSys_CTS "g_UirFaultSys.Bit.CTS: short communication timeout";
+CM_ SG_ 2281703007 UirSys_CTL "g_UirFaultSys.Bit.CTL: long communication timeout";
+CM_ SG_ 2281703007 UirSys_DRST "g_UirFaultSys.Bit.DRST: digital reset occurred";
+CM_ SG_ 2281703007 UirSys_GPIO "g_UirFaultSys.Bit.GPIO: GPIO8 FAULT input detected";
+CM_ SG_ 2281703007 UirSys_LFO "g_UirFaultSys.Bit.LFO: LFO frequency out of range";
+CM_ SG_ 2281703007 UirFaultReserve "reserved byte3";
+CM_ SG_ 2281703007 UirFaultMsk1 "g_UirFaultMsk1 / U_FAULT_MSK1 Motorola u16";
+CM_ SG_ 2281703007 e_UIRRtn "UART measure return ET_UIRRTN_STATUSTYPE";
+CM_ SG_ 2281703007 g_UirReinitStep "UIR reinit state machine ET_RecoverUIRStage";
+CM_ BO_ 2281703008 "ICAN GPIO status. ID 0x08000660. Byte0-1 Bsp_Get*Status input bits. Byte2-5 g_GpioCtrlStatus Motorola u32 (bit0 APS .. bit18 LED_BOARD). Cycle 350ms.";
+CM_ SG_ 2281703008 Gpio_ExVoltwake "Bsp_GetExVoltwakeStatus";
+CM_ SG_ 2281703008 Gpio_EX_Awake "Bsp_GetEX_AwakeStatus";
+CM_ SG_ 2281703008 Gpio_EX_ACCwake "Bsp_GetEX_ACCwakeStatus";
+CM_ SG_ 2281703008 Gpio_EX_KEYONwake "Bsp_GetEX_KEYONwakeStatus";
+CM_ SG_ 2281703008 Gpio_Digital1 "Bsp_GetDigtial1Status";
+CM_ SG_ 2281703008 Gpio_Digital2 "Bsp_GetDigtial2Status";
+CM_ SG_ 2281703008 Gpio_Digital3 "Bsp_GetDigtial3Status";
+CM_ SG_ 2281703008 Gpio_AFERDY "Bsp_GetAFERDYStatus";
+CM_ SG_ 2281703008 Gpio_AFEnFault "Bsp_GetAFEnFaultStatus";
+CM_ SG_ 2281703008 Gpio_UIRNFault "Bsp_GetAFEUIRNFaultStatus";
+CM_ SG_ 2281703008 GpioCtrlStatus "g_GpioCtrlStatus Motorola u32 mirror of Bsp_Gpio_Control outputs";
+CM_ SG_ 2281703008 GpioCtrl_APS "g_GpioCtrlStatus bit0 APS Enable";
+CM_ SG_ 2281703008 GpioCtrl_K1 "g_GpioCtrlStatus bit1 K1 Relay Enable";
+CM_ SG_ 2281703008 GpioCtrl_K2 "g_GpioCtrlStatus bit2 K2 Relay Enable";
+CM_ SG_ 2281703008 GpioCtrl_K3 "g_GpioCtrlStatus bit3 K3 Relay Enable";
+CM_ SG_ 2281703008 GpioCtrl_K4 "g_GpioCtrlStatus bit4 K4 Relay Enable";
+CM_ SG_ 2281703008 GpioCtrl_K5 "g_GpioCtrlStatus bit5 K5 Relay Enable";
+CM_ SG_ 2281703008 GpioCtrl_K6 "g_GpioCtrlStatus bit6 K6 Relay Enable";
+CM_ SG_ 2281703008 GpioCtrl_K7 "g_GpioCtrlStatus bit7 K7 Relay Enable";
+CM_ SG_ 2281703008 GpioCtrl_CP_S2 "g_GpioCtrlStatus bit8 CP_S2 Enable";
+CM_ SG_ 2281703008 GpioCtrl_WdgDone "g_GpioCtrlStatus bit9 WdgDone Enable";
+CM_ SG_ 2281703008 GpioCtrl_MCU_5V "g_GpioCtrlStatus bit10 MCU_5V_CTL Enable";
+CM_ SG_ 2281703008 GpioCtrl_LED1 "g_GpioCtrlStatus bit11 LED1DRV Enable";
+CM_ SG_ 2281703008 GpioCtrl_LED2 "g_GpioCtrlStatus bit12 LED2DRV Enable";
+CM_ SG_ 2281703008 GpioCtrl_HVILCON "g_GpioCtrlStatus bit13 HVILCON Enable";
+CM_ SG_ 2281703008 GpioCtrl_Select1 "g_GpioCtrlStatus bit14 Select1 Enable";
+CM_ SG_ 2281703008 GpioCtrl_Select2 "g_GpioCtrlStatus bit15 Select2 Enable";
+CM_ SG_ 2281703008 GpioCtrl_Select3 "g_GpioCtrlStatus bit16 Select3 Enable";
+CM_ SG_ 2281703008 GpioCtrl_OE "g_GpioCtrlStatus bit17 OE Enable";
+CM_ SG_ 2281703008 GpioCtrl_LED_BOARD "g_GpioCtrlStatus bit18 LED_BOARD toggle state";
+CM_ BO_ 2281701633 "ICAN force relay control (BCU RX). ID 0x08000101 + BCU_ADDRESS_NUM. Byte0 ControlKey must be 0xAA, Byte1 Pos, Byte2 Neg, Byte3 Chg: 0x01 close, 0x00 open, other = no change.";
+CM_ SG_ 2281701633 ControlKey "0xAA = PC_CONTROL, other values clear MOS_CTRL_PC and ignore the frame";
+CM_ SG_ 2281701633 PosRelayCmd "0x01 Fml_ForcePosRelayClose, 0x00 Fml_ForcePosRelayOpen";
+CM_ SG_ 2281701633 NegRelayCmd "0x01 Fml_ForceNegRelayClose, 0x00 Fml_ForceNegRelayOpen";
+CM_ SG_ 2281701633 ChgRelayCmd "0x01 Fml_ForceChgRelayClose, 0x00 Fml_ForceChgRelayOpen";
+CM_ BO_ 2281703009 "ICAN pack voltages. ID 0x08000661. Motorola u16 0.01V. Byte0-1 TOTAL_AFE_VOLTAGE (battery side), Byte2-3 PACK_VOLTAGE (pack side), Byte4 RelayCtlStage. Cycle 350ms.";
+CM_ SG_ 2281703009 TotalAfeVoltage "Rdi TOTAL_AFE_VOLTAGE / AfeDataStorage.Das_BatToVoltage. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281703009 PackVoltage "Rdi PACK_VOLTAGE / AfeDataStorage.Das_ExToVoltage. Motorola 16-bit, 0.01V";
+CM_ SG_ 2281703009 RelayCtlStage "e_RelayCtlStage / Fml_GetInitRelayCtlStage / ET_InitRelayCtlStage";
+CM_ BO_ 2281703010 "ICAN BQ79631 die temperature. ID 0x08000662. Byte0-1/2-3 raw LSB 0.025degC (g_UirDieTemp1/2), Byte4-5/6-7 0.1degC. Cycle 350ms.";
+CM_ SG_ 2281703010 UirDieTemp1_Raw "g_UirDieTemp1 U_DIETEMP1 raw Motorola s16, factor 0.025degC";
+CM_ SG_ 2281703010 UirDieTemp2_Raw "g_UirDieTemp2 U_DIETEMP2 raw Motorola s16, factor 0.025degC";
+CM_ SG_ 2281703010 UirDieTemp1_01C "g_UirDieTemp1 * 0.25 as 0.1degC Motorola s16";
+CM_ SG_ 2281703010 UirDieTemp2_01C "g_UirDieTemp2 * 0.25 as 0.1degC Motorola s16";
+CM_ BO_ 2281703011 "ICAN BQ79631 power faults. ID 0x08000663. Byte0 FAULT_PWR1, Byte1 FAULT_PWR2, Byte2 FAULT_PWR3 bits. Faults are cleared by FAULT_RST1/2 at the end of Bq79631_Main_Config. Cycle 350ms.";
+CM_ SG_ 2281703011 UirPwr1_AVDD_OV "g_UirFaultPwr1.Bit.AVDD_OV: AVDD LDO overvoltage";
+CM_ SG_ 2281703011 UirPwr1_AVDD_OSC "g_UirFaultPwr1.Bit.AVDD_OSC: AVDD oscillating (may set on SLEEP to ACTIVE)";
+CM_ SG_ 2281703011 UirPwr1_DVDD_OV "g_UirFaultPwr1.Bit.DVDD_OV: DVDD LDO overvoltage";
+CM_ SG_ 2281703011 UirPwr1_CVDD_OV "g_UirFaultPwr1.Bit.CVDD_OV: CVDD LDO overvoltage";
+CM_ SG_ 2281703011 UirPwr1_CVDD_UV "g_UirFaultPwr1.Bit.CVDD_UV: CVDD LDO undervoltage";
+CM_ SG_ 2281703011 UirPwr1_REFHM_OPEN "g_UirFaultPwr1.Bit.REFHM_OPEN: REFHM pin open";
+CM_ SG_ 2281703011 UirPwr1_DVSS_OPEN "g_UirFaultPwr1.Bit.DVSS_OPEN: DVSS pin open";
+CM_ SG_ 2281703011 UirPwr1_CVSS_OPEN "g_UirFaultPwr1.Bit.CVSS_OPEN: CVSS pin open";
+CM_ SG_ 2281703011 UirPwr2_TSREF_OV "g_UirFaultPwr2.Bit.TSREF_OV: TSREF LDO overvoltage";
+CM_ SG_ 2281703011 UirPwr2_TSREF_UV "g_UirFaultPwr2.Bit.TSREF_UV: TSREF LDO undervoltage";
+CM_ SG_ 2281703011 UirPwr2_TSREF_OSC "g_UirFaultPwr2.Bit.TSREF_OSC: TSREF oscillating";
+CM_ SG_ 2281703011 UirPwr2_NEG5V_UV "g_UirFaultPwr2.Bit.NEG5V_UV: NEG5V charge pump undervoltage";
+CM_ SG_ 2281703011 UirPwr2_REFH_OSC "g_UirFaultPwr2.Bit.REFH_OSC: REFH reference oscillating";
+CM_ SG_ 2281703011 UirPwr2_PWRBIST_FAIL "g_UirFaultPwr2.Bit.PWRBIST_FAIL: power supply BIST fail";
+CM_ SG_ 2281703011 UirPwr3_AVDDUV_DRST "g_UirFaultPwr3.Bit.AVDDUV_DRST: digital reset by AVDD UV, also set on wake from SHUTDOWN/HW reset";
+CM_ BO_ 2281703012 "ICAN BQ79631 AUX ADC MISC. ID 0x08000664. Motorola s16 raw: Byte0-1 AUX_PWR (3.05mV/LSB), Byte2-3 AUX_AVAO_REF, Byte4-5 AUX_AVDD_REF (152.59uV/LSB). Raw 0x8000 means no AUX result yet. Cycle 350ms.";
+CM_ SG_ 2281703012 UirAuxPwr "g_UirAuxPwr U_AUX_PWR (0x5B6) PWR pin voltage, VLSB_AUX_VPWR 3.05mV";
+CM_ SG_ 2281703012 UirAuxAvaoRef "g_UirAuxAvaoRef U_AUX_AVAO_REF (0x5BE), VLSB_DIAG 152.59uV";
+CM_ SG_ 2281703012 UirAuxAvddRef "g_UirAuxAvddRef U_AUX_AVDD_REF (0x5C0), VLSB_DIAG 152.59uV";
+CM_ BO_ 2281703013 "ICAN BQ79631 GPIO_STAT. ID 0x08000665. Byte0 = U_GPIO_STAT (0x52A), bit0 GPIO1 ... bit7 GPIO8. 0 = Low, 1 = High. Valid only for GPIO configured as digital input/output; ADC-only or High-Z GPIO reads 0. Byte1 e_InsulationStage. Byte2-3 GpioADC[0] Motorola u16 mV. Cycle 350ms.";
+CM_ SG_ 2281703013 UirGpioStat_GPIO1 "g_UirGpioStat.Bit.GPIO1 (ADC input: insulation divider)";
+CM_ SG_ 2281703013 UirGpioStat_GPIO2 "g_UirGpioStat.Bit.GPIO2 (ADC input)";
+CM_ SG_ 2281703013 UirGpioStat_GPIO3 "g_UirGpioStat.Bit.GPIO3 (ADC input)";
+CM_ SG_ 2281703013 UirGpioStat_GPIO4 "g_UirGpioStat.Bit.GPIO4 (ADC input)";
+CM_ SG_ 2281703013 UirGpioStat_GPIO5 "g_UirGpioStat.Bit.GPIO5 (ADC input)";
+CM_ SG_ 2281703013 UirGpioStat_GPIO6 "g_UirGpioStat.Bit.GPIO6 (output, config OUT_L)";
+CM_ SG_ 2281703013 UirGpioStat_GPIO7 "g_UirGpioStat.Bit.GPIO7 (output, insulation light relay: L = open, H = close)";
+CM_ SG_ 2281703013 UirGpioStat_GPIO8 "g_UirGpioStat.Bit.GPIO8 (output OUT_H at config, High-Z after first insulation stage write)";
+CM_ SG_ 2281703013 InsulationStage "e_InsulationStage (Bsp_Get_InsulationStage) / ET_InsulationStage";
+CM_ SG_ 2281703013 UirGpioADC0 "s_BQ79631Info.GpioADC[0] (UIR_GpioADC0_Get): GPIO1 insulation divider voltage, raw * 0.15259mV then average filter g_sstADC0. Motorola u16 mV";
+CM_ BO_ 2281703014 "ICAN insulation resistance. ID 0x08000666. Motorola u32 1kOhm/LSB. Byte0-3 INSULATION_32B_POSITIVERESISTANCE, Byte4-7 INSULATION_32B_NEGATIVERESISTANCE. Cycle 350ms.";
+CM_ SG_ 2281703014 PInsuResistance "Rdi INSULATION_32B_POSITIVERESISTANCE (BQ79631 RP after average filter g_sstPInsu)";
+CM_ SG_ 2281703014 NInsuResistance "Rdi INSULATION_32B_NEGATIVERESISTANCE (BQ79631 RN after average filter g_sstNInsu)";
+CM_ BO_ 2281703015 "ICAN Env/DasTemp ADC voltage before NTC table. ID 0x08000667. Motorola u16 mV. Byte0-1 Das_EnvTEMPVolt, Byte2-3 Das_TEMPVolt[0], Byte4-5 Das_TEMPVolt[1], Byte6-7 Das_TEMPVolt[2]. Source Bsp_GetAdc_ADC1_EC. Cycle 350ms.";
+CM_ SG_ 2281703015 EnvTemp_Raw "AfeDataStorage.Das_EnvTEMPVolt, Bsp_GetAdc_ADC1_EC mV";
+CM_ SG_ 2281703015 DasTemp1_Raw "AfeDataStorage.Das_TEMPVolt[0], Bsp_GetAdc_ADC1_EC mV";
+CM_ SG_ 2281703015 DasTemp2_Raw "AfeDataStorage.Das_TEMPVolt[1], Bsp_GetAdc_ADC1_EC mV";
+CM_ SG_ 2281703015 DasTemp3_Raw "AfeDataStorage.Das_TEMPVolt[2], Bsp_GetAdc_ADC1_EC mV";
+CM_ BO_ 2281703016 "ICAN BQ79631 FAULT_COMM1..3. ID 0x08000668. Byte0 FAULT_COMM1, Byte1 FAULT_COMM2, Byte2 FAULT_COMM3. Read in Process5 and on the reinit entry tick.";
+CM_ SG_ 2281703016 UirComm1_STOP_DET "g_UirFaultComm1.Bit.STOP_DET: unexpected UART STOP";
+CM_ SG_ 2281703016 UirComm1_COMMCLR_DET "g_UirFaultComm1.Bit.COMMCLR_DET: UART communication clear";
+CM_ SG_ 2281703016 UirComm1_UART_RC "g_UirFaultComm1.Bit.UART_RC: UART fault receiving a command";
+CM_ SG_ 2281703016 UirComm1_UART_RR "g_UirFaultComm1.Bit.UART_RR: UART fault receiving a response";
+CM_ SG_ 2281703016 UirComm1_UART_TR "g_UirFaultComm1.Bit.UART_TR: UART fault transmitting a response";
+CM_ SG_ 2281703016 UirComm2_COMH_BIT "g_UirFaultComm2.Bit.COMH_BIT: COMH bit-level fault";
+CM_ SG_ 2281703016 UirComm2_COMH_RC "g_UirFaultComm2.Bit.COMH_RC: COMH fault receiving a command";
+CM_ SG_ 2281703016 UirComm2_COMH_RR "g_UirFaultComm2.Bit.COMH_RR: COMH fault receiving a response";
+CM_ SG_ 2281703016 UirComm2_COMH_TR "g_UirFaultComm2.Bit.COMH_TR: COMH fault transmitting a response";
+CM_ SG_ 2281703016 UirComm2_COML_BIT "g_UirFaultComm2.Bit.COML_BIT: COML bit-level fault";
+CM_ SG_ 2281703016 UirComm2_COML_RC "g_UirFaultComm2.Bit.COML_RC: COML fault receiving a command";
+CM_ SG_ 2281703016 UirComm2_COML_RR "g_UirFaultComm2.Bit.COML_RR: COML fault receiving a response";
+CM_ SG_ 2281703016 UirComm2_COML_TR "g_UirFaultComm2.Bit.COML_TR: COML fault transmitting a response";
+CM_ SG_ 2281703016 UirComm3_HB_FAST "g_UirFaultComm3.Bit.HB_FAST: heartbeat too frequent";
+CM_ SG_ 2281703016 UirComm3_HB_FAIL "g_UirFaultComm3.Bit.HB_FAIL: heartbeat missing";
+CM_ SG_ 2281703016 UirComm3_FTONE_DET "g_UirFaultComm3.Bit.FTONE_DET: fault tone received";
+CM_ SG_ 2281703016 UirComm3_FCOMM_DET "g_UirFaultComm3.Bit.FCOMM_DET: fault status from an upper stack device";
+CM_ BO_ 2281703017 "ICAN BQ79631 fault snapshot at reinit entry, before WakeUp. ID 0x08000669. Byte0 Valid, Byte1 FAULT_SUMMARY, Byte2 FAULT_SYS, Byte3 FAULT_PWR1, Byte4 FAULT_PWR2, Byte5 FAULT_PWR3, Byte6 FAULT_COMM1, Byte7 FAULT_COMM3. Valid=0 clears the other bytes. Process5 does not overwrite this image.";
+CM_ SG_ 2281703017 UirSnapEntry_Valid "g_UirFaultSnapEntry.Valid";
+CM_ SG_ 2281703017 UirSnapEntry_Summary "FAULT_SUMMARY";
+CM_ SG_ 2281703017 UirSnapEntry_Sys "FAULT_SYS. DRST bit4, TSHUT bit1, LFO bit7";
+CM_ SG_ 2281703017 UirSnapEntry_Pwr1 "FAULT_PWR1";
+CM_ SG_ 2281703017 UirSnapEntry_Pwr2 "FAULT_PWR2";
+CM_ SG_ 2281703017 UirSnapEntry_Pwr3 "FAULT_PWR3. AVDDUV_DRST bit0";
+CM_ SG_ 2281703017 UirSnapEntry_Comm1 "FAULT_COMM1";
+CM_ SG_ 2281703017 UirSnapEntry_Comm3 "FAULT_COMM3. FCOMM_DET bit3";
+CM_ BO_ 2281703018 "ICAN BQ79631 fault snapshot after the 4th WakeUp and before FAULT_RST. ID 0x0800066A. Same byte layout as 0x08000669.";
+CM_ SG_ 2281703018 UirSnapWake_Valid "g_UirFaultSnapWake.Valid";
+CM_ SG_ 2281703018 UirSnapWake_Summary "FAULT_SUMMARY";
+CM_ SG_ 2281703018 UirSnapWake_Sys "FAULT_SYS. DRST bit4, TSHUT bit1, LFO bit7";
+CM_ SG_ 2281703018 UirSnapWake_Pwr1 "FAULT_PWR1";
+CM_ SG_ 2281703018 UirSnapWake_Pwr2 "FAULT_PWR2";
+CM_ SG_ 2281703018 UirSnapWake_Pwr3 "FAULT_PWR3. AVDDUV_DRST bit0";
+CM_ SG_ 2281703018 UirSnapWake_Comm1 "FAULT_COMM1";
+CM_ SG_ 2281703018 UirSnapWake_Comm3 "FAULT_COMM3. FCOMM_DET bit3";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT -3.4E+38 3.4E+38;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_ "BusType" "CAN";
+BA_ "GenMsgCycleTime" BO_ 2281702145 350;
+BA_ "GenMsgCycleTime" BO_ 2281702146 350;
+BA_ "GenMsgCycleTime" BO_ 2281702147 350;
+BA_ "GenMsgCycleTime" BO_ 2281702148 350;
+BA_ "GenMsgCycleTime" BO_ 2281702149 350;
+BA_ "GenMsgCycleTime" BO_ 2281702150 350;
+BA_ "GenMsgCycleTime" BO_ 2281702151 350;
+BA_ "GenMsgCycleTime" BO_ 2281702152 350;
+BA_ "GenMsgCycleTime" BO_ 2281702400 350;
+BA_ "GenMsgCycleTime" BO_ 2281702401 350;
+BA_ "GenMsgCycleTime" BO_ 2281702402 350;
+BA_ "GenMsgCycleTime" BO_ 2281702403 350;
+BA_ "GenMsgCycleTime" BO_ 2281702404 350;
+BA_ "GenMsgCycleTime" BO_ 2281702405 350;
+BA_ "GenMsgCycleTime" BO_ 2281702406 350;
+BA_ "GenMsgCycleTime" BO_ 2281702407 350;
+BA_ "GenMsgCycleTime" BO_ 2281702656 350;
+BA_ "GenMsgCycleTime" BO_ 2281702657 350;
+BA_ "GenMsgCycleTime" BO_ 2281702658 350;
+BA_ "GenMsgCycleTime" BO_ 2281702659 350;
+BA_ "GenMsgCycleTime" BO_ 2281702660 350;
+BA_ "GenMsgCycleTime" BO_ 2281702661 350;
+BA_ "GenMsgCycleTime" BO_ 2281702662 350;
+BA_ "GenMsgCycleTime" BO_ 2281702663 350;
+BA_ "GenMsgCycleTime" BO_ 2281702664 350;
+BA_ "GenMsgCycleTime" BO_ 2281702665 350;
+BA_ "GenMsgCycleTime" BO_ 2281702666 350;
+BA_ "GenMsgCycleTime" BO_ 2281702667 350;
+BA_ "GenMsgCycleTime" BO_ 2281702668 350;
+BA_ "GenMsgCycleTime" BO_ 2281702669 350;
+BA_ "GenMsgCycleTime" BO_ 2281702670 350;
+BA_ "GenMsgCycleTime" BO_ 2281702671 350;
+BA_ "GenMsgCycleTime" BO_ 2281702672 350;
+BA_ "GenMsgCycleTime" BO_ 2281702673 350;
+BA_ "GenMsgCycleTime" BO_ 2281702674 350;
+BA_ "GenMsgCycleTime" BO_ 2281702675 350;
+BA_ "GenMsgCycleTime" BO_ 2281702676 350;
+BA_ "GenMsgCycleTime" BO_ 2281702677 350;
+BA_ "GenMsgCycleTime" BO_ 2281702678 350;
+BA_ "GenMsgCycleTime" BO_ 2281702679 350;
+BA_ "GenMsgCycleTime" BO_ 2281702680 350;
+BA_ "GenMsgCycleTime" BO_ 2281702681 350;
+BA_ "GenMsgCycleTime" BO_ 2281702682 350;
+BA_ "GenMsgCycleTime" BO_ 2281702683 350;
+BA_ "GenMsgCycleTime" BO_ 2281702684 350;
+BA_ "GenMsgCycleTime" BO_ 2281702685 350;
+BA_ "GenMsgCycleTime" BO_ 2281702686 350;
+BA_ "GenMsgCycleTime" BO_ 2281702687 350;
+BA_ "GenMsgCycleTime" BO_ 2281702992 350;
+BA_ "GenMsgCycleTime" BO_ 2281702993 350;
+BA_ "GenMsgCycleTime" BO_ 2281702994 350;
+BA_ "GenMsgCycleTime" BO_ 2281702995 350;
+BA_ "GenMsgCycleTime" BO_ 2281702996 350;
+BA_ "GenMsgCycleTime" BO_ 2281702997 350;
+BA_ "GenMsgCycleTime" BO_ 2281702998 350;
+BA_ "GenMsgCycleTime" BO_ 2281702999 350;
+BA_ "GenMsgCycleTime" BO_ 2281703000 350;
+BA_ "GenMsgCycleTime" BO_ 2281703001 350;
+BA_ "GenMsgCycleTime" BO_ 2281703002 350;
+BA_ "GenMsgCycleTime" BO_ 2281703003 350;
+BA_ "GenMsgCycleTime" BO_ 2281703004 350;
+BA_ "GenMsgCycleTime" BO_ 2281703005 350;
+BA_ "GenMsgCycleTime" BO_ 2281703006 350;
+BA_ "GenMsgCycleTime" BO_ 2281703007 350;
+BA_ "GenMsgCycleTime" BO_ 2281703008 350;
+BA_ "GenMsgCycleTime" BO_ 2281703009 350;
+BA_ "GenMsgCycleTime" BO_ 2281703010 350;
+BA_ "GenMsgCycleTime" BO_ 2281703011 350;
+BA_ "GenMsgCycleTime" BO_ 2281703012 350;
+BA_ "GenMsgCycleTime" BO_ 2281703013 350;
+BA_ "GenMsgCycleTime" BO_ 2281703014 350;
+BA_ "GenMsgCycleTime" BO_ 2281703015 350;
+BA_ "GenSigStartValue" SG_ 2283413762 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2283348226 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BatteryTotalVol_Sum 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BAT_Voltage 0;
+BA_ "GenSigStartValue" SG_ 2281709826 PCS_Voltage 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BMU_Online_Count 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BMU1_Address 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BMU1_Cell_Count 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BMU1_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BMU_Online_Count13 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BCU_Temp_Count 0;
+BA_ "GenSigStartValue" SG_ 2281709826 BCU_Temp1 -400;
+BA_ "GenSigStartValue" SG_ 2281709826 BMU_Temp_Address 0;
+BA_ "GenSigStartValue" SG_ 2281709826 CellSamp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 NCTSamp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 TerminalHighTemp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Reserve1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 SOCLow_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 PosInsulationLeakage_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 NegInsulationLeakage_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 ChargeVolDiff_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 DischargeVolDiff_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 ChargeTempDiff_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 DischargeTempDiff_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 CellTempRise_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 ChargeLowTemp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 DischargeLowTemp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Env_HighTemp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Env_LowTemp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Module_High_Volt_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Module_Low_Volt_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Module_Volt_Diff_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 SOC_High_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Cell_HighVol_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Cell_LowVol_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Pack_HighVol_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Pack_LowVol_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Charge_OverCurrenr_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Disharge_OverCurrenr_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Charge_HighTemp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Disharge_HighTemp_Status1 0;
+BA_ "GenSigStartValue" SG_ 2281709826 CellSamp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 NCTSamp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 TerminalHighTemp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 Reserve2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 SOCLow_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 PosInsulationLeakage_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 NegInsulationLeakage_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 ChargeVolDiff_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 DischargeVolDiff_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 ChargeTempDiff_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 DischargeTempDiff_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281709826 CellTempRise_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Negative_Voltage 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Fuse_Voltage 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Hardware_Voltage 0;
+BA_ "GenSigStartValue" SG_ 2281775362 BMU1_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 BMU1_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 BMU1_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2281775362 BCU_Temp3 -400;
+BA_ "GenSigStartValue" SG_ 2281775362 BCU_Temp4 -400;
+BA_ "GenSigStartValue" SG_ 2281775362 BCU_Temp2 -1;
+BA_ "GenSigStartValue" SG_ 2281775362 ChargeLowTemp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 DischargeLowTemp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Env_HighTemp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Env_LowTemp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Module_High_Volt_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Module_Low_Volt_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Module_Volt_Diff_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 SOC_High_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Cell_HighVol_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Cell_LowVol_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Pack_HighVol_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Pack_LowVol_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Charge_OverCurrenr_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Disharge_OverCurrenr_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Charge_HighTemp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Disharge_HighTemp_Status2 0;
+BA_ "GenSigStartValue" SG_ 2281775362 CellSamp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 NCTSamp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 TerminalHighTemp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Reserve3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 SOCLow_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 PosInsulationLeakage_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 NegInsulationLeakage_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 ChargeVolDiff_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 DischargeVolDiff_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 ChargeTempDiff_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 DischargeTempDiff_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 CellTempRise_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 ChargeLowTemp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 DischargeLowTemp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Env_HighTemp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Env_LowTemp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Module_High_Volt_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Module_Low_Volt_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Module_Volt_Diff_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 SOC_High_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Cell_HighVol_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Cell_LowVol_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Pack_HighVol_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Pack_LowVol_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Charge_OverCurrenr_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Disharge_OverCurrenr_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Charge_HighTemp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281775362 Disharge_HighTemp_Status3 0;
+BA_ "GenSigStartValue" SG_ 2281840898 Voltage_24V 0;
+BA_ "GenSigStartValue" SG_ 2281840898 Voltage_3_3V 0;
+BA_ "GenSigStartValue" SG_ 2281840898 Env_Temp -400;
+BA_ "GenSigStartValue" SG_ 2281840898 BMU1_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2281840898 BMU1_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2281840898 BMU1_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2281840898 BMU1_Temp6 -400;
+BA_ "GenSigStartValue" SG_ 2281840898 BMU1_Temp7 -400;
+BA_ "GenSigStartValue" SG_ 2281840898 BMU1_Temp5 -400;
+BA_ "GenSigStartValue" SG_ 2281840898 Reserve11 0;
+BA_ "GenSigStartValue" SG_ 2281840898 PowerDetectionFaultStaus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 TempSensor_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 CAN_CommLose_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 FuseVol_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 ChargeLoop_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 DischargeLoop_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 SOH_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 LimitVol_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 InternalCommunicaito_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 HeatMosFai_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 Vol12V_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 Cell_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 PreCharge_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 Heat_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 InsulationBoard_Comm_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 DaisyChain_Comm_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 ChargeMOS_Adh_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 ChargeMOS_Fail_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 DischargeMOS_Adh_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 DischargeMOS_Fail_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 PrechargeMOS_Adh_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 PrechargeMOS_Fail_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 NegMOS_Adh_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 NegMOS_Fail_FaultStatus 0;
+BA_ "GenSigStartValue" SG_ 2281840898 Reserve2 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Real_SOC 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Current -30000;
+BA_ "GenSigStartValue" SG_ 2281906434 BMU1_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2281906434 BMU1_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2281906434 BMU1_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2281906434 BMU2_Temp8 -400;
+BA_ "GenSigStartValue" SG_ 2281906434 BMU2_Temp9 -400;
+BA_ "GenSigStartValue" SG_ 2281906434 BMU2_Temp10 -400;
+BA_ "GenSigStartValue" SG_ 2281906434 Reserve 0;
+BA_ "GenSigStartValue" SG_ 2281906434 LimitCurrent_ControlStatus 0;
+BA_ "GenSigStartValue" SG_ 2281906434 ChargeMOS_ControlStatus 0;
+BA_ "GenSigStartValue" SG_ 2281906434 DischargeMOS_ControlStatus 0;
+BA_ "GenSigStartValue" SG_ 2281906434 NegMOS_ControlStatus 0;
+BA_ "GenSigStartValue" SG_ 2281906434 HeatMOS_ControlStatus 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Reserve2 0;
+BA_ "GenSigStartValue" SG_ 2281906434 PreChargeMOS_ControlStatus 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Trip_ControlStatus 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Reserve3 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Parallel_End 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Parallel_Success 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Parallel_Abnormal 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Insulation_Start 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Insulation_End 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Insulation_CheckEnd 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Insulation_CheckFail 0;
+BA_ "GenSigStartValue" SG_ 2281906434 FullCharge 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Pack_PowerSupply 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Reserve4 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Charger_Access 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Shutdown_Status 0;
+BA_ "GenSigStartValue" SG_ 2281906434 StrongCharge_Indicate 0;
+BA_ "GenSigStartValue" SG_ 2281906434 PreCharge_Fail 0;
+BA_ "GenSigStartValue" SG_ 2281906434 FirmwareUpdate_Success 0;
+BA_ "GenSigStartValue" SG_ 2281906434 Parallel_Start 0;
+BA_ "GenSigStartValue" SG_ 2281971970 SOE 0;
+BA_ "GenSigStartValue" SG_ 2281971970 Show_SOC 0;
+BA_ "GenSigStartValue" SG_ 2281971970 Cali_SOC 0;
+BA_ "GenSigStartValue" SG_ 2281971970 BMU1_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2281971970 BMU1_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2281971970 BMU1_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2281971970 SpecialStatus 0;
+BA_ "GenSigStartValue" SG_ 2281971970 SystemStatus 0;
+BA_ "GenSigStartValue" SG_ 2281971970 BatteryStatus 0;
+BA_ "GenSigStartValue" SG_ 2281971970 BMU2_Temp12 -400;
+BA_ "GenSigStartValue" SG_ 2281971970 BMU2_Temp11 -400;
+BA_ "GenSigStartValue" SG_ 2281971970 BMU2_Temp13 -400;
+BA_ "GenSigStartValue" SG_ 2282103042 Show_BatRemain_Capacity 0;
+BA_ "GenSigStartValue" SG_ 2282103042 BMU_Num 0;
+BA_ "GenSigStartValue" SG_ 2282103042 BMU_OnlineCount 0;
+BA_ "GenSigStartValue" SG_ 2282103042 BMU2_Address 0;
+BA_ "GenSigStartValue" SG_ 2282103042 BMU2_Cell_Count 0;
+BA_ "GenSigStartValue" SG_ 2282103042 BMU2_Cell_Voltage1 0;
+BA_ "GenSigStartValue" SG_ 2282103042 BMU2_Cell_Voltage2 0;
+BA_ "GenSigStartValue" SG_ 2282168578 Real_BatFull_Capacity 0;
+BA_ "GenSigStartValue" SG_ 2282168578 B_Pos_Temp -400;
+BA_ "GenSigStartValue" SG_ 2282168578 BMU2_Cell_Voltage3 0;
+BA_ "GenSigStartValue" SG_ 2282168578 BMU2_Cell_Voltage4 0;
+BA_ "GenSigStartValue" SG_ 2282168578 BMU2_Cell_Voltage5 0;
+BA_ "GenSigStartValue" SG_ 2282234114 Show_BatFull_Capacity 0;
+BA_ "GenSigStartValue" SG_ 2282234114 B_Neg_Temp -400;
+BA_ "GenSigStartValue" SG_ 2282234114 BMU2_Cell_Voltage6 0;
+BA_ "GenSigStartValue" SG_ 2282234114 BMU2_Cell_Voltage7 0;
+BA_ "GenSigStartValue" SG_ 2282234114 BMU2_Cell_Voltage8 0;
+BA_ "GenSigStartValue" SG_ 2282299650 Sum_ChgCapacity 0;
+BA_ "GenSigStartValue" SG_ 2282299650 P_Pos_Temp -400;
+BA_ "GenSigStartValue" SG_ 2282299650 BMU2_Cell_Voltage9 0;
+BA_ "GenSigStartValue" SG_ 2282299650 BMU2_Cell_Voltage10 0;
+BA_ "GenSigStartValue" SG_ 2282299650 BMU2_Cell_Voltage11 0;
+BA_ "GenSigStartValue" SG_ 2282365186 Sum_DsgCapacity 0;
+BA_ "GenSigStartValue" SG_ 2282365186 P_Neg_Temp -400;
+BA_ "GenSigStartValue" SG_ 2282365186 BMU2_Cell_Voltage12 0;
+BA_ "GenSigStartValue" SG_ 2282365186 BMU2_Cell_Voltage13 0;
+BA_ "GenSigStartValue" SG_ 2282365186 BMU2_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2282430722 Bat_Design_Capacity 0;
+BA_ "GenSigStartValue" SG_ 2282430722 Reserve0B 0;
+BA_ "GenSigStartValue" SG_ 2282430722 BMU2_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2282430722 BMU2_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2282496258 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282496258 Cycle_Count 0;
+BA_ "GenSigStartValue" SG_ 2282496258 Reserve0C 0;
+BA_ "GenSigStartValue" SG_ 2282561794 Pos_Insulation_Resis 0;
+BA_ "GenSigStartValue" SG_ 2282561794 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282561794 Reserve0D 0;
+BA_ "GenSigStartValue" SG_ 2282627330 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282627330 Neg_Insulation_Resis 0;
+BA_ "GenSigStartValue" SG_ 2282627330 Reserve0E 0;
+BA_ "GenSigStartValue" SG_ 2282692866 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282692866 Max_Cell_Vol_Address 0;
+BA_ "GenSigStartValue" SG_ 2282692866 Min_Cell_Voltage 0;
+BA_ "GenSigStartValue" SG_ 2282692866 Max_Cell_Voltage 0;
+BA_ "GenSigStartValue" SG_ 2282758402 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282758402 Max_Battery_Temp -400;
+BA_ "GenSigStartValue" SG_ 2282758402 Max_Battery_Temp_Address 0;
+BA_ "GenSigStartValue" SG_ 2282758402 Min_Cell_Vol_Address 0;
+BA_ "GenSigStartValue" SG_ 2282823938 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282823938 Min_Battery_Temp_Address 0;
+BA_ "GenSigStartValue" SG_ 2282823938 Min_Battery_Temp -400;
+BA_ "GenSigStartValue" SG_ 2282823938 Negative_Relay_Vol 0;
+BA_ "GenSigStartValue" SG_ 2282889474 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282889474 PreDischarge_Relay_Vol 0;
+BA_ "GenSigStartValue" SG_ 2282889474 Heat_MOS_Vol 0;
+BA_ "GenSigStartValue" SG_ 2282889474 Positive_Relay_Vol 0;
+BA_ "GenSigStartValue" SG_ 2282955010 RS485_Wakeup 0;
+BA_ "GenSigStartValue" SG_ 2282955010 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2282955010 ExternalVolt_Wakeup 0;
+BA_ "GenSigStartValue" SG_ 2282955010 CAN_Wakeup 0;
+BA_ "GenSigStartValue" SG_ 2282955010 Key_Wakeup 0;
+BA_ "GenSigStartValue" SG_ 2282955010 Reserve13 0;
+BA_ "GenSigStartValue" SG_ 2282037506 Real_BatRemain_Capacity 0;
+BA_ "GenSigStartValue" SG_ 2282037506 SOH 0;
+BA_ "GenSigStartValue" SG_ 2282037506 BMU1_Cell_Voltage14 0;
+BA_ "GenSigStartValue" SG_ 2282037506 BMU1_Cell_Voltage15 0;
+BA_ "GenSigStartValue" SG_ 2282037506 BMU1_Cell_Voltage16 0;
+BA_ "GenSigStartValue" SG_ 2282037506 BMU2_Temp14 -400;
+BA_ "GenSigStartValue" SG_ 2282037506 BMU2_Temp15 -400;
+BA_ "GenSigStartValue" SG_ 2282037506 BMU2_Temp16 -400;
+BA_ "GenSigStartValue" SG_ 2283020546 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2283020546 Show_Day 0;
+BA_ "GenSigStartValue" SG_ 2283020546 Show_Minute 0;
+BA_ "GenSigStartValue" SG_ 2283020546 Show_Month 0;
+BA_ "GenSigStartValue" SG_ 2283020546 Show_Second 0;
+BA_ "GenSigStartValue" SG_ 2283020546 Show_Time 0;
+BA_ "GenSigStartValue" SG_ 2283020546 Show_Year 0;
+BA_ "GenSigStartValue" SG_ 2283086082 Chg_Enable_Bit 0;
+BA_ "GenSigStartValue" SG_ 2283086082 Chg_ReauestCur 50000;
+BA_ "GenSigStartValue" SG_ 2283086082 Chg_RequsetVolt 0;
+BA_ "GenSigStartValue" SG_ 2283086082 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2283086082 Dsg_Enable_Bit 0;
+BA_ "GenSigStartValue" SG_ 2283151618 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2283151618 Dsg_RequsetVolt 0;
+BA_ "GenSigStartValue" SG_ 2283151618 Volt_Alarm_Cout 0;
+BA_ "GenSigStartValue" SG_ 2283151618 Positive_Relay_Status 0;
+BA_ "GenSigStartValue" SG_ 2283151618 Negative_Relay_Status 0;
+BA_ "GenSigStartValue" SG_ 2283217154 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2283217154 Dsg_ReauestCur -50000;
+BA_ "GenSigStartValue" SG_ 2283217154 Temp_Alarm_Cout 0;
+BA_ "GenSigStartValue" SG_ 2283282690 Comm_high_low_bytes 0;
+BA_ "GenSigStartValue" SG_ 2283282690 Fault_Alarm_Cout 0;
+BA_ "GenSigStartValue" SG_ 2283282690 Reserve18 0;
+BA_ "GenSigStartValue" SG_ 2281703004 EnvTemp 400;
+VAL_ 2281709826 BCU_DATA_1_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" 13 "BMU_Manage_Temp" 11 "BCU_Status" ;
+VAL_ 2281709826 CellSamp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 NCTSamp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 TerminalHighTemp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 SOCLow_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 PosInsulationLeakage_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 NegInsulationLeakage_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 ChargeVolDiff_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 DischargeVolDiff_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 ChargeTempDiff_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 DischargeTempDiff_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 CellTempRise_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 ChargeLowTemp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 DischargeLowTemp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Env_HighTemp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Env_LowTemp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Module_High_Volt_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Module_Low_Volt_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Module_Volt_Diff_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 SOC_High_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Cell_HighVol_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Cell_LowVol_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Pack_HighVol_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Pack_LowVol_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Charge_OverCurrenr_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Disharge_OverCurrenr_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Charge_HighTemp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Disharge_HighTemp_Status1 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 CellSamp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 NCTSamp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 TerminalHighTemp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 Reserve2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 SOCLow_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 PosInsulationLeakage_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 NegInsulationLeakage_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 ChargeVolDiff_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 DischargeVolDiff_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 ChargeTempDiff_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 DischargeTempDiff_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281709826 CellTempRise_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 BCU_DATA_2_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" 13 "BMU_Manage_Temp" 11 "BCU_Status" ;
+VAL_ 2281775362 ChargeLowTemp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 DischargeLowTemp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Env_HighTemp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Env_LowTemp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Module_High_Volt_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Module_Low_Volt_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Module_Volt_Diff_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 SOC_High_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Cell_HighVol_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Cell_LowVol_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Pack_HighVol_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Pack_LowVol_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Charge_OverCurrenr_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Disharge_OverCurrenr_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Charge_HighTemp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Disharge_HighTemp_Status2 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 CellSamp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 NCTSamp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 TerminalHighTemp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 SOCLow_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 PosInsulationLeakage_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 NegInsulationLeakage_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 ChargeVolDiff_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 DischargeVolDiff_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 ChargeTempDiff_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 DischargeTempDiff_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 CellTempRise_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 ChargeLowTemp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 DischargeLowTemp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Env_HighTemp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Env_LowTemp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Module_High_Volt_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Module_Low_Volt_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Module_Volt_Diff_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 SOC_High_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Cell_HighVol_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Cell_LowVol_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Pack_HighVol_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Pack_LowVol_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Charge_OverCurrenr_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Disharge_OverCurrenr_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Charge_HighTemp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281775362 Disharge_HighTemp_Status3 0 "Normal" 1 "Protection" ;
+VAL_ 2281840898 BCU_DATA_3_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" 13 "BMU_Manage_Temp" 11 "BCU_Status" ;
+VAL_ 2281840898 PowerDetectionFaultStaus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 TempSensor_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 CAN_CommLose_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 FuseVol_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 ChargeLoop_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 DischargeLoop_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 SOH_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 LimitVol_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 InternalCommunicaito_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 HeatMosFai_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 Vol12V_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 Cell_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 PreCharge_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 Heat_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 InsulationBoard_Comm_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 DaisyChain_Comm_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 ChargeMOS_Adh_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 ChargeMOS_Fail_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 DischargeMOS_Adh_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 DischargeMOS_Fail_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 PrechargeMOS_Adh_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 PrechargeMOS_Fail_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 NegMOS_Adh_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281840898 NegMOS_Fail_FaultStatus 0 "Normal" 1 "Fault" ;
+VAL_ 2281906434 BCU_DATA_4_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" 13 "BMU_Manage_Temp" 11 "BCU_Status" ;
+VAL_ 2281906434 LimitCurrent_ControlStatus 0 "Off" 1 "On" ;
+VAL_ 2281906434 ChargeMOS_ControlStatus 0 "Off" 1 "On" ;
+VAL_ 2281906434 DischargeMOS_ControlStatus 0 "Off" 1 "On" ;
+VAL_ 2281906434 NegMOS_ControlStatus 0 "Off" 1 "On" ;
+VAL_ 2281906434 HeatMOS_ControlStatus 0 "Off" 1 "On" ;
+VAL_ 2281906434 PreChargeMOS_ControlStatus 0 "Off" 1 "On" ;
+VAL_ 2281906434 Trip_ControlStatus 0 "Off" 1 "On" ;
+VAL_ 2281906434 Parallel_End 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Parallel_Success 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Parallel_Abnormal 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Insulation_Start 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Insulation_End 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Insulation_CheckEnd 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Insulation_CheckFail 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 FullCharge 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Pack_PowerSupply 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Reserve4 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Charger_Access 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Shutdown_Status 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 StrongCharge_Indicate 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 PreCharge_Fail 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 FirmwareUpdate_Success 0 "No" 1 "Indicate" ;
+VAL_ 2281906434 Parallel_Start 0 "No" 1 "Indicate" ;
+VAL_ 2281971970 BCU_DATA_5_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" 11 "BCU_Status" 13 "BMU_Manage_Temp" ;
+VAL_ 2281971970 SystemStatus 0 "Initialize" 1 "Standby" 2 "Charge" 3 "Discharge" 4 "BCU_AutoCode" 5 "BMU_AutoCode" 6 "Insulation_Testing" 7 "Parallel_in" 8 "Powered_Down" 9 "SystemLock" 10 "Alarm" 11 "Normal_Sleep" 12 "Deep_Sleep" ;
+VAL_ 2282103042 BCU_DATA_7_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" ;
+VAL_ 2282168578 BCU_DATA_8_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" ;
+VAL_ 2282234114 BCU_DATA_9_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" ;
+VAL_ 2282299650 BCU_DATA_10_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" ;
+VAL_ 2282365186 BCU_DATA_11_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" ;
+VAL_ 2282430722 BCU_DATA_12_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" ;
+VAL_ 2282037506 BCU_DATA_6_Mux 10 "BCU_DATA" 12 "BCU_Manage_CellVol" 13 "BMU_Manage_Temp" ;
+VAL_ 2281702145 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702146 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702147 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702148 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702149 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702150 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702151 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702152 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 2281702992 HotFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 InsulationFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 DaisyChainFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 RelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 HeatRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 ChgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 DsgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 SOHFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 PowerDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 PowerOffFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 Fault12V 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 Fault5V 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 Fault3V3 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 BalanceFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 OVInvalidFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 DriverInstanaceCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 DriverContinueCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 BranchCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 NegRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 PosRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 LimitVoltFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 ShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 BMUShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 HVILFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 SwitchFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 CellSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 TempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 DasTempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 AutoSleepRelayFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 ChgRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 HeatRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 BranchOpenCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 HeatPadInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 NegRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 PosRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 ChgRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 HeatRelayOpenCircuit 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 ChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 OBCChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 OBCStopFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 PackShuntInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 Thermalrunaway 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 HVDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 TwoGunsFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 SetandGetBmuNum 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 FaultAny 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702992 FaultLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 2281702993 HotFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 InsulationFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 DaisyChainFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 RelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 HeatRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 ChgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 DsgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 SOHFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 PowerDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 PowerOffFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 Fault12V 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 Fault5V 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 Fault3V3 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 BalanceFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 OVInvalidFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 DriverInstanaceCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 DriverContinueCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 BranchCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 NegRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 PosRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 LimitVoltFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 ShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 BMUShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 HVILFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 SwitchFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 CellSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 TempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 DasTempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 AutoSleepRelayFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 ChgRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 HeatRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 BranchOpenCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 HeatPadInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 NegRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 PosRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 ChgRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 HeatRelayOpenCircuit 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 ChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 OBCChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 OBCStopFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 PackShuntInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 Thermalrunaway 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 HVDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 TwoGunsFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 SetandGetBmuNum 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 FaultAny 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702993 FaultLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 2281702994 HotFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 InsulationFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 DaisyChainFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 RelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 HeatRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 ChgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 DsgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 SOHFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 PowerDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 PowerOffFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 Fault12V 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 Fault5V 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 Fault3V3 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 BalanceFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 OVInvalidFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 DriverInstanaceCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 DriverContinueCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 BranchCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 NegRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 PosRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 LimitVoltFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 ShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 BMUShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 HVILFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 SwitchFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 CellSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 TempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 DasTempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 AutoSleepRelayFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 ChgRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 HeatRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 BranchOpenCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 HeatPadInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 NegRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 PosRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 ChgRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 HeatRelayOpenCircuit 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 ChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 OBCChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 OBCStopFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 PackShuntInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 Thermalrunaway 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 HVDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 TwoGunsFault 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 SetandGetBmuNum 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 FaultAny 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702994 FaultLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 2281702995 Alarm_CellVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_CellVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_CellVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_ModuleVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_TotalVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_TotalVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_ChgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_ChgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_DsgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_DsgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_CellTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_ELECTemp1High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_ELECTemp2High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_ELECTemp3High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_ChgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_SteadyDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_TransDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_CellTempRise 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_BMUTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_BPInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_BNInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 Alarm_CellVoltDrop 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 AlarmAny 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702995 AlarmLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 2281702996 Alarm_CellVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_CellVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_CellVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_ModuleVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_TotalVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_TotalVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_ChgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_ChgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_DsgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_DsgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_CellTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_ELECTemp1High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_ELECTemp2High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_ELECTemp3High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_ChgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_SteadyDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_TransDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_CellTempRise 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_BMUTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_BPInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_BNInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 Alarm_CellVoltDrop 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 AlarmAny 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702996 AlarmLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 2281702997 Alarm_CellVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_CellVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_CellVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_ModuleVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_TotalVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_TotalVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_ChgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_ChgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_DsgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_DsgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_CellTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_ELECTemp1High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_ELECTemp2High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_ELECTemp3High 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_ChgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_SteadyDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_TransDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_CellTempRise 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_BMUTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_BPInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_BNInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 Alarm_CellVoltDrop 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 AlarmAny 1 "Trigger" 0 "Normal" ;
+VAL_ 2281702997 AlarmLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 2281702998 PowerStage 0 "PowerStart" 1 "SystemWaitTime" 2 "PowerOndetection" 3 "ReadyCharge" 4 "ChargeRun" 5 "ChargeEnd" 6 "PreCharge" 7 "DetectionFaultRun" 8 "PowerRun" 9 "PreparePowerOff" 10 "PowerOff" 11 "MCUReset" 12 "PowerOffDelay" ;
+VAL_ 2281702998 CHGType 0 "CHG_NONE" 1 "FAST_CHG" 2 "SLOW_CHG" 3 "SLOWToFAST_CHG" 4 "FASTToSLOW_CHG" ;
+VAL_ 2281702998 ChgDsgMode 0 "StandByMode" 1 "DCMode" 2 "DLMode" 3 "DEmptyMode" 4 "CCMode" 5 "CLMode" 6 "CVMode" 7 "CFullMode" 8 "ChgFaultMode" 9 "DsgFaultMode" 10 "FaultMode" ;
+VAL_ 2281702998 FastCharge 0 "Allow" 1 "Forbit" ;
+VAL_ 2281702998 OpenChgRelayStage 0 "Stage01_NegPosisClose" 1 "Stage02_OpenPos" 2 "Stage03_CloseCharge" 3 "Stage04_OpenCharge" ;
+VAL_ 2281703000 PreChgRelay 0 "NullCtrl" 1 "Open" 2 "Close" 3 "Fault" ;
+VAL_ 2281703000 PosRelay 0 "NullCtrl" 1 "Open" 2 "Close" 3 "Fault" ;
+VAL_ 2281703000 NegRelay 0 "NullCtrl" 1 "Open" 2 "Close" 3 "Fault" ;
+VAL_ 2281703000 ChgRelay 0 "NullCtrl" 1 "Open" 2 "Close" 3 "Fault" ;
+VAL_ 2281703000 HeatRelay 0 "NullCtrl" 1 "Open" 2 "Close" 3 "Fault" ;
+VAL_ 2281703000 RelayCtlStage 1 "CloseNeg" 2 "PreDsg" 3 "ClosePos" 4 "PreDsgFault" 5 "RelayCtlFault" 6 "RelayCloseBefore" 7 "CloseSuccess" ;
+VAL_ 2281703000 PreChgClosed 0 "Open" 1 "Closed" ;
+VAL_ 2281703000 PosClosed 0 "Open" 1 "Closed" ;
+VAL_ 2281703000 NegClosed 0 "Open" 1 "Closed" ;
+VAL_ 2281703000 ChgClosed 0 "Open" 1 "Closed" ;
+VAL_ 2281703000 HeatClosed 0 "Open" 1 "Closed" ;
+VAL_ 2281703006 OpenChgRelayStage 0 "Stage01_NegPosisClose" 1 "Stage02_OpenPos" 2 "Stage03_CloseCharge" 3 "Stage04_OpenCharge" ;
+VAL_ 2281703006 ChgRelayState 0 "NullCtrl" 1 "Open" 2 "Close" 3 "Fault" ;
+VAL_ 2281703007 e_UIRRtn 0 "UIR_RTN_ERR_OK" 1 "UIR_RTN_ERR_RXCOV" ;
+VAL_ 2281703007 g_UirReinitStep 0 "UirReinit_UartRecover" 1 "UirReinit_WakeLow" 2 "UirReinit_WakeHigh" 3 "UirReinit_RestoreUart" 4 "UirReinit_WaitHigh" 5 "UirReinit_Config" ;
+VAL_ 2281703008 Gpio_ExVoltwake 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_EX_Awake 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_EX_ACCwake 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_EX_KEYONwake 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_Digital1 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_Digital2 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_Digital3 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_AFERDY 0 "Low" 1 "High" ;
+VAL_ 2281703008 Gpio_AFEnFault 0 "Fault" 1 "Normal" ;
+VAL_ 2281703008 Gpio_UIRNFault 0 "Fault" 1 "Normal" ;
+VAL_ 2281703008 GpioCtrl_APS 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_K1 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_K2 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_K3 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_K4 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_K5 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_K6 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_K7 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_CP_S2 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_WdgDone 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_MCU_5V 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_LED1 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_LED2 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_HVILCON 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_Select1 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_Select2 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_Select3 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_OE 0 "Disable" 1 "Enable" ;
+VAL_ 2281703008 GpioCtrl_LED_BOARD 0 "Off" 1 "On" ;
+VAL_ 2281701633 ControlKey 170 "PC_CONTROL" ;
+VAL_ 2281701633 PosRelayCmd 0 "Open" 1 "Close" 255 "NoChange" ;
+VAL_ 2281701633 NegRelayCmd 0 "Open" 1 "Close" 255 "NoChange" ;
+VAL_ 2281701633 ChgRelayCmd 0 "Open" 1 "Close" 255 "NoChange" ;
+VAL_ 2281703013 InsulationStage 0 "Init" 1 "CloseHighRelay" 2 "OpenLightRelay" 3 "ReadU1U2" 4 "CloseLightRelay" 5 "ReadU3U4" 6 "Finsh" ;
+VAL_ 2281703009 RelayCtlStage 1 "CloseNeg" 2 "PreDsg" 3 "ClosePos" 4 "PreDsgFault" 5 "RelayCtlFault" 6 "RelayCloseBefore" 7 "CloseSuccess" ;
+

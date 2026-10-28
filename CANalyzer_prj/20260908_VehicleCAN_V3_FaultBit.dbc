@@ -1,0 +1,371 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BMS
+
+
+BO_ 1161 Timer: 8 Vector__XXX
+ SG_ Timer_Enabler : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 905 Status: 8 BMS
+ SG_ SOP : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ SOC : 55|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ SOH : 47|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ Temp_Status : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Relay_Status : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Charger_Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BMS_Status : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1283 Version_Capacity_Supplier: 8 BMS
+ SG_ OBCChgSendBitFlag : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ SlowChargerWakeUp : 48|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FastChargerWakeUp : 40|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Supplier : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Capacity : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Version : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1027 ChargingVolCurr: 8 BMS
+ SG_ Charging_Current : 39|16@0+ (0.1,0) [0|6553.5] "A" Vector__XXX
+ SG_ Charging_Voltage : 23|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Request_Current : 7|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+
+BO_ 1585 Battery_Info_02: 8 BMS
+ SG_ Fault_Bit : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Max_Temperature : 47|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+ SG_ Min_Temperature : 39|8@0+ (1,-80) [-80|175] "degC" Vector__XXX
+ SG_ Max_Cell_Voltage : 23|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Min_Cell_Voltage : 7|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 1584 Battery_Info_01: 8 BMS
+ SG_ Warning_Bit : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Ave_Cell_Voltage : 47|16@0+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Pack_SOC : 39|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ Pack_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Pack_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+
+BO_ 1616 Fault: 8 BMS
+ SG_ HotFault : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ InsulationFault : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DaisyChainFault : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RelayAdhseionFault : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuitFault : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgCirFault : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DsgCirFault : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SOHFault : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerDetectionFault : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PowerOffFault : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault12V : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault5V : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault3V3 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BalanceFault : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OVInvalidFault : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverInstanaceCurFault : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DriverContinueCurFault : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchCurFault : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayAdhseionFault : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayAdhseionFault : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LimitVoltFault : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ShuntOpenCircuitFault : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BMUShuntOpenCircuitFault : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVILFault : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SwitchFault : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CellSensorFault : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TempSensorFault : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DasTempSensorFault : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AutoSleepRelayFault : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayAdhseionFault : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayAdhseionFault : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BranchOpenCirFault : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatPadInvalid : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegRelayOpenCircuitFault : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PosRelayOpenCircuitFault : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgRelayOpenCircuitFault : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HeatRelayOpenCircuit : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ChgEquipmentFault : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCChgEquipmentFault : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBCStopFault : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PackShuntInvalid : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Thermalrunaway : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVDetectionFault : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TwoGunsFault : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SetandGetBmuNum : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FaultLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 1619 Alarm: 8 BMS
+ SG_ Alarm_CellVoltMax : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltMin : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDiff : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ModuleVoltDiff : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMax : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TotalVoltMin : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempHigh : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgTempLow : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempHigh : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_DsgTempLow : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempDiff : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp1High : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp2High : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ELECTemp3High : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_ChgCurOver : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_SteadyDsgCurOver : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_TransDsgCurOver : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellTempRise : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BMUTempDiff : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BPInsultagtionLow : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_BNInsultagtionLow : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alarm_CellVoltDrop : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AlarmLevel : 56|8@1+ (1,0) [1|3] "" Vector__XXX
+
+BO_ 1622 PowerStage: 8 BMS
+ SG_ PowerStage : 0|8@1+ (1,0) [0|12] "" Vector__XXX
+ SG_ CHGType : 8|8@1+ (1,0) [0|4] "" Vector__XXX
+ SG_ ChgRequestCur : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ ChgDsgMode : 32|8@1+ (1,0) [0|10] "" Vector__XXX
+ SG_ FastCharge : 40|8@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 768 CellTemp: 8 BMS
+ SG_ CellTemp0 : 7|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp1 : 23|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ CellTemp2 : 39|16@0+ (0.1,-40) [-40|125] "degC" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 769 BSUP_VoltCurr: 8 BMS
+ SG_ BSUP_Voltage : 7|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BSUP_Current : 23|16@0- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 784 CellVolt: 8 BMS
+ SG_ CellVolt0 : 0|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ CellVolt1 : 12|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ CellVolt2 : 24|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ CellVolt3 : 36|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ AFE_Index : 48|8@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Subframe : 56|8@1+ (1,0) [0|3] "" Vector__XXX
+
+CM_ BO_ 1585 "Battery cell info and packed fault bits (0x631).";
+CM_ BO_ 1584 "Battery pack info and warning bits (0x630).";
+CM_ BO_ 1616 "Vehicle CAN fault bit map (0x650). Single ID muxed by Byte7 FaultLevel. One level per 100ms: LV1->LV2->LV3, full cycle 300ms. Bit n = ET_FaultVariety n.";
+CM_ SG_ 1616 HotFault "[0] hot fault";
+CM_ SG_ 1616 InsulationFault "[1] insulation fault";
+CM_ SG_ 1616 DaisyChainFault "[2] daisy chain communication fault";
+CM_ SG_ 1616 RelayAdhseionFault "[3] relay adhesion";
+CM_ SG_ 1616 HeatRelayOpenCircuitFault "[4] heat relay open circuit";
+CM_ SG_ 1616 ChgCirFault "[5] charge circuit fault";
+CM_ SG_ 1616 DsgCirFault "[6] discharge circuit fault";
+CM_ SG_ 1616 SOHFault "[7] SOH fault";
+CM_ SG_ 1616 PowerDetectionFault "[8] power on detection fault";
+CM_ SG_ 1616 PowerOffFault "[9] power off fault";
+CM_ SG_ 1616 Fault12V "[10] 12V/24V power fault";
+CM_ SG_ 1616 Fault5V "[11] 5V power fault";
+CM_ SG_ 1616 Fault3V3 "[12] 3.3V power fault";
+CM_ SG_ 1616 BalanceFault "[13] balance circuit fault";
+CM_ SG_ 1616 OVInvalidFault "[14] 0V invalid fault";
+CM_ SG_ 1616 DriverInstanaceCurFault "[15] driver instance current fault";
+CM_ SG_ 1616 DriverContinueCurFault "[16] driver continue current fault";
+CM_ SG_ 1616 BranchCurFault "[17] branch current fault";
+CM_ SG_ 1616 NegRelayAdhseionFault "[18] negative relay adhesion";
+CM_ SG_ 1616 PosRelayAdhseionFault "[19] positive relay adhesion";
+CM_ SG_ 1616 LimitVoltFault "[20] over limit voltage";
+CM_ SG_ 1616 ShuntOpenCircuitFault "[21] shunt open circuit";
+CM_ SG_ 1616 BMUShuntOpenCircuitFault "[22] BMU shunt open circuit";
+CM_ SG_ 1616 HVILFault "[23] HVIL fault";
+CM_ SG_ 1616 SwitchFault "[24] PDU switch fault";
+CM_ SG_ 1616 CellSensorFault "[25] cell sensor fault";
+CM_ SG_ 1616 TempSensorFault "[26] temperature sensor fault";
+CM_ SG_ 1616 DasTempSensorFault "[27] DAS temperature sensor fault";
+CM_ SG_ 1616 AutoSleepRelayFault "[28] auto sleep relay fault";
+CM_ SG_ 1616 ChgRelayAdhseionFault "[29] charge relay adhesion";
+CM_ SG_ 1616 HeatRelayAdhseionFault "[30] heat relay adhesion";
+CM_ SG_ 1616 BranchOpenCirFault "[31] branch open circuit";
+CM_ SG_ 1616 HeatPadInvalid "[32] heat pad invalid";
+CM_ SG_ 1616 NegRelayOpenCircuitFault "[33] negative relay open circuit";
+CM_ SG_ 1616 PosRelayOpenCircuitFault "[34] positive relay open circuit";
+CM_ SG_ 1616 ChgRelayOpenCircuitFault "[35] charge relay open circuit";
+CM_ SG_ 1616 HeatRelayOpenCircuit "[36] heat relay open circuit";
+CM_ SG_ 1616 ChgEquipmentFault "[37] charge equipment fault";
+CM_ SG_ 1616 OBCChgEquipmentFault "[38] OBC charge equipment fault";
+CM_ SG_ 1616 OBCStopFault "[39] OBC stop charge fault";
+CM_ SG_ 1616 PackShuntInvalid "[40] pack shunt invalid";
+CM_ SG_ 1616 Thermalrunaway "[41] thermal runaway";
+CM_ SG_ 1616 HVDetectionFault "[42] high-voltage detection fault";
+CM_ SG_ 1616 TwoGunsFault "[43] two guns detection fault";
+CM_ SG_ 1616 SetandGetBmuNum "[44] BMU number set/get mismatch";
+CM_ SG_ 1616 FaultLevel "1=LV1 First_Level_Fault, 2=LV2 Second_Level_Fault, 3=LV3 Third_Level_Fault";
+CM_ BO_ 1619 "Vehicle CAN alarm bit map (0x653). Single ID muxed by Byte7 AlarmLevel. One level per 100ms: LV1->LV2->LV3, full cycle 300ms. Same level as 0x650 in this period. Bit n = ET_AlarmVariety n.";
+CM_ SG_ 1619 Alarm_CellVoltMax "[0] over cell voltage";
+CM_ SG_ 1619 Alarm_CellVoltMin "[1] under cell voltage";
+CM_ SG_ 1619 Alarm_CellVoltDiff "[2] over cell voltage difference";
+CM_ SG_ 1619 Alarm_ModuleVoltDiff "[3] over module voltage difference";
+CM_ SG_ 1619 Alarm_TotalVoltMax "[4] over total voltage";
+CM_ SG_ 1619 Alarm_TotalVoltMin "[5] under total voltage";
+CM_ SG_ 1619 Alarm_ChgTempHigh "[6] over charge temperature";
+CM_ SG_ 1619 Alarm_ChgTempLow "[7] under charge temperature";
+CM_ SG_ 1619 Alarm_DsgTempHigh "[8] over discharge temperature";
+CM_ SG_ 1619 Alarm_DsgTempLow "[9] under discharge temperature";
+CM_ SG_ 1619 Alarm_CellTempDiff "[10] over cell temperature difference";
+CM_ SG_ 1619 Alarm_ELECTemp1High "[11] over elec-comp temperature 1";
+CM_ SG_ 1619 Alarm_ELECTemp2High "[12] over elec-comp temperature 2";
+CM_ SG_ 1619 Alarm_ELECTemp3High "[13] over elec-comp temperature 3";
+CM_ SG_ 1619 Alarm_ChgCurOver "[14] over charge current";
+CM_ SG_ 1619 Alarm_SteadyDsgCurOver "[15] steady over discharge current";
+CM_ SG_ 1619 Alarm_TransDsgCurOver "[16] transient over discharge current";
+CM_ SG_ 1619 Alarm_CellTempRise "[17] over cell temperature rise";
+CM_ SG_ 1619 Alarm_BMUTempDiff "[18] BMU temperature difference high";
+CM_ SG_ 1619 Alarm_BPInsultagtionLow "[19] under pack positive insulation";
+CM_ SG_ 1619 Alarm_BNInsultagtionLow "[20] under pack negative insulation";
+CM_ SG_ 1619 Alarm_CellVoltDrop "[21] over cell voltage drop";
+CM_ SG_ 1619 AlarmLevel "1=LV1 First_Level_Alarm, 2=LV2 Second_Level_Alarm, 3=LV3 Third_Level_Alarm";
+CM_ BO_ 1622 "Vehicle CAN PowerStage (0x656). Byte0 = ET_PowerManagementStage, Byte1 = CHGType, Byte2-3 = ChgRequestCur, Byte4 = ChgDsgMode, Byte5 = FastCharge. Period 100ms.";
+CM_ SG_ 1622 PowerStage "Apl_GetPowerSysStatus / ET_PowerManagementStage";
+CM_ SG_ 1622 CHGType "Apl_Get_ChgType_FLAG";
+CM_ SG_ 1622 ChgRequestCur "Apl_Get_ChgRequestCur offset by CHG_CURRENT(0). Motorola 16-bit, 0.1A";
+CM_ SG_ 1622 ChgDsgMode "Apl_Get_ChgDsgMode / ET_ChgDsgMode";
+CM_ SG_ 1622 FastCharge "s_ALARMHINFO.e_FastCharge / Apl_GetFastChargeAlarmHandele";
+CM_ BO_ 768 "Vehicle CAN cell temperatures (0x300). Single ID muxed by Byte6 AFE_Index. One AFE per 100ms, full cycle 800ms. raw=(T+40)*10, Motorola 16-bit.";
+CM_ SG_ 768 CellTemp0 "Cell temperature channel 0 of AFE_Index";
+CM_ SG_ 768 CellTemp1 "Cell temperature channel 1 of AFE_Index";
+CM_ SG_ 768 CellTemp2 "Cell temperature channel 2 of AFE_Index";
+CM_ SG_ 768 AFE_Index "AFE index 0~7. Same AFE as 0x301/0x310 in this 100ms period.";
+CM_ BO_ 769 "Vehicle CAN per-AFE BSUP voltage/current (0x301). Muxed by Byte6 AFE_Index. Same AFE as 0x300/0x310 in this 100ms period.";
+CM_ SG_ 769 BSUP_Voltage "AFE module voltage = sum of cell mV / 10. Motorola 16-bit, 0.01V";
+CM_ SG_ 769 BSUP_Current "Fml_DataAfe_Get_Cur(AFE) signed vs CHG_CURRENT(0). Motorola 16-bit, 0.1A, charge +, discharge -";
+CM_ SG_ 769 AFE_Index "AFE index 0~7. Same AFE as 0x300/0x310 in this 100ms period.";
+CM_ BO_ 784 "Vehicle CAN cell voltages (0x310). Single ID muxed by Byte6 AFE_Index and Byte7 Subframe. Intel 12-bit x4 cells/frame, 4 frames per AFE per 100ms, full cycle 800ms. 0.001V, 0~4.095V.";
+CM_ SG_ 784 CellVolt0 "Cell voltage of (Subframe*4+0)";
+CM_ SG_ 784 CellVolt1 "Cell voltage of (Subframe*4+1)";
+CM_ SG_ 784 CellVolt2 "Cell voltage of (Subframe*4+2)";
+CM_ SG_ 784 CellVolt3 "Cell voltage of (Subframe*4+3), unused on subframe 3";
+CM_ SG_ 784 AFE_Index "AFE index 0~7. Same AFE as 0x300/0x301 in this 100ms period.";
+CM_ SG_ 784 Subframe "0:Cell0-3  1:Cell4-7  2:Cell8-11  3:Cell12-14";
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","IfActive","CE";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_ "BusType" "CAN";
+BA_ "GenMsgCycleTime" BO_ 768 100;
+BA_ "GenMsgSendType" BO_ 768 0;
+BA_ "GenMsgCycleTime" BO_ 769 100;
+BA_ "GenMsgSendType" BO_ 769 0;
+BA_ "GenMsgCycleTime" BO_ 784 100;
+BA_ "GenMsgSendType" BO_ 784 0;
+BA_ "GenMsgCycleTime" BO_ 1616 100;
+BA_ "GenMsgSendType" BO_ 1616 0;
+BA_ "GenMsgCycleTime" BO_ 1619 100;
+BA_ "GenMsgSendType" BO_ 1619 0;
+BA_ "GenMsgCycleTime" BO_ 1622 100;
+BA_ "GenMsgSendType" BO_ 1622 0;
+VAL_ 1616 HotFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 InsulationFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 DaisyChainFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 RelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 HeatRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 ChgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 DsgCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 SOHFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 PowerDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 PowerOffFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 Fault12V 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 Fault5V 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 Fault3V3 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 BalanceFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 OVInvalidFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 DriverInstanaceCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 DriverContinueCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 BranchCurFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 NegRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 PosRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 LimitVoltFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 ShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 BMUShuntOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 HVILFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 SwitchFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 CellSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 TempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 DasTempSensorFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 AutoSleepRelayFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 ChgRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 HeatRelayAdhseionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 BranchOpenCirFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 HeatPadInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 NegRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 PosRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 ChgRelayOpenCircuitFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 HeatRelayOpenCircuit 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 ChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 OBCChgEquipmentFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 OBCStopFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 PackShuntInvalid 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 Thermalrunaway 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 HVDetectionFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 TwoGunsFault 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 SetandGetBmuNum 1 "Trigger" 0 "Normal" ;
+VAL_ 1616 FaultLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 1619 Alarm_CellVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_CellVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_CellVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_ModuleVoltDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_TotalVoltMax 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_TotalVoltMin 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_ChgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_ChgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_DsgTempHigh 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_DsgTempLow 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_CellTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_ELECTemp1High 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_ELECTemp2High 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_ELECTemp3High 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_ChgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_SteadyDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_TransDsgCurOver 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_CellTempRise 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_BMUTempDiff 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_BPInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_BNInsultagtionLow 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 Alarm_CellVoltDrop 1 "Trigger" 0 "Normal" ;
+VAL_ 1619 AlarmLevel 1 "LV1" 2 "LV2" 3 "LV3" ;
+VAL_ 1622 PowerStage 0 "PowerStart" 1 "SystemWaitTime" 2 "PowerOndetection" 3 "ReadyCharge" 4 "ChargeRun" 5 "ChargeEnd" 6 "PreCharge" 7 "DetectionFaultRun" 8 "PowerRun" 9 "PreparePowerOff" 10 "PowerOff" 11 "MCUReset" 12 "PowerOffDelay" ;
+VAL_ 1622 CHGType 0 "CHG_NONE" 1 "FAST_CHG" 2 "SLOW_CHG" 3 "SLOWToFAST_CHG" 4 "FASTToSLOW_CHG" ;
+VAL_ 1622 ChgDsgMode 0 "StandByMode" 1 "DCMode" 2 "DLMode" 3 "DEmptyMode" 4 "CCMode" 5 "CLMode" 6 "CVMode" 7 "CFullMode" 8 "ChgFaultMode" 9 "DsgFaultMode" 10 "FaultMode" ;
+VAL_ 1622 FastCharge 0 "Allow" 1 "Forbit" ;
+VAL_ 768 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 769 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 784 AFE_Index 0 "AFE0" 1 "AFE1" 2 "AFE2" 3 "AFE3" 4 "AFE4" 5 "AFE5" 6 "AFE6" 7 "AFE7" ;
+VAL_ 784 Subframe 0 "Cell_00_03" 1 "Cell_04_07" 2 "Cell_08_11" 3 "Cell_12_14" ;
+
+
+
